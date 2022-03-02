@@ -27,8 +27,8 @@ public class ShowCanvasController : MonoBehaviour
 
     private void OnEnableObjectCanvas(ICanvasObject canvasObject)
     {
-   
-           _currentCanvas = canvasObject;
+              _currentCanvas = canvasObject;
+        ColliderEnabler(false);
     }
     private void OnDisableObjectCanvas()
     {
@@ -38,6 +38,7 @@ public class ShowCanvasController : MonoBehaviour
         }
         ShupController shup = FindObjectOfType<ShupController>();
         shup.ResetShupPosition();
+        ColliderEnabler(true);
     }
 
     public bool CompareObjects(ICanvasObject obj)
@@ -45,5 +46,12 @@ public class ShowCanvasController : MonoBehaviour
         if (obj.Equals(_currentCanvas))
             return true;
         else return false;
+    }
+    private void ColliderEnabler(bool value)
+    {
+        foreach (var canvasObject in _objectsWithActions)
+        {
+            canvasObject.GetComponent<Collider>().enabled = value;
+        }
     }
 }
