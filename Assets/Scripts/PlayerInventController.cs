@@ -3,17 +3,22 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.InputSystem;
 
-public class PlayerCamera : MonoBehaviour
+public class PlayerInventController : MonoBehaviour
 {
     public UnityAction<bool> CameraZoomEvent;
+    public UnityAction ShowMapEvent;
+
     [SerializeField] private Camera _playerCamera;
 
     [SerializeField] private InputActionProperty _cameraSwitch;
+    [SerializeField] private InputActionProperty _showMap;
 
     private bool _cameraSwitched = false;
+    private bool _showMaped = false;
     private void OnEnable()
     {
         _cameraSwitch.action.performed += _ => _cameraSwitched = true;
+        _showMap.action.performed += _ => _showMaped = true;
     }
     private void Update()
     {
@@ -31,6 +36,11 @@ public class PlayerCamera : MonoBehaviour
             }
             
             _cameraSwitched = false;
+        }
+       if(_showMaped ==true)
+        {
+            ShowMapEvent?.Invoke();
+            _showMaped = false;
         }
     }
 

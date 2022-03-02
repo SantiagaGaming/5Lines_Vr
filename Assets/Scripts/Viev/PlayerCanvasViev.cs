@@ -8,7 +8,9 @@ public class PlayerCanvasViev : MonoBehaviour
     [SerializeField] private Text _interractText;
     [SerializeField] private GameObject _temirImage;
     [SerializeField] private Text _timerText;
-    [SerializeField] private GameObject _zoomImage;
+    [SerializeField] private GameObject _zoomIcon;
+    [SerializeField] private GameObject _mapImage;
+    [SerializeField] private GameObject _mapIcon;
 
     public void ShowInterractText(string value)
     {
@@ -20,7 +22,12 @@ public class PlayerCanvasViev : MonoBehaviour
     }
     public void ShowZoomImage(bool value)
     {
-        _zoomImage.SetActive(value);
+        _zoomIcon.SetActive(value);
+    }
+    public void ShowMapImage(bool value)
+    {
+        _mapIcon.SetActive(value);
+        _mapImage.SetActive(value);
     }
 
 }
