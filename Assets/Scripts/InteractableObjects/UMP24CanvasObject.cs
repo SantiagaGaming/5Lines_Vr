@@ -6,7 +6,7 @@ using AosSdk.Core.Player.Pointer;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class UMP24SwitchCameraObject : ShowCanvasObject
+public class UMP24CanvasObject : CanvasObject
 {
 
     [SerializeField] private GameObject _roof;

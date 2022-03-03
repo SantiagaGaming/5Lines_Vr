@@ -4,9 +4,9 @@ using UnityEngine;
 using AosSdk.Core.Interfaces;
 using AosSdk.Core.Player;
 
-public class ShowCanvasController : MonoBehaviour
+public class CanvasController : MonoBehaviour
 {
-    [SerializeField] private ShowCanvasObject[] _objectsWithActions;
+    [SerializeField] private CanvasObject[] _objectsWithActions;
     [SerializeField] private BackButtonObject[] _backButtonObjects;
 
     [HideInInspector] public bool CanSwitch = true;

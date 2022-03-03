@@ -8,8 +8,10 @@ public class PlayerCanvasController : MonoBehaviour
     [SerializeField] private Timer _timer;
     [SerializeField] private PlayerInventController _playerInvent;
     [SerializeField] private SoundPlayer _soundPlayer;
+    [SerializeField] private MouseController _mouse;
 
-    private bool _map =false;
+    private bool _map = false;
+    private bool _radio = false;
 
     private void Update()
     {
@@ -17,13 +19,15 @@ public class PlayerCanvasController : MonoBehaviour
     }
     private void OnEnable()
     {
-        _playerInvent.CameraZoomEvent += OnZoomImageEnabler;
-        _playerInvent.ShowMapEvent += OnMapShowEnabler;
+        _playerInvent.CameraEvent += OnZoomImageEnabler;
+        _playerInvent.MapEvent += OnMapShowEnabler;
+        _playerInvent.RadioEvent += OnRadioShowEnabler;
     }
     private void OnDisable()
     {
-        _playerInvent.CameraZoomEvent -= OnZoomImageEnabler;
-        _playerInvent.ShowMapEvent -= OnMapShowEnabler;
+        _playerInvent.CameraEvent -= OnZoomImageEnabler;
+        _playerInvent.MapEvent -= OnMapShowEnabler;
+        _playerInvent.RadioEvent -= OnRadioShowEnabler;
     }
     public void ControlTimer(bool value)
     {
@@ -47,5 +51,21 @@ public class PlayerCanvasController : MonoBehaviour
             _soundPlayer.PlayMapOpenSound();
         }
         _viev.ShowMapImage(_map);
+    }
+
+    private void OnRadioShowEnabler()
+    {
+        if (_radio)
+        {
+            _radio = false;
+            _mouse.SwitchMouse(_radio);
+        }
+        else
+        {
+            _radio = true;
+            _mouse.SwitchMouse(_radio);
+            _soundPlayer.PlayRadioSound();
+        }
+        _viev.ShowRadioImage(_radio);
     }
 }

@@ -1154,7 +1154,7 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "CameraViev",
+                    "name": "Camera",
                     "type": "Button",
                     "id": "ef7d5e57-d431-466e-93b6-d0a01ca6fa17",
                     "expectedControlType": "Button",
@@ -1163,9 +1163,18 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "MapViev",
+                    "name": "Map",
                     "type": "Button",
                     "id": "22689e08-1045-4073-92a9-db144095cc1f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Radio",
+                    "type": "Button",
+                    "id": "7b4a996b-1262-4910-afa7-80c877d0e200",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -1312,7 +1321,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "CameraViev",
+                    "action": "Camera",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -1323,7 +1332,18 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "MapViev",
+                    "action": "Map",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f62b82a4-242b-453e-a123-ba07505bf0af",
+                    "path": "<Keyboard>/r",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Radio",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

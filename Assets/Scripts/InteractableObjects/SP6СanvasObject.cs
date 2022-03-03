@@ -6,7 +6,7 @@ using AosSdk.Core.Player.Pointer;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class SP6SwitchCameraObject : ShowCanvasObject
+public class SP6ÑanvasObject : CanvasObject
 {
     [SerializeField] private Animator _anim;
     [SerializeField] private GameObject _roof;

@@ -5,20 +5,24 @@ using UnityEngine.InputSystem;
 
 public class PlayerInventController : MonoBehaviour
 {
-    public UnityAction<bool> CameraZoomEvent;
-    public UnityAction ShowMapEvent;
+    public UnityAction<bool> CameraEvent;
+    public UnityAction MapEvent;
+    public UnityAction RadioEvent;
 
     [SerializeField] private Camera _playerCamera;
 
-    [SerializeField] private InputActionProperty _cameraSwitch;
-    [SerializeField] private InputActionProperty _showMap;
+    [SerializeField] private InputActionProperty _camera;
+    [SerializeField] private InputActionProperty _map;
+    [SerializeField] private InputActionProperty _radio;
 
     private bool _cameraSwitched = false;
     private bool _showMaped = false;
+    private bool _showRadio = false;
     private void OnEnable()
     {
-        _cameraSwitch.action.performed += _ => _cameraSwitched = true;
-        _showMap.action.performed += _ => _showMaped = true;
+        _camera.action.performed += _ => _cameraSwitched = true;
+        _map.action.performed += _ => _showMaped = true;
+        _radio.action.performed += _ => _showRadio = true;
     }
     private void Update()
     {
@@ -27,20 +31,25 @@ public class PlayerInventController : MonoBehaviour
             if (_playerCamera.fieldOfView == 60)
             {
                 _playerCamera.fieldOfView = 15;
-                CameraZoomEvent?.Invoke(true);
+                CameraEvent?.Invoke(true);
             }
             else
             {
                 _playerCamera.fieldOfView = 60;
-                CameraZoomEvent?.Invoke(false);
+                CameraEvent?.Invoke(false);
             }
             
             _cameraSwitched = false;
         }
        if(_showMaped ==true)
         {
-            ShowMapEvent?.Invoke();
+            MapEvent?.Invoke();
             _showMaped = false;
+        }
+        if (_showRadio == true)
+        {
+            RadioEvent?.Invoke();
+            _showRadio = false;
         }
     }
 

@@ -6,7 +6,7 @@ using AosSdk.Core.Player.Pointer;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class FartukShowCanvasObject : ShowCanvasObject
+public class FartukCanvasObject : CanvasObject
 {
     [SerializeField] private GameObject _roof;
 

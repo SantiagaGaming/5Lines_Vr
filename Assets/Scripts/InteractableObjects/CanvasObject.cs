@@ -6,20 +6,20 @@ using AosSdk.Core.Player.Pointer;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class ShowCanvasObject : MonoBehaviour, IClickAble, IHoverAble, ICanvasObject
+public class CanvasObject : MonoBehaviour, IClickAble, IHoverAble, ICanvasObject
 {
     public UnityAction<ICanvasObject> EnableCanvasEvent;
 
     [SerializeField] protected GameObject _canvas;
     [SerializeField] protected GameObject _canIterractSign;
 
-    protected ShowCanvasController _cameraSwitch;
+    protected CanvasController _cameraSwitch;
     protected GameCanvasViev _gameCanvasViev;
 
     private void Start()
     {
         _gameCanvasViev = _canvas.GetComponent<GameCanvasViev>();
-        _cameraSwitch = FindObjectOfType<ShowCanvasController>();
+        _cameraSwitch = FindObjectOfType<CanvasController>();
     }
 
     public virtual void DisableCanvas()
