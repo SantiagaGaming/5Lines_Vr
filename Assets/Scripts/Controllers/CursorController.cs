@@ -4,7 +4,7 @@ using AosSdk.Core.Player;
 using AosSdk.Core.Interfaces;
 
 
-public class MouseController : MonoBehaviour
+public class CursorController : MonoBehaviour
 {
     [SerializeField] private GameObject _playerCrossHair;
 

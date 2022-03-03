@@ -14,11 +14,9 @@ public class CanvasObject : MonoBehaviour, IClickAble, IHoverAble, ICanvasObject
     [SerializeField] protected GameObject _canIterractSign;
 
     protected CanvasController _cameraSwitch;
-    protected GameCanvasViev _gameCanvasViev;
 
     private void Start()
     {
-        _gameCanvasViev = _canvas.GetComponent<GameCanvasViev>();
         _cameraSwitch = FindObjectOfType<CanvasController>();
     }
 

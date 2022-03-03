@@ -8636,7 +8636,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 2
-  m_Camera: {fileID: 2079953465}
+  m_Camera: {fileID: 414568526}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -12070,7 +12070,6 @@ GameObject:
   - component: {fileID: 559581801}
   - component: {fileID: 559581800}
   - component: {fileID: 559581799}
-  - component: {fileID: 559581798}
   m_Layer: 0
   m_Name: UMP24Canvas
   m_TagString: Untagged
@@ -12101,23 +12100,6 @@ RectTransform:
   m_AnchoredPosition: {x: 10.155, y: -0.484}
   m_SizeDelta: {x: 0.719, y: 0.3853}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &559581798
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 559581796}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: faee4fa5787e6a54c94a0a05ed973d75, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _measureButtons: {fileID: 1559954873}
-  _repairButtons: {fileID: 690669561}
-  _watchButtonns: {fileID: 901016794}
-  _touchButtons: {fileID: 0}
-  _radioButtons: {fileID: 0}
 --- !u!114 &559581799
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12168,7 +12150,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 2
-  m_Camera: {fileID: 1904972212}
+  m_Camera: {fileID: 414568526}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -13543,7 +13525,6 @@ GameObject:
   - component: {fileID: 638921692}
   - component: {fileID: 638921691}
   - component: {fileID: 638921690}
-  - component: {fileID: 638921693}
   m_Layer: 0
   m_Name: DSPBackCanvas
   m_TagString: Untagged
@@ -13622,7 +13603,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 2
-  m_Camera: {fileID: 1416491101}
+  m_Camera: {fileID: 414568526}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -13633,23 +13614,6 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
---- !u!114 &638921693
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 638921688}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: faee4fa5787e6a54c94a0a05ed973d75, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _measureButtons: {fileID: 471668828}
-  _repairButtons: {fileID: 0}
-  _watchButtonns: {fileID: 0}
-  _touchButtons: {fileID: 0}
-  _radioButtons: {fileID: 0}
 --- !u!1 &643449375
 GameObject:
   m_ObjectHideFlags: 0
@@ -18143,7 +18107,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 2
-  m_Camera: {fileID: 525540717}
+  m_Camera: {fileID: 414568526}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -20720,7 +20684,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 2
-  m_Camera: {fileID: 1308360050}
+  m_Camera: {fileID: 414568526}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -24308,7 +24272,7 @@ GameObject:
   - component: {fileID: 1167423944}
   - component: {fileID: 1167423945}
   m_Layer: 0
-  m_Name: MouseController
+  m_Name: CursorController
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -34190,7 +34154,6 @@ GameObject:
   - component: {fileID: 1785130754}
   - component: {fileID: 1785130753}
   - component: {fileID: 1785130752}
-  - component: {fileID: 1785130751}
   m_Layer: 0
   m_Name: FartukCanvas
   m_TagString: Untagged
@@ -34219,23 +34182,6 @@ RectTransform:
   m_AnchoredPosition: {x: 9.824, y: -0.484}
   m_SizeDelta: {x: 0.719, y: 0.3853}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1785130751
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1785130749}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: faee4fa5787e6a54c94a0a05ed973d75, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _measureButtons: {fileID: 0}
-  _repairButtons: {fileID: 0}
-  _watchButtonns: {fileID: 1688316441}
-  _touchButtons: {fileID: 0}
-  _radioButtons: {fileID: 0}
 --- !u!114 &1785130752
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34286,7 +34232,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 2
-  m_Camera: {fileID: 776591450}
+  m_Camera: {fileID: 414568526}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -35769,7 +35715,6 @@ GameObject:
   - component: {fileID: 1845846120}
   - component: {fileID: 1845846119}
   - component: {fileID: 1845846118}
-  - component: {fileID: 1845846117}
   m_Layer: 0
   m_Name: RailCanvas
   m_TagString: Untagged
@@ -35798,23 +35743,6 @@ RectTransform:
   m_AnchoredPosition: {x: 10.436, y: -0.257}
   m_SizeDelta: {x: 1.3318, y: 0.7878}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1845846117
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1845846115}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: faee4fa5787e6a54c94a0a05ed973d75, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _measureButtons: {fileID: 0}
-  _repairButtons: {fileID: 0}
-  _watchButtonns: {fileID: 0}
-  _touchButtons: {fileID: 0}
-  _radioButtons: {fileID: 0}
 --- !u!114 &1845846118
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35865,7 +35793,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 2
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 414568526}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -36793,7 +36721,6 @@ GameObject:
   - component: {fileID: 1886518734}
   - component: {fileID: 1886518733}
   - component: {fileID: 1886518732}
-  - component: {fileID: 1886518731}
   m_Layer: 0
   m_Name: DSPFrontCanvasRight
   m_TagString: Untagged
@@ -36821,23 +36748,6 @@ RectTransform:
   m_AnchoredPosition: {x: -0.586, y: 0.444}
   m_SizeDelta: {x: 0.7217, y: 0.4872}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1886518731
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1886518729}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: faee4fa5787e6a54c94a0a05ed973d75, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _measureButtons: {fileID: 0}
-  _repairButtons: {fileID: 0}
-  _watchButtonns: {fileID: 0}
-  _touchButtons: {fileID: 0}
-  _radioButtons: {fileID: 764256730}
 --- !u!114 &1886518732
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36888,7 +36798,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 2
-  m_Camera: {fileID: 1723198650}
+  m_Camera: {fileID: 414568526}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1

@@ -8,7 +8,7 @@ public class PlayerCanvasController : MonoBehaviour
     [SerializeField] private Timer _timer;
     [SerializeField] private PlayerInventController _playerInvent;
     [SerializeField] private SoundPlayer _soundPlayer;
-    [SerializeField] private MouseController _mouse;
+    [SerializeField] private CursorController _mouse;
 
     private bool _map = false;
     private bool _radio = false;
