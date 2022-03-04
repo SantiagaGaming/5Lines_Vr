@@ -3,9 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using AosSdk.Core.Interfaces;
 using AosSdk.Core.Player;
+using UnityEngine.Events;
 
 public class CanvasController : MonoBehaviour
 {
+    public UnityAction CloseObjectEvent;
+
     [SerializeField] private CanvasObject[] _objectsWithActions;
     [SerializeField] private BackButtonObject[] _backButtonObjects;
 
@@ -39,6 +42,7 @@ public class CanvasController : MonoBehaviour
         ShupController shup = FindObjectOfType<ShupController>();
         shup.ResetShupPosition();
         ColliderEnabler(true);
+        CloseObjectEvent?.Invoke();
     }
 
     public bool CompareObjects(ICanvasObject obj)

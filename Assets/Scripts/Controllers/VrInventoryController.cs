@@ -16,9 +16,4 @@ public class VrInventoryController : MonoBehaviour
         else
             gameObject.SetActive(false);
     }
-    //private void Update()
-    //{
-    //    transform.position = new Vector3(_vrLeftHand.position.x, _vrLeftHand.position.y + 0.046f, _vrLeftHand.position.z - 0.09f);
-    //    transform.rotation= _vrLeftHand.ro ;
-    //}
 }

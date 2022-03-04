@@ -9,6 +9,9 @@ public class PlayerCanvasController : MonoBehaviour
     [SerializeField] private PlayerInventController _playerInvent;
     [SerializeField] private SoundPlayer _soundPlayer;
     [SerializeField] private CursorController _mouse;
+    [SerializeField] private ShupController _shup;
+    [SerializeField] private CanvasController _canvasController;
+    [SerializeField] private TextMesh _vrMeasureText;
 
     private bool _map = false;
     private bool _radio = false;
@@ -24,6 +27,8 @@ public class PlayerCanvasController : MonoBehaviour
         _playerInvent.MapEvent += OnMapShowEnabler;
         _playerInvent.RadioEvent += OnRadioShowEnabler;
         _playerInvent.HelpEvent += OnHelpShowEnabler;
+        _shup.SetMeasureTextEvent += OnSetMeasureText;
+        _canvasController.CloseObjectEvent += OnClearMeasureText;
     }
     private void OnDisable()
     {
@@ -31,6 +36,8 @@ public class PlayerCanvasController : MonoBehaviour
         _playerInvent.MapEvent -= OnMapShowEnabler;
         _playerInvent.RadioEvent -= OnRadioShowEnabler;
         _playerInvent.HelpEvent -= OnHelpShowEnabler;
+        _shup.SetMeasureTextEvent -= OnSetMeasureText;
+        _canvasController.CloseObjectEvent -= OnClearMeasureText;
     }
     public void ControlTimer(bool value)
     {
@@ -85,4 +92,15 @@ public class PlayerCanvasController : MonoBehaviour
         }
         _viev.ShowHelpImage(_help);
     }
+    private void OnClearMeasureText()
+    {
+        _viev.ShowMeasureText("");
+        _vrMeasureText.text = "";
+    }
+    private void OnSetMeasureText(string text)
+    {
+        _viev.ShowMeasureText(text);
+        _vrMeasureText.text = text;
+    }
 }
+

@@ -4,13 +4,12 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
 
+
 public class PlayerCanvasViev : MonoBehaviour
 {
     public UnityAction<bool> RadioButtonTapEvent;
 
-    [SerializeField] private Text _interractText;
     [SerializeField] private Text _timerText;
-    [SerializeField] private GameObject _timerImage;
     [SerializeField] private GameObject _zoomIcon;
     [SerializeField] private GameObject _mapImage;
     [SerializeField] private GameObject _mapIcon;
@@ -18,11 +17,9 @@ public class PlayerCanvasViev : MonoBehaviour
     [SerializeField] private GameObject _radioIcon;
     [SerializeField] private GameObject _helpImage;
     [SerializeField] private GameObject _helpIcon;
+    [SerializeField] private GameObject _measureIcon;
+    [SerializeField] private Text _measureText;
 
-    public void ShowInterractText(string value)
-    {
-        _interractText.text = value;
-    }
     public void ShowTimerText(string time)
     {
         _timerText.text = time;
@@ -46,6 +43,19 @@ public class PlayerCanvasViev : MonoBehaviour
     {
         _helpImage.SetActive(value);
         _helpIcon.SetActive(value);
+    }
+    public void ShowMeasureText(string text)
+    {
+        if(_measureText.text =="")
+        {
+            _measureIcon.SetActive(false);
+        }
+        else
+        {
+            _measureIcon.SetActive(true);
+        }
+        _measureText.text = text;
+
     }
 
 }
