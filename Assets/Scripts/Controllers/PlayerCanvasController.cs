@@ -12,6 +12,7 @@ public class PlayerCanvasController : MonoBehaviour
 
     private bool _map = false;
     private bool _radio = false;
+    private bool _help = false;
 
     private void Update()
     {
@@ -22,12 +23,14 @@ public class PlayerCanvasController : MonoBehaviour
         _playerInvent.CameraEvent += OnZoomImageEnabler;
         _playerInvent.MapEvent += OnMapShowEnabler;
         _playerInvent.RadioEvent += OnRadioShowEnabler;
+        _playerInvent.HelpEvent += OnHelpShowEnabler;
     }
     private void OnDisable()
     {
         _playerInvent.CameraEvent -= OnZoomImageEnabler;
         _playerInvent.MapEvent -= OnMapShowEnabler;
         _playerInvent.RadioEvent -= OnRadioShowEnabler;
+        _playerInvent.HelpEvent -= OnHelpShowEnabler;
     }
     public void ControlTimer(bool value)
     {
@@ -67,5 +70,19 @@ public class PlayerCanvasController : MonoBehaviour
             _soundPlayer.PlayRadioSound();
         }
         _viev.ShowRadioImage(_radio);
+    }
+    private void OnHelpShowEnabler()
+    {
+        if (_help)
+        {
+            _help = false;
+            _mouse.SwitchMouse(_help);
+        }
+        else
+        {
+           _help = true;
+            _mouse.SwitchMouse(_help);
+        }
+        _viev.ShowHelpImage(_help);
     }
 }

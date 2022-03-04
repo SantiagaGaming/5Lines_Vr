@@ -5,14 +5,13 @@ using AosSdk.Core.Player;
 using AosSdk.Core.Player.Pointer;
 using UnityEngine;
 using UnityEngine.Events;
-public class RepairButton : MonoBehaviour, IClickAble
+public class RepairButton : BaseButtton
 {
     [SerializeField] private MovebleObject _object;
-    public virtual void OnClicked(InteractHand interactHand)
+    public override void OnClicked(InteractHand interactHand)
     {
         _object.RepairObject();
     }
 
-    public bool IsClickable { get; set; } = true;
 }
 

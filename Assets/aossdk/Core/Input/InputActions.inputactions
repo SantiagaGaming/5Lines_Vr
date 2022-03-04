@@ -1179,6 +1179,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "Help",
+                    "type": "Button",
+                    "id": "3d243732-930d-4b34-8c70-c4834718b934",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -1317,7 +1326,7 @@
                 {
                     "name": "",
                     "id": "5e29ee88-3854-4a0a-9a01-219506603ebb",
-                    "path": "<Keyboard>/f",
+                    "path": "<Keyboard>/z",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -1344,6 +1353,17 @@
                     "processors": "",
                     "groups": "",
                     "action": "Radio",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "565e8647-0bc6-4bda-b3bc-26cc5f43e8c8",
+                    "path": "<Keyboard>/h",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Help",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

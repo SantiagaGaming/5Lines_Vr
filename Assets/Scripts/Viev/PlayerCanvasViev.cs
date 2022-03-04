@@ -16,6 +16,8 @@ public class PlayerCanvasViev : MonoBehaviour
     [SerializeField] private GameObject _mapIcon;
     [SerializeField] private GameObject _radioImage;
     [SerializeField] private GameObject _radioIcon;
+    [SerializeField] private GameObject _helpImage;
+    [SerializeField] private GameObject _helpIcon;
 
     public void ShowInterractText(string value)
     {
@@ -39,6 +41,11 @@ public class PlayerCanvasViev : MonoBehaviour
     {
         _radioImage.SetActive(value);
         _radioIcon.SetActive(value);
+    }
+    public void ShowHelpImage(bool value)
+    {
+        _helpImage.SetActive(value);
+        _helpIcon.SetActive(value);
     }
 
 }

@@ -5,13 +5,11 @@ using AosSdk.Core.Player;
 using AosSdk.Core.Player.Pointer;
 using UnityEngine;
 using UnityEngine.Events;
-public class BackButtonObject : MonoBehaviour, IClickAble
+public class BackButtonObject : BaseButtton
 {
     public UnityAction BackButtonClickEvent;
-    public virtual void OnClicked(InteractHand interactHand)
+    public override void OnClicked(InteractHand interactHand)
     {
         BackButtonClickEvent?.Invoke();
     }
-
-    public bool IsClickable { get; set; } = true;
 }

@@ -5,16 +5,15 @@ using AosSdk.Core.Player;
 using AosSdk.Core.Player.Pointer;
 using UnityEngine;
 using UnityEngine.Events;
-public class WatchButton : MonoBehaviour, IClickAble
+public class WatchButton : BaseButtton
 {
-   /// <summary>
-   /// TODO состояние объекта.
-   /// </summary>
-   /// <param name="interactHand"></param>
-    public virtual void OnClicked(InteractHand interactHand)
+    /// <summary>
+    /// TODO состояние объекта.
+    /// </summary>
+    /// <param name="interactHand"></param>
+    public override void OnClicked(InteractHand interactHand)
     {
         print("исправно");
     }
 
-    public bool IsClickable { get; set; } = true;
 }
