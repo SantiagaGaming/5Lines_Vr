@@ -8,8 +8,8 @@ using UnityEngine.UI;
 public class PlayerCanvasViev : MonoBehaviour
 {
     public UnityAction<bool> RadioButtonTapEvent;
+    public UnityAction<bool> StrekaButtonTapEvent;
 
-    [SerializeField] private Text _timerText;
     [SerializeField] private GameObject _zoomIcon;
     [SerializeField] private GameObject _mapImage;
     [SerializeField] private GameObject _mapIcon;
@@ -18,7 +18,17 @@ public class PlayerCanvasViev : MonoBehaviour
     [SerializeField] private GameObject _helpImage;
     [SerializeField] private GameObject _helpIcon;
     [SerializeField] private GameObject _measureIcon;
+
     [SerializeField] private Text _measureText;
+    [SerializeField] private Text _timerText;
+
+    [SerializeField] private Button _strelkaPlusButton;
+    [SerializeField] private Button _strelakMinusButton;
+    private void Start()
+    {
+        _strelkaPlusButton.onClick.AddListener(() => { StrekaButtonTapEvent?.Invoke(true); });
+        _strelakMinusButton.onClick.AddListener(() => { StrekaButtonTapEvent?.Invoke(false); });
+    }
 
     public void ShowTimerText(string time)
     {

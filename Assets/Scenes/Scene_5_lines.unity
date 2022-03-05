@@ -13391,6 +13391,7 @@ GameObject:
   - component: {fileID: 604609495}
   - component: {fileID: 604609494}
   - component: {fileID: 604609493}
+  - component: {fileID: 604609496}
   m_Layer: 5
   m_Name: Strelka-
   m_TagString: Untagged
@@ -13428,8 +13429,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.032623447, y: 0.03370317, z: 0.0029253825}
-  m_Center: {x: -0.00013250763, y: -0.00091614947, z: -0.00015326915}
+  m_Size: {x: 0.16466859, y: 0.03370317, z: 0.0029253825}
+  m_Center: {x: -0.00035135818, y: -0.00091614947, z: -0.00015326568}
 --- !u!114 &604609494
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13468,6 +13469,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 604609491}
   m_CullTransparentMesh: 1
+--- !u!114 &604609496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 604609491}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6157bdbc9fa8c204b91f507adf5271f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _plus: 0
 --- !u!1 &615064134
 GameObject:
   m_ObjectHideFlags: 0
@@ -16165,7 +16179,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96c216ac1eb112d47914cab649ba747b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _timerText: {fileID: 364170568}
   _zoomIcon: {fileID: 1709389384}
   _mapImage: {fileID: 1938489058}
   _mapIcon: {fileID: 286957649}
@@ -16175,6 +16188,9 @@ MonoBehaviour:
   _helpIcon: {fileID: 94881116}
   _measureIcon: {fileID: 1479737033}
   _measureText: {fileID: 450293890}
+  _timerText: {fileID: 364170568}
+  _strelkaPlusButton: {fileID: 467333603}
+  _strelakMinusButton: {fileID: 888419712}
 --- !u!114 &709528924
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19289,6 +19305,7 @@ Transform:
   - {fileID: 118752747}
   - {fileID: 1535690951}
   - {fileID: 1167423944}
+  - {fileID: 1574678786}
   m_Father: {fileID: 0}
   m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -31901,6 +31918,53 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1573751359}
   m_CullTransparentMesh: 1
+--- !u!1 &1574678785
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1574678786}
+  - component: {fileID: 1574678787}
+  m_Layer: 0
+  m_Name: StrelkaController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1574678786
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1574678785}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 868297410}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1574678787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1574678785}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8799d71cc99606498584c5eef726ec4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _strelkas:
+  - {fileID: 2097191591}
+  - {fileID: 604609496}
+  _playerCanvasViev: {fileID: 709528923}
 --- !u!1 &1578500569
 GameObject:
   m_ObjectHideFlags: 0
@@ -41024,6 +41088,7 @@ GameObject:
   - component: {fileID: 2097191590}
   - component: {fileID: 2097191589}
   - component: {fileID: 2097191588}
+  - component: {fileID: 2097191591}
   m_Layer: 5
   m_Name: Strelka+
   m_TagString: Untagged
@@ -41061,8 +41126,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.032623447, y: 0.03370317, z: 0.0029253825}
-  m_Center: {x: -0.00013250763, y: -0.00091614947, z: -0.00015326915}
+  m_Size: {x: 0.16466859, y: 0.03370317, z: 0.0029253825}
+  m_Center: {x: -0.00035135818, y: -0.00091614947, z: -0.00015326568}
 --- !u!114 &2097191589
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41101,6 +41166,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2097191586}
   m_CullTransparentMesh: 1
+--- !u!114 &2097191591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2097191586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6157bdbc9fa8c204b91f507adf5271f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _plus: 1
 --- !u!1 &2101144397
 GameObject:
   m_ObjectHideFlags: 0
@@ -42717,6 +42795,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1522429150, guid: ac23b100fa9b0bc41ae1c122aebb68a2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1562919233, guid: ac23b100fa9b0bc41ae1c122aebb68a2, type: 3}
       propertyPath: _anim
       value: 
