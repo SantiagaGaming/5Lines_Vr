@@ -6,19 +6,20 @@ using AosSdk.Core.Player.Pointer;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class VrInventObject : MonoBehaviour, IClickAble
+public class VrInventButton : BaseButtton
 {
     [SerializeField] private GameObject _objectToShow;
-    public virtual void OnClicked(InteractHand interactHand)
+    public override void OnClicked(InteractHand interactHand)
     {
-if(_objectToShow.activeSelf == true)
+
+        if (_objectToShow.activeSelf == true)
         {
             _objectToShow.SetActive(false);
         }
-else
+        else
         {
             _objectToShow.SetActive(true);
         }
-    }
-    public bool IsClickable { get; set; } = true;
+    
+     }
 }
