@@ -10,7 +10,7 @@ namespace AosSdk.Core.Utils
         public AosActionType[] aosObjectActions;
         public AosEventType[] aosObjectEvents;
     }
-    
+
     [Serializable]
     public class AosActionType
     {
@@ -34,7 +34,7 @@ namespace AosSdk.Core.Utils
         public string eventDescription;
         public string eventName;
     }
-    
+
     [Serializable]
     public class AosCommand
     {
@@ -50,14 +50,29 @@ namespace AosSdk.Core.Utils
             for (var i = 0; i < parameters.Length; i++)
             {
                 var value = parameters[i].parameterValue;
-                CastedParameters[i] = parameters[i].parameterType switch
+
+                switch (parameters[i].parameterType)
                 {
-                    "Boolean" => bool.Parse(value),
-                    "Int32" => int.Parse(value),
-                    "Single" => float.Parse(value),
-                    "String" => value,
-                    _ => CastedParameters[i]
-                };
+                    case "Boolean":
+                    case "bool":
+                        CastedParameters[i] = bool.Parse(value);
+                        break;
+                    case "Int32":
+                    case "int":
+                        CastedParameters[i] = int.Parse(value);
+                        break;
+                    case "Single":
+                    case "float":
+                        CastedParameters[i] = float.Parse(value);
+                        break;
+                    case "String":
+                    case "string":
+                        CastedParameters[i] = value;
+                        break;
+                    default:
+                        CastedParameters[i] = null;
+                        break;
+                }
             }
         }
     }

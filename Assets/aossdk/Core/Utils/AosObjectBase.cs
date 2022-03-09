@@ -16,9 +16,9 @@ namespace AosSdk.Core.Utils
         public string objectStaticGuid = string.Empty;
 
         public delegate void AosEventHandler();
-        
+
         public delegate void AosEventHandlerWithAttribute(object parameter);
-        
+
         private readonly List<AosCommand> _commandQueue = new List<AosCommand>();
 
         [AosAction("Задать активность объекта")]
@@ -36,7 +36,7 @@ namespace AosSdk.Core.Utils
                 objectGuid = helper.GameObjectGuid
             });
         }
-        
+
         public static void InheritEventWithParameterFired(EventHandlerHelper helper, object attribute)
         {
             WebSocketWrapper.Instance.DoSendMessage(new ServerMessageEvent
@@ -103,6 +103,12 @@ namespace AosSdk.Core.Utils
 
             for (var i = 0; i < command.CastedParameters.Length; i++)
             {
+                if (command.CastedParameters[i] == null)
+                {
+                    ReportError($"Failed to invoke {command.methodName} : can't cast parameter with name {command.parameters[i].parameterName}, check parameter type");
+                    yield break;
+                }
+
                 parametersType[i] = command.CastedParameters[i].GetType();
             }
 
@@ -120,11 +126,11 @@ namespace AosSdk.Core.Utils
             }
 
             var isInvokeWasSuccess = true;
-            string returnValue = null;
-            
+            object returnValue = null;
+
             try
             {
-                returnValue = methodInfo.Invoke(this, command.CastedParameters).ToString();
+                returnValue = methodInfo.Invoke(this, command.CastedParameters);
             }
             catch (Exception e)
             {
@@ -140,7 +146,7 @@ namespace AosSdk.Core.Utils
                 objectGuid = objectStaticGuid,
                 invokedMethod = methodInfo.Name,
                 isSuccess = isInvokeWasSuccess,
-                returnValue = returnValue,
+                returnValue = returnValue == null ? "null" : returnValue.ToString(),
                 type = ServerMessageType.Callback.ToString()
             });
         }

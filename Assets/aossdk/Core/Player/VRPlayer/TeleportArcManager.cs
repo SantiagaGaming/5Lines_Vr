@@ -11,7 +11,6 @@ namespace AosSdk.Core.Player.VRPlayer
         [SerializeField] private Gradient validTeleportGradient;
         [SerializeField] private Gradient invalidTeleportGradient;
 
-        public float MaxTeleportRadius { get; set; } = 8f;
         private const int MaxArcPointCount = 30;
         private const float VertexDelta = 0.08f;
 
@@ -28,9 +27,9 @@ namespace AosSdk.Core.Player.VRPlayer
 
         private bool _groundDetected;
         private bool _teleportIsActive;
-    
+
         public TeleportRaycastData RaycastData;
-   
+
         public void ToggleDisplay(bool active)
         {
             _arcRenderer.enabled = active;
@@ -59,10 +58,23 @@ namespace AosSdk.Core.Player.VRPlayer
             _arcHighestPoint = Vector3.zero;
             _arcLastPoint = Vector3.zero;
             _groundDetected = false;
-            _previousPointPosition = _thisTransform.position;
+            
+            var origin = _thisTransform.position;
+            var forward = _thisTransform.forward;
+            
+            _previousPointPosition = origin;
             _arcPointsCalculated = 0;
             
-            _currentArcPointVelocity = _thisTransform.forward * MaxTeleportRadius;
+            RaycastData.IsTeleportValid = false;
+            RaycastData.TeleportNormal = null;
+            RaycastData.TeleportPosition = null;
+            
+            _arcRenderer.colorGradient = invalidTeleportGradient;
+            _arcRenderer.positionCount = 2;
+            
+            _arcLastPoint = origin + forward;
+            
+            _currentArcPointVelocity = forward * sdkSettings.maxTeleportRadius;
 
             while (!_groundDetected && _arcPointsCalculated <= MaxArcPointCount)
             {
@@ -81,45 +93,39 @@ namespace AosSdk.Core.Player.VRPlayer
                 {
                     _groundDetected = true;
                     _arcLastPoint = hit.point;
-
+                    _arcRenderer.positionCount = MaxArcPointCount;
+                    
                     if (hit.collider.CompareTag(sdkSettings.walkableTag))
                     {
                         RaycastData.TeleportPosition = hit.point;
                         RaycastData.TeleportNormal = hit.normal;
                         RaycastData.IsTeleportValid = true;
                         _arcRenderer.colorGradient = validTeleportGradient;
-                        break;
                     }
-                
-                    RaycastData.IsTeleportValid = false;
-                    _arcRenderer.colorGradient = invalidTeleportGradient;
+                    
                     break;
                 }
+                
                 _previousPointPosition = newPosition;
             }
-            
-            _arcRenderer.positionCount = MaxArcPointCount;
 
-            if (!_groundDetected)
+            if (_arcHighestPoint == Vector3.zero)
             {
-                RaycastData.IsTeleportValid = false;
-                _arcRenderer.colorGradient = invalidTeleportGradient;
-                _arcLastPoint = _thisTransform.position + _thisTransform.forward;
-                _arcRenderer.positionCount = 2;
+                _arcHighestPoint = origin;
             }
-            
+
             var t = 0f;
             for (var i = 0; i < _arcRenderer.positionCount; i++)
             {
-                _arcRenderer.SetPosition(i, (1 - t) * (1 - t) * _thisTransform.position + 2 * (1 - t) * t * _arcHighestPoint + t * t * _arcLastPoint);
+                _arcRenderer.SetPosition(i, (1 - t) * (1 - t) * origin + 2 * (1 - t) * t * _arcHighestPoint + t * t * _arcLastPoint);
                 t += 1 / (float)_arcRenderer.positionCount;
             }
         }
     
         public struct TeleportRaycastData
         {
-            public Vector3 TeleportPosition;
-            public Vector3 TeleportNormal;
+            public Vector3? TeleportPosition;
+            public Vector3? TeleportNormal;
             public bool IsTeleportValid;
         }
     }

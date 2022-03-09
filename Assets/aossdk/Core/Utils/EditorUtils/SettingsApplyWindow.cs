@@ -45,6 +45,13 @@ namespace AosSdk.Core.Utils.EditorUtils
             if (GUILayout.Button("Install required packages", GUILayout.Height(30)))
             {
                 var currentlyInstalledPackages = JsonConvert.DeserializeObject<DependencyList>(File.ReadAllText(PackagesManifestPath));
+
+                if (currentlyInstalledPackages == null)
+                {
+                    Debug.LogError($"Can't deserialize {PackagesManifestPath}");
+                    return;
+                }
+
                 foreach (var package in PackagesToAdd.Where(package => !currentlyInstalledPackages.dependencies.ContainsKey(package.Key)))
                 {
                     currentlyInstalledPackages.dependencies.Add(package.Key, package.Value);

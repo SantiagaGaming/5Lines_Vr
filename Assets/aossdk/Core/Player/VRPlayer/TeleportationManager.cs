@@ -54,8 +54,13 @@ namespace AosSdk.Core.Player.VRPlayer
             {
                 return;
             }
+            
+            if (teleportRaycastData.TeleportPosition == null || teleportRaycastData.TeleportNormal == null)
+            {
+                return;
+            }
 
-            vrPlayer.xrOrigin.MoveCameraToWorldLocation(teleportRaycastData.TeleportPosition + vrPlayer.xrOrigin.Origin.transform.up * vrPlayer.xrOrigin.CameraInOriginSpaceHeight);
+            vrPlayer.xrOrigin.MoveCameraToWorldLocation((Vector3) (teleportRaycastData.TeleportPosition + vrPlayer.xrOrigin.Origin.transform.up * vrPlayer.xrOrigin.CameraInOriginSpaceHeight));
         
             IsTeleportActive = false;
             
@@ -71,9 +76,14 @@ namespace AosSdk.Core.Player.VRPlayer
                 if (teleportRaycastData.IsTeleportValid)
                 {
                     teleportReticle.SetActive(true);
-               
-                    teleportReticle.transform.position = teleportRaycastData.TeleportPosition;
-                    teleportReticle.transform.up = teleportRaycastData.TeleportNormal;
+
+                    if (teleportRaycastData.TeleportPosition == null || teleportRaycastData.TeleportNormal == null)
+                    {
+                        return;
+                    }
+
+                    teleportReticle.transform.position = (Vector3) teleportRaycastData.TeleportPosition;
+                    teleportReticle.transform.up = (Vector3) teleportRaycastData.TeleportNormal;
                     
                     return;
                 }
