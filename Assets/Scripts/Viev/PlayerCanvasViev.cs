@@ -23,11 +23,11 @@ public class PlayerCanvasViev : MonoBehaviour
     [SerializeField] private Text _timerText;
 
     [SerializeField] private Button _strelkaPlusButton;
-    [SerializeField] private Button _strelakMinusButton;
+    [SerializeField] private Button _strelkaMinusButton;
     private void Start()
     {
         _strelkaPlusButton.onClick.AddListener(() => { StrekaButtonTapEvent?.Invoke(true); });
-        _strelakMinusButton.onClick.AddListener(() => { StrekaButtonTapEvent?.Invoke(false); });
+        _strelkaMinusButton.onClick.AddListener(() => { StrekaButtonTapEvent?.Invoke(false); });
     }
 
     public void ShowTimerText(string time)
@@ -56,16 +56,20 @@ public class PlayerCanvasViev : MonoBehaviour
     }
     public void ShowMeasureText(string text)
     {
-        if(_measureText.text =="")
-        {
-            _measureIcon.SetActive(false);
-        }
-        else
-        {
-            _measureIcon.SetActive(true);
-        }
+        //if(_measureText.text =="")
+        //{
+        //    _measureIcon.SetActive(false);
+        //}
+        //else
+        //{
+        //    _measureIcon.SetActive(true);
+        //}
         _measureText.text = text;
 
+    }
+    public void ShowMeasureIcon(bool value)
+    {
+        _measureIcon.SetActive(value);
     }
 
 }

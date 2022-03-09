@@ -27,8 +27,8 @@ public class PlayerCanvasController : MonoBehaviour
         _playerInvent.MapEvent += OnMapShowEnabler;
         _playerInvent.RadioEvent += OnRadioShowEnabler;
         _playerInvent.HelpEvent += OnHelpShowEnabler;
-        _shup.SetMeasureTextEvent += OnSetMeasureText;
-        _canvasController.CloseObjectEvent += OnClearMeasureText;
+        //_shup.SetMeasureTextEvent += OnSetMeasureText;
+        //_canvasController.CloseObjectEvent += OnClearMeasureText;
     }
     private void OnDisable()
     {
@@ -36,8 +36,8 @@ public class PlayerCanvasController : MonoBehaviour
         _playerInvent.MapEvent -= OnMapShowEnabler;
         _playerInvent.RadioEvent -= OnRadioShowEnabler;
         _playerInvent.HelpEvent -= OnHelpShowEnabler;
-        _shup.SetMeasureTextEvent -= OnSetMeasureText;
-        _canvasController.CloseObjectEvent -= OnClearMeasureText;
+        //_shup.SetMeasureTextEvent -= OnSetMeasureText;
+        //_canvasController.CloseObjectEvent -= OnClearMeasureText;
     }
     public void ControlTimer(bool value)
     {
@@ -97,10 +97,14 @@ public class PlayerCanvasController : MonoBehaviour
         _viev.ShowMeasureText("");
         _vrMeasureText.text = "";
     }
-    private void OnSetMeasureText(string text)
+    public void SetMeasureText(string text)
     {
         _viev.ShowMeasureText(text);
         _vrMeasureText.text = text;
+    }
+    public void MeasureIconEnabler(bool value)
+    {
+        _viev.ShowMeasureIcon(value);
     }
 }
 

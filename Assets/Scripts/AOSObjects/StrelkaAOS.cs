@@ -9,16 +9,29 @@ using UnityEngine.Events;
 public class StrelkaAOS : AosObjectBase
     
 {
-    [SerializeField] private StrelkaContoller _strelka;
+    [SerializeField] private Strelka _strelka;
 
     [AosEvent(name: "Игрок переводит стрелку в плюс")]
-    public event AosEventHandlerWithAttribute OnStrelkaMeasurePlus;
+    public event AosEventHandler OnStrelkaMeasurePlus;
     [AosEvent(name: "Игрок переводит стрелку в минус")]
-    public event AosEventHandlerWithAttribute OnStrelkaMeasureMinus;
+    public event AosEventHandler OnStrelkaMeasureMinus;
 
-    [AosAction(name: "Задать состояние точки true +, false -")]
-    public void SetStrelkaPosition()
+    [AosAction("Задать состояние точки true +, false -")]
+    public void SetStrelkaPosition([AosParameter("Направление перевода")] bool position)
     {
-
+        _strelka.SetCondition(position);
     }
+public void TrySwitchStrelka(bool value)
+    {
+        if (value)
+        {
+            OnStrelkaMeasurePlus?.Invoke();
+         
+        }
+        else
+        { OnStrelkaMeasureMinus?.Invoke();
+        
+        }
+    }
+
 }

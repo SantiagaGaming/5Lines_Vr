@@ -8,10 +8,10 @@ using UnityEngine.Events;
 public class StrelkaButton : BaseButtton
 {
     [SerializeField] private bool _plus;
+    [SerializeField] private StrelkaAOS _strelkaAOS;
 
-    public UnityAction <bool> StrelkaButtonClickEvent;
     public override void OnClicked(InteractHand interactHand)
     {
-        StrelkaButtonClickEvent?.Invoke(_plus);
+        _strelkaAOS.TrySwitchStrelka(_plus);
     }
 }

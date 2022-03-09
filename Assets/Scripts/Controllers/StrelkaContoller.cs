@@ -4,27 +4,21 @@ using UnityEngine;
 
 public class StrelkaContoller : MonoBehaviour
 {
-    [SerializeField] private StrelkaButton[] _strelkas;
     [SerializeField] private PlayerCanvasViev _playerCanvasViev;
+    [SerializeField] private StrelkaAOS _strelkaAOS;
 
-    private void Awake()
-    {
-        foreach (var strelka in _strelkas)
-        {
-            strelka.StrelkaButtonClickEvent += OnStrelkaSwitched;
-        }
-
-    }
     private void OnEnable()
     {
-        _playerCanvasViev.StrekaButtonTapEvent += OnStrelkaSwitched;
+        _playerCanvasViev.StrekaButtonTapEvent += OnStrelkaSwitch;
     }
     private void OnDisable()
     {
-        _playerCanvasViev.StrekaButtonTapEvent -= OnStrelkaSwitched;
+        _playerCanvasViev.StrekaButtonTapEvent -= OnStrelkaSwitch;
+
     }
-    private void OnStrelkaSwitched(bool value)
+
+    public void OnStrelkaSwitch(bool value)
     {
-        print(value+ "Состояние");
+        _strelkaAOS.TrySwitchStrelka(value);
     }
 }
