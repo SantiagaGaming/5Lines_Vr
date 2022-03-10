@@ -14,16 +14,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   launchMode: 0
   socketPort: 8080
-  walkSpeed: 6
+  walkSpeed: 4
   runSpeed: 8
   jumpSpeed: 8
   gravity: 20
   mouseLookSpeed: 0.1
   mouseLookXLimit: 80
   crossHairSizeMultiplier: 1
-  desktopInteractDistance: 1.2
+  desktopInteractDistance: 1
   maxTeleportRadius: 8
-  vrInteractDistance: 1.2
+  vrInteractDistance: 1
   defaultPointerColor: {r: 1, g: 1, b: 1, a: 1}
   hoveredPointerColor: {r: 0.052029163, g: 0.60036546, b: 0.745283, a: 255}
   disabledPointerColor: {r: 1, g: 0, b: 0, a: 1}
