@@ -3,21 +3,21 @@ using AosSdk.Core.Interfaces;
 using AosSdk.Core.Utils;
 using UnityEngine;
 using UnityEngine.Events;
-[AosObject(name: "ЦП 18 Блок СП")]
-public class Cp18 : AosObjectBase
+[AosObject(name: "Fuse 2")]
+public class Fuse2 : AosObjectBase
 {
-    [SerializeField] private MovebleObject _cp;
+    [SerializeField] private MovebleObject _fuse;
 
     [AosAction(name: "Сменить состояние объекта true - исправен, false - неисправен")]
     public void SetCondition(bool value)
     {
-        _cp.SetCondition(value);
+        _fuse.SetCondition(value);
     }
 
     [AosAction(name: "Проиграть анимацию починки объекта со сменой состояния на исправен")]
-    public void RepairCp()
+    public void RepairFuse()
     {
-        _cp.RepairObject();
+        _fuse.RepairObject();
     }
 
 }

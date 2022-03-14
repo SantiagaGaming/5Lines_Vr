@@ -3,8 +3,8 @@ using AosSdk.Core.Interfaces;
 using AosSdk.Core.Utils;
 using UnityEngine;
 using UnityEngine.Events;
-[AosObject(name: "ЦП 18 Блок СП")]
-public class Cp18 : AosObjectBase
+[AosObject(name: "ЦП 18 Блок С")]
+public class Cp18_s : AosObjectBase
 {
     [SerializeField] private MovebleObject _cp;
 
