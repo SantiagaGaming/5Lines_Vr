@@ -12,6 +12,11 @@ public class CanvasObject : MonoBehaviour, IClickAble, IHoverAble, ICanvasObject
 
     [SerializeField] protected GameObject _canvas;
     [SerializeField] protected GameObject _canIterractSign;
+    [SerializeField] protected Diet _diet;
+    [SerializeField] protected GameObject _map;
+    [SerializeField] protected GameObject _helpImage;
+    [SerializeField] protected ZoomController _zoomController;
+    [SerializeField] protected Transform _dietPosition;
 
     protected CanvasController _cameraSwitch;
 
@@ -24,6 +29,10 @@ public class CanvasObject : MonoBehaviour, IClickAble, IHoverAble, ICanvasObject
     {
         _canvas.SetActive(false);
         gameObject.GetComponent<Collider>().enabled = true;
+        _diet.EnableDiet(false, _dietPosition);
+        _map.SetActive(false);
+        _helpImage.SetActive(false);
+        _zoomController.ResetZoomCamera();
     }
     public virtual void OnClicked(InteractHand interactHand)
     {
@@ -47,6 +56,10 @@ public class CanvasObject : MonoBehaviour, IClickAble, IHoverAble, ICanvasObject
     public void OnHoverOut(InteractHand interactHand)
     {
         _canIterractSign.SetActive(false);
+    }
+    public Transform GetDietPosition()
+    {
+        return _dietPosition;
     }
     public bool IsHoverable { get; set; } = true;
 
