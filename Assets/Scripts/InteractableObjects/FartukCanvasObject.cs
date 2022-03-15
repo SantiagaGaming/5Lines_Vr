@@ -9,8 +9,6 @@ using UnityEngine.Events;
 public class FartukCanvasObject : CanvasObject
 {
     [SerializeField] private GameObject _roof;
-
-
     public override void OnClicked(InteractHand interactHand)
     {
         StartCoroutine(RoofRotator(true));
@@ -31,7 +29,6 @@ public class FartukCanvasObject : CanvasObject
     {
         if (value)
         {
-
             int x = 0;
             while (x <= 90)
             {
@@ -39,7 +36,6 @@ public class FartukCanvasObject : CanvasObject
                 x++;
                 yield return new WaitForSeconds(0.001f);
             }
-
         }
         else
         {

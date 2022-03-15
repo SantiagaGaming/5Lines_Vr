@@ -12,7 +12,6 @@ public class Door : MonoBehaviour, IClickAble
     public UnityAction AosTeleportEvent;
 
     [SerializeField] private Transform _newPlayerPosition;
-
     public void StartTeleporting()
     {
         TeleportToObjectEvent?.Invoke(_newPlayerPosition);

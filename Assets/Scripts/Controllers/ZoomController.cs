@@ -5,9 +5,7 @@ using UnityEngine.InputSystem;
 
 public class ZoomController : MonoBehaviour
 {
-
     [SerializeField] private Camera _playerCamera;
-
     public void ZoomCamera()
     {
         if (_playerCamera.fieldOfView == 60)
@@ -16,14 +14,11 @@ public class ZoomController : MonoBehaviour
         }
         else
         {
-            _playerCamera.fieldOfView = 60;
+            ResetZoomCamera();
         }
     }
     public void ResetZoomCamera()
     {
-
             _playerCamera.fieldOfView = 60;
- 
     }
-
 }

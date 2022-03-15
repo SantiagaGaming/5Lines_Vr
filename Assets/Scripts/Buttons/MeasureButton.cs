@@ -13,6 +13,4 @@ public class MeasureButton : BaseButtton
     {
         MeasureButtonClickEvent?.Invoke(transform, gameObject.name);
     }
-
-
 }

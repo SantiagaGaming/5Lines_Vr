@@ -54,7 +54,6 @@ public class SP6ÑanvasObject : CanvasObject
     {
         if (value)
         {
-
             int z = 0;
             while (z <= 120)
             {
@@ -62,7 +61,6 @@ public class SP6ÑanvasObject : CanvasObject
                 z++;
                 yield return new WaitForSeconds(0.001f);
             }
-     
         }
         else
         {
@@ -74,7 +72,6 @@ public class SP6ÑanvasObject : CanvasObject
                 yield return new WaitForSeconds(0.001f);
             }
         }
-   
     }
     private float GetAnimLenght()
     {

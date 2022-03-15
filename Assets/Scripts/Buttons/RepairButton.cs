@@ -12,6 +12,5 @@ public class RepairButton : BaseButtton
     {
         _object.RepairObject();
     }
-
 }
 

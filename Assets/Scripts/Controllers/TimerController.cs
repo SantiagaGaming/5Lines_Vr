@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerCanvasController : MonoBehaviour
+public class TimerController : MonoBehaviour
 {
-    [SerializeField] private PlayerCanvasViev _viev;
+    [SerializeField] private TimerViev _viev;
     [SerializeField] private Timer _timer;
 
     private void Update()

@@ -1967,7 +1967,7 @@ GameObject:
   - component: {fileID: 63027795}
   - component: {fileID: 63027796}
   m_Layer: 0
-  m_Name: PlayerCanvasController
+  m_Name: TimerController
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16267,7 +16267,7 @@ GameObject:
   - component: {fileID: 709528924}
   - component: {fileID: 709528923}
   m_Layer: 5
-  m_Name: PlayerCanvasViev
+  m_Name: TimerViev
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

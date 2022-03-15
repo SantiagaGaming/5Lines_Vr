@@ -21,20 +21,17 @@ public class Diet : MonoBehaviour
         int x = 0;
         while (x <= 32)
         {
-         
             if (value)
             {
                 _diet.SetActive(true);
                 _diet.transform.position += new Vector3(0, 0.0125f, 0);
             }
-       
             else
             {
                 _buttons.SetActive(false);
-                transform.position -= new Vector3(0, 0.0125f, 0);
+                _diet.transform.position -= new Vector3(0, 0.0125f, 0);
             }
-
-            yield return new WaitForSeconds(0.01f);
+            yield return new WaitForSeconds(0.02f);
             x++;
         }
         if(!value)

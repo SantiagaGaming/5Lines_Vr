@@ -8,7 +8,6 @@ using UnityEngine.Events;
 
 public class UMP24CanvasObject : CanvasObject
 {
-
     [SerializeField] private GameObject _roof;
 
     private InteractHand interactHand;
@@ -52,9 +51,7 @@ public class UMP24CanvasObject : CanvasObject
                 base.OnClicked(interactHand);
                 _roof.SetActive(false);
             }
-    
             _isAmimated = false;
-  
         }
     }
 }
