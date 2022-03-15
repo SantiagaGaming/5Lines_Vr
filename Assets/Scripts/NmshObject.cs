@@ -5,6 +5,7 @@ using UnityEngine;
 public class NmshObject : MovebleObject
 {
     [SerializeField] private GameObject _bolt;
+    [SerializeField] private GameObject _nmsh;
     public override void RepairObject()
     {
         StartCoroutine(RapirNmsh());
@@ -31,7 +32,9 @@ public class NmshObject : MovebleObject
                 yield return new WaitForSeconds(0.02f);
                 x++;
             }
-
+        _nmsh.SetActive(false);
+        yield return new WaitForSeconds(0.5f);
+        _nmsh.SetActive(true);
         while (x > 0)
             {
                 if (!_yPoz)
