@@ -27,6 +27,7 @@ public class ShupController : AosObjectBase
             if (_redShup.transform.position != newPos.position && _blackShup.transform.position != newPos.position)
             {
                 _redShup.transform.position = newPos.position;
+                _redShup.transform.rotation = Quaternion.Euler(20, 0, 0);
                 _blackShup.transform.position = Vector3.zero;
                 _firstMeasure = true;
                 measureText = text;
@@ -39,6 +40,7 @@ public class ShupController : AosObjectBase
             if (_redShup.transform.position != newPos.position && _blackShup.transform.position != newPos.position)
             {
                 _blackShup.transform.position = newPos.position;
+                _blackShup.transform.rotation = Quaternion.Euler(20, 0, 0);
                 _firstMeasure = false;
                 measureText += " " + text;
                 SetMeasureTextEvent?.Invoke(measureText);
