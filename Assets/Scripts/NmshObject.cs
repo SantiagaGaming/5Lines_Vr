@@ -22,22 +22,22 @@ public class NmshObject : MovebleObject
         int x = 0;
 
             _condition = true;
-            while (x <= 16)
+            while (x <= 32)
             {
                 if (!_yPoz)
-                    transform.position += new Vector3(0.025f, 0, 0);
+                    transform.position += new Vector3(0.012f, 0, 0);
                 else
-                    transform.position += new Vector3(0, 0.025f, 0);
-                yield return new WaitForSeconds(0.05f);
+                    transform.position += new Vector3(0, 0.012f, 0);
+                yield return new WaitForSeconds(0.02f);
                 x++;
             }
             while (x > 0)
             {
                 if (!_yPoz)
-                    transform.position -= new Vector3(0.025f, 0, 0);
+                    transform.position -= new Vector3(0.012f, 0, 0);
                 else
-                    transform.position -= new Vector3(0, 0.025f, 0);
-                yield return new WaitForSeconds(0.05f);
+                    transform.position -= new Vector3(0, 0.012f, 0);
+                yield return new WaitForSeconds(0.02f);
                 x--;
             }
         while (xRot >= 0)
