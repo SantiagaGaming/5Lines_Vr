@@ -31,7 +31,8 @@ public class NmshObject : MovebleObject
                 yield return new WaitForSeconds(0.02f);
                 x++;
             }
-            while (x > 0)
+
+        while (x > 0)
             {
                 if (!_yPoz)
                     transform.position -= new Vector3(0.012f, 0, 0);

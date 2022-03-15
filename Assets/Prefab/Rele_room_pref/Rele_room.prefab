@@ -107,7 +107,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7644781030750626250}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &4565810584658556789
 MeshFilter:
@@ -4009,7 +4009,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7644781030750626250}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &1044921199696380648
 MeshFilter:
@@ -5891,6 +5891,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _canvas: {fileID: 0}
   _canIterractSign: {fileID: 4816039656085952676}
+  _diet: {fileID: 0}
+  _map: {fileID: 0}
+  _helpImage: {fileID: 0}
+  _zoomController: {fileID: 0}
+  _dietPosition: {fileID: 0}
+  _textMesh: {fileID: 0}
 --- !u!1 &4816039654529265816
 GameObject:
   m_ObjectHideFlags: 0
@@ -6122,6 +6128,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _canvas: {fileID: 0}
   _canIterractSign: {fileID: 4816039655159654756}
+  _diet: {fileID: 0}
+  _map: {fileID: 0}
+  _helpImage: {fileID: 0}
+  _zoomController: {fileID: 0}
+  _dietPosition: {fileID: 0}
+  _textMesh: {fileID: 0}
 --- !u!1 &4816039655362920121
 GameObject:
   m_ObjectHideFlags: 0
@@ -7443,8 +7455,8 @@ Transform:
   m_LocalPosition: {x: 0.8171381, y: 0.36880282, z: -0.6284088}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 644823010104424656}
   - {fileID: 4120676965724360013}
+  - {fileID: 644823010104424656}
   m_Father: {fileID: 7686603636690647437}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

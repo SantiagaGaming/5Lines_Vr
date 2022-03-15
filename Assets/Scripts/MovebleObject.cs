@@ -27,7 +27,20 @@ public class MovebleObject : MonoBehaviour
             yield return new WaitForSeconds(0.02f);
             x++;
         }
-        while(x>0)
+        if (GetComponent<MeshRenderer>())
+        {
+            GetComponent<MeshRenderer>().enabled = false;
+            yield return new WaitForSeconds(0.5f);
+            GetComponent<MeshRenderer>().enabled = true;
+        }
+        else 
+        {
+        GetComponentInChildren<MeshRenderer>().enabled = false;
+            yield return new WaitForSeconds(0.5f);
+            GetComponentInChildren<MeshRenderer>().enabled = true;
+        }
+
+        while (x>0)
         {
             if (!_yPoz)
                 transform.position -= new Vector3(0.012f, 0, 0);
