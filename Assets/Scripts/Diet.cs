@@ -6,6 +6,7 @@ public class Diet : MonoBehaviour
 {
     [SerializeField] private GameObject _diet;
     [SerializeField] private GameObject _buttons;
+    [SerializeField] private SoundPlayer _soundPlayer;
 
     public void EnableDiet(bool value, Transform position)
     {
@@ -15,9 +16,12 @@ public class Diet : MonoBehaviour
     }
     private IEnumerator DietMover(bool value)
     {
+        if(value)
+        _soundPlayer.PlayRadioSound();
         int x = 0;
         while (x <= 32)
         {
+         
             if (value)
             {
                 _diet.SetActive(true);

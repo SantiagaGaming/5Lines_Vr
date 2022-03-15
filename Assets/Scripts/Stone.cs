@@ -9,15 +9,6 @@ public class Stone : MonoBehaviour
     [SerializeField] private SoundPlayer _soundPlayer;
     [SerializeField] private GameObject _stone;
 
-
-    private void OnDisableStone()
-    {
-        if(_stone.activeSelf)
-        {
-            _stone.SetActive(false);
-            _soundPlayer.PlayStoneSound();
-        }
-    }
     public bool GetStoneCondition()
     {
         if (_stone.activeSelf)
@@ -28,6 +19,8 @@ public class Stone : MonoBehaviour
     }
     public void EnableStone(bool value)
     {
+        if(!value)
+          _soundPlayer.PlayStoneSound();
         _stone.SetActive(value);
     }
 }

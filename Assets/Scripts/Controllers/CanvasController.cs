@@ -15,6 +15,7 @@ public class CanvasController : MonoBehaviour
     [HideInInspector] public bool CanSwitch = true;
 
     private ICanvasObject _currentCanvas;
+    private TextMesh _textToShowInCanvas;
 
     private void Awake()
     {
@@ -28,10 +29,11 @@ public class CanvasController : MonoBehaviour
         }
     }
 
-    private void OnEnableObjectCanvas(ICanvasObject canvasObject)
+    private void OnEnableObjectCanvas(ICanvasObject canvasObject, TextMesh textMesh)
     {
-              _currentCanvas = canvasObject;
+       _currentCanvas = canvasObject;
         ColliderEnabler(false);
+        _textToShowInCanvas = textMesh;
     }
     private void OnDisableObjectCanvas()
     {
@@ -57,5 +59,9 @@ public class CanvasController : MonoBehaviour
         {
             canvasObject.GetComponent<Collider>().enabled = value;
         }
+    }
+    public void SetMeasureText(string text)
+    {
+        _textToShowInCanvas.text = text;
     }
 }

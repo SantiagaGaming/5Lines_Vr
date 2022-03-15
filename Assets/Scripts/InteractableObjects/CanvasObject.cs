@@ -8,7 +8,7 @@ using UnityEngine.Events;
 
 public class CanvasObject : MonoBehaviour, IClickAble, IHoverAble, ICanvasObject
 {
-    public UnityAction<ICanvasObject> EnableCanvasEvent;
+    public UnityAction<ICanvasObject, TextMesh> EnableCanvasEvent;
 
     [SerializeField] protected GameObject _canvas;
     [SerializeField] protected GameObject _canIterractSign;
@@ -17,6 +17,7 @@ public class CanvasObject : MonoBehaviour, IClickAble, IHoverAble, ICanvasObject
     [SerializeField] protected GameObject _helpImage;
     [SerializeField] protected ZoomController _zoomController;
     [SerializeField] protected Transform _dietPosition;
+    [SerializeField] protected TextMesh _textMesh;
 
     protected CanvasController _cameraSwitch;
 
@@ -46,7 +47,7 @@ public class CanvasObject : MonoBehaviour, IClickAble, IHoverAble, ICanvasObject
     protected void ShowCanvas()
     {
         _canvas.SetActive(true);
-        EnableCanvasEvent?.Invoke(this);
+        EnableCanvasEvent?.Invoke(this,_textMesh);
     }
 
     public void OnHoverIn(InteractHand interactHand)

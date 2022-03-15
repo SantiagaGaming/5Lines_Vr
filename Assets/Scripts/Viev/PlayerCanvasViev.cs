@@ -4,7 +4,6 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
 
-
 public class PlayerCanvasViev : MonoBehaviour
 {
     [SerializeField] private Text _timerText;
@@ -12,6 +11,5 @@ public class PlayerCanvasViev : MonoBehaviour
     {
         _timerText.text = time;
     }
-
 
 }
