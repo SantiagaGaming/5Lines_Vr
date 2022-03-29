@@ -10,8 +10,11 @@ public class Diet : MonoBehaviour
 
     public void EnableDiet(bool value, Transform position)
     {
-        _diet.transform.position = position.position;
-        _diet.transform.rotation = position.rotation;
+        if(value)
+        {
+            _diet.transform.position = position.position;
+            _diet.transform.rotation = position.rotation;
+        }
         StartCoroutine(DietMover(value));
     }
     private IEnumerator DietMover(bool value)
