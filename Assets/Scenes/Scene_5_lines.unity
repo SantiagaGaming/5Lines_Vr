@@ -4540,6 +4540,7 @@ GameObject:
   - component: {fileID: 168274141}
   - component: {fileID: 168274145}
   - component: {fileID: 168274144}
+  - component: {fileID: 168274147}
   - component: {fileID: 168274143}
   - component: {fileID: 168274142}
   - component: {fileID: 168274146}
@@ -4679,6 +4680,18 @@ MonoBehaviour:
   _left: 0
   _leverArm: {fileID: 1136063263}
   _strelka: {fileID: 897698525}
+--- !u!114 &168274147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 168274140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d224dabdb85cb7f4c864f3359abad2bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &176758445 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4816039656054329052, guid: 4b6bca1a8c2b2a64eac54ed6f2f9d530, type: 3}
@@ -18054,6 +18067,7 @@ GameObject:
   - component: {fileID: 756627016}
   - component: {fileID: 756627020}
   - component: {fileID: 756627019}
+  - component: {fileID: 756627022}
   - component: {fileID: 756627018}
   - component: {fileID: 756627021}
   - component: {fileID: 756627017}
@@ -18192,6 +18206,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _buttonBox: {fileID: 699516956}
   _index: 0
+--- !u!114 &756627022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 756627015}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d224dabdb85cb7f4c864f3359abad2bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &759370649
 GameObject:
   m_ObjectHideFlags: 0
@@ -23016,6 +23042,7 @@ GameObject:
   - component: {fileID: 992563020}
   - component: {fileID: 992563024}
   - component: {fileID: 992563023}
+  - component: {fileID: 992563026}
   - component: {fileID: 992563022}
   - component: {fileID: 992563021}
   - component: {fileID: 992563025}
@@ -23154,6 +23181,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _buttonBox: {fileID: 1479503510}
   _index: 1
+--- !u!114 &992563026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 992563019}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d224dabdb85cb7f4c864f3359abad2bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &994880565
 GameObject:
   m_ObjectHideFlags: 0
@@ -28673,6 +28712,7 @@ GameObject:
   - component: {fileID: 1257710818}
   - component: {fileID: 1257710822}
   - component: {fileID: 1257710821}
+  - component: {fileID: 1257710824}
   - component: {fileID: 1257710820}
   - component: {fileID: 1257710819}
   - component: {fileID: 1257710823}
@@ -28811,6 +28851,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _buttonBox: {fileID: 1638787521}
   _index: 2
+--- !u!114 &1257710824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1257710817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d224dabdb85cb7f4c864f3359abad2bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1257937941
 GameObject:
   m_ObjectHideFlags: 0
@@ -36772,6 +36824,7 @@ GameObject:
   - component: {fileID: 1727006071}
   - component: {fileID: 1727006075}
   - component: {fileID: 1727006074}
+  - component: {fileID: 1727006077}
   - component: {fileID: 1727006073}
   - component: {fileID: 1727006072}
   - component: {fileID: 1727006076}
@@ -36911,6 +36964,18 @@ MonoBehaviour:
   _left: 1
   _leverArm: {fileID: 1136063263}
   _strelka: {fileID: 897698525}
+--- !u!114 &1727006077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1727006070}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d224dabdb85cb7f4c864f3359abad2bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1735007027
 GameObject:
   m_ObjectHideFlags: 0
