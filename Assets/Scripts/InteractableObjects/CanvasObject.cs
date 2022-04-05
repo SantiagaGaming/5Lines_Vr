@@ -13,10 +13,12 @@ public class CanvasObject : MonoBehaviour, IClickAble, IHoverAble, ICanvasObject
     [SerializeField] protected GameObject _canvas;
     [SerializeField] protected GameObject _canIterractSign;
     [SerializeField] protected Diet _diet;
+    [SerializeField] protected Ampermetr _amper;
     [SerializeField] protected GameObject _map;
     [SerializeField] protected GameObject _helpImage;
     [SerializeField] protected ZoomController _zoomController;
     [SerializeField] protected Transform _dietPosition;
+    [SerializeField] protected Transform _amperPosition;
     [SerializeField] protected TextMesh _textMesh;
 
     protected CanvasController _cameraSwitch;
@@ -31,6 +33,7 @@ public class CanvasObject : MonoBehaviour, IClickAble, IHoverAble, ICanvasObject
         _canvas.SetActive(false);
         gameObject.GetComponent<Collider>().enabled = true;
         _diet.EnableDiet(false, _dietPosition);
+        _amper.EnableAmper(false, _amperPosition);
         _map.SetActive(false);
         _helpImage.SetActive(false);
         _zoomController.ResetZoomCamera();
@@ -61,6 +64,10 @@ public class CanvasObject : MonoBehaviour, IClickAble, IHoverAble, ICanvasObject
     public Transform GetDietPosition()
     {
         return _dietPosition;
+    }
+    public Transform GetAmperPosition()
+    {
+        return _amperPosition;
     }
     public bool IsHoverable { get; set; } = true;
 

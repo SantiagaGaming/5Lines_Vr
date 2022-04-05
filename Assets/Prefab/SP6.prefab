@@ -1,5 +1,65 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &733242216
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 733242217}
+  m_Layer: 0
+  m_Name: DietPosition
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &733242217
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 733242216}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -8.654, y: 0.361, z: 1.785}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 740817550702796808}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!1 &1978000371
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1978000372}
+  m_Layer: 0
+  m_Name: AmperSp6Pos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1978000372
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1978000371}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -8.481, y: 0.251, z: 1.707}
+  m_LocalScale: {x: 0.4, y: 0.1, z: 0.2}
+  m_Children: []
+  m_Father: {fileID: 740817550702796808}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7785806658371769
 GameObject:
   m_ObjectHideFlags: 0
@@ -200,6 +260,8 @@ Transform:
   - {fileID: 3629425530721035592}
   - {fileID: 8832478395387815455}
   - {fileID: 8038307605254727736}
+  - {fileID: 733242217}
+  - {fileID: 1978000372}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -257,6 +319,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _canvas: {fileID: 0}
   _canIterractSign: {fileID: 2598447178275134847}
+  _diet: {fileID: 0}
+  _amper: {fileID: 0}
+  _map: {fileID: 0}
+  _helpImage: {fileID: 0}
+  _zoomController: {fileID: 0}
+  _dietPosition: {fileID: 733242217}
+  _amperPosition: {fileID: 1978000372}
+  _textMesh: {fileID: 0}
   _anim: {fileID: 7010615100004995470}
   _roof: {fileID: 7261524988651844226}
 --- !u!1 &133512322672232512
@@ -1247,6 +1317,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2598447178275134846}
   - component: {fileID: 2598447178275134785}
+  - component: {fileID: 304993604}
   m_Layer: 0
   m_Name: IterractImg
   m_TagString: Untagged
@@ -1319,6 +1390,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &304993604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2598447178275134847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d224dabdb85cb7f4c864f3359abad2bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2598447178330525083
 GameObject:
   m_ObjectHideFlags: 0
