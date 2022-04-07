@@ -23,7 +23,7 @@ public class BaseObject : MonoBehaviour, IClickAble, IHoverAble
     {
         
     }
-    public void OnHoverIn(InteractHand interactHand)
+    public virtual void OnHoverIn(InteractHand interactHand)
     {
         if (GetComponent<Renderer>())
             GetComponent<Renderer>().material.color = _hoverColor;
@@ -34,7 +34,7 @@ public class BaseObject : MonoBehaviour, IClickAble, IHoverAble
         else return;
 
     }
-    public void OnHoverOut(InteractHand interactHand)
+    public virtual void OnHoverOut(InteractHand interactHand)
     {
         if (GetComponent<Renderer>())
             GetComponent<Renderer>().material.color = _objectColor;
