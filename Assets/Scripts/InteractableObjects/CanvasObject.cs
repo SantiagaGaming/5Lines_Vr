@@ -21,12 +21,14 @@ public class CanvasObject : MonoBehaviour, IClickAble, IHoverAble, ICanvasObject
     [SerializeField] protected Transform _amperPosition;
     [SerializeField] protected TextMesh _textMesh;
     [SerializeField] protected GameObject _portal;
+    [SerializeField] private GameObject[] _objectsWithButtons;
 
     protected CanvasController _cameraSwitch;
 
     private void Start()
     {
         _cameraSwitch = FindObjectOfType<CanvasController>();
+        EnableObjectsCollidesrs(false);
     }
 
     public virtual void DisableCanvas()
@@ -39,6 +41,7 @@ public class CanvasObject : MonoBehaviour, IClickAble, IHoverAble, ICanvasObject
         _helpImage.SetActive(false);
         _zoomController.ResetZoomCamera();
         _portal.SetActive(true);
+        EnableObjectsCollidesrs(false);
     }
     public virtual void OnClicked(InteractHand interactHand)
     {
@@ -54,6 +57,7 @@ public class CanvasObject : MonoBehaviour, IClickAble, IHoverAble, ICanvasObject
         _canvas.SetActive(true);
         EnableCanvasEvent?.Invoke(this,_textMesh);
         _portal.SetActive(false);
+        EnableObjectsCollidesrs(true);
     }
 
     public void OnHoverIn(InteractHand interactHand)
@@ -71,6 +75,16 @@ public class CanvasObject : MonoBehaviour, IClickAble, IHoverAble, ICanvasObject
     public Transform GetAmperPosition()
     {
         return _amperPosition;
+    }
+    private void EnableObjectsCollidesrs(bool value)
+    {
+        if(_objectsWithButtons !=null)
+        {
+            foreach (var item in _objectsWithButtons)
+            {
+                item.GetComponent<Collider>().enabled = value;
+            }
+        }
     }
     public bool IsHoverable { get; set; } = true;
 
