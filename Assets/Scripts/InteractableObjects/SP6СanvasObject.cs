@@ -26,22 +26,22 @@ public class SP6ÑanvasObject : CanvasObject
     }
     private void OnCloseSp6()
     {
-        if (_cameraSwitch.CompareObjects(this))
+        if (canvasController.CompareObjects(this))
         StartCoroutine(PlaySp6Anim(false));
     }
 
     private IEnumerator PlaySp6Anim(bool value)
     {
-        if(!_isAmimated && _cameraSwitch.CanSwitch)
+        if(!_isAmimated && canvasController.CanSwitch)
         {
-            _cameraSwitch.CanSwitch = false;
+            canvasController.CanSwitch = false;
             _isAmimated = true;
             _anim.SetTrigger("kurbelOut");
             yield return new WaitForSeconds(GetAnimLenght());
             StartCoroutine(RoofRotator(value));
             _anim.SetTrigger("kurbelIn");
             yield return new WaitForSeconds(GetAnimLenght());
-            _cameraSwitch.CanSwitch = true;
+            canvasController.CanSwitch = true;
             if (value)
             {
                 base.OnClicked(interactHand);

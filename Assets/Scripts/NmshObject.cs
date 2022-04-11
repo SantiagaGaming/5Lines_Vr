@@ -13,6 +13,7 @@ public class NmshObject : MovebleObject
     private IEnumerator RapirNmsh()
     {
         _moveObjButton.SetActive(false);
+        canvasController.EnableCanvasObjectsColliders(false);
         int xRot = 0;
         while (xRot <= 90)
         {
@@ -51,6 +52,7 @@ public class NmshObject : MovebleObject
             yield return new WaitForSeconds(0.01f);
         }
         _moveObjButton.SetActive(true);
-        
+        canvasController.EnableCanvasObjectsColliders(true);
+
     }
 }

@@ -4004,6 +4004,46 @@ PrefabInstance:
       propertyPath: _zoomController
       value: 
       objectReference: {fileID: 1535690950}
+    - target: {fileID: 1004214696766686427, guid: 790751f78e4c92c4b9694d66bd000358, type: 3}
+      propertyPath: _actionButtons.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1004214696766686427, guid: 790751f78e4c92c4b9694d66bd000358, type: 3}
+      propertyPath: _actionButtons.Array.data[0]
+      value: 
+      objectReference: {fileID: 1508552786}
+    - target: {fileID: 1004214696766686427, guid: 790751f78e4c92c4b9694d66bd000358, type: 3}
+      propertyPath: _actionButtons.Array.data[1]
+      value: 
+      objectReference: {fileID: 1840675752}
+    - target: {fileID: 1004214696766686427, guid: 790751f78e4c92c4b9694d66bd000358, type: 3}
+      propertyPath: _actionButtons.Array.data[2]
+      value: 
+      objectReference: {fileID: 397378281}
+    - target: {fileID: 1004214696766686427, guid: 790751f78e4c92c4b9694d66bd000358, type: 3}
+      propertyPath: _actionButtons.Array.data[3]
+      value: 
+      objectReference: {fileID: 116107951}
+    - target: {fileID: 1004214696766686427, guid: 790751f78e4c92c4b9694d66bd000358, type: 3}
+      propertyPath: _objectsWithButtons.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1004214696766686427, guid: 790751f78e4c92c4b9694d66bd000358, type: 3}
+      propertyPath: _objectsWithButtons.Array.data[0]
+      value: 
+      objectReference: {fileID: 424926345}
+    - target: {fileID: 1004214696766686427, guid: 790751f78e4c92c4b9694d66bd000358, type: 3}
+      propertyPath: _objectsWithButtons.Array.data[1]
+      value: 
+      objectReference: {fileID: 1428119642}
+    - target: {fileID: 1004214696766686427, guid: 790751f78e4c92c4b9694d66bd000358, type: 3}
+      propertyPath: _objectsWithButtons.Array.data[2]
+      value: 
+      objectReference: {fileID: 1393927616}
+    - target: {fileID: 1004214696766686427, guid: 790751f78e4c92c4b9694d66bd000358, type: 3}
+      propertyPath: _objectsWithButtons.Array.data[3]
+      value: 
+      objectReference: {fileID: 1327224926}
     - target: {fileID: 7143106911984180506, guid: 790751f78e4c92c4b9694d66bd000358, type: 3}
       propertyPath: m_RootOrder
       value: 25
@@ -37992,6 +38032,7 @@ MonoBehaviour:
   _textMesh: {fileID: 108394331}
   _portal: {fileID: 1448166113}
   _objectsWithButtons: []
+  _actionButtons: []
   _roof: {fileID: 1816308360920304879}
 --- !u!65 &1717330291
 BoxCollider:
@@ -41010,6 +41051,7 @@ MonoBehaviour:
   _textMesh: {fileID: 1115798991}
   _portal: {fileID: 1448166113}
   _objectsWithButtons: []
+  _actionButtons: []
 --- !u!4 &1836868989
 Transform:
   m_ObjectHideFlags: 0
@@ -49042,6 +49084,30 @@ PrefabInstance:
       propertyPath: _zoomController
       value: 
       objectReference: {fileID: 1535690950}
+    - target: {fileID: 2598447178248794336, guid: ac23b100fa9b0bc41ae1c122aebb68a2, type: 3}
+      propertyPath: _actionButtons.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2598447178248794336, guid: ac23b100fa9b0bc41ae1c122aebb68a2, type: 3}
+      propertyPath: _actionButtons.Array.data[0]
+      value: 
+      objectReference: {fileID: 1257937941}
+    - target: {fileID: 2598447178248794336, guid: ac23b100fa9b0bc41ae1c122aebb68a2, type: 3}
+      propertyPath: _actionButtons.Array.data[1]
+      value: 
+      objectReference: {fileID: 562312160}
+    - target: {fileID: 2598447178248794336, guid: ac23b100fa9b0bc41ae1c122aebb68a2, type: 3}
+      propertyPath: _objectsWithButtons.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2598447178248794336, guid: ac23b100fa9b0bc41ae1c122aebb68a2, type: 3}
+      propertyPath: _objectsWithButtons.Array.data[0]
+      value: 
+      objectReference: {fileID: 1021272330}
+    - target: {fileID: 2598447178248794336, guid: ac23b100fa9b0bc41ae1c122aebb68a2, type: 3}
+      propertyPath: _objectsWithButtons.Array.data[1]
+      value: 
+      objectReference: {fileID: 1974826867}
     - target: {fileID: 2598447178405960100, guid: ac23b100fa9b0bc41ae1c122aebb68a2, type: 3}
       propertyPath: _moveObjButton
       value: 
@@ -50271,6 +50337,150 @@ PrefabInstance:
       propertyPath: _zoomController
       value: 
       objectReference: {fileID: 1535690950}
+    - target: {fileID: 4816039654783985219, guid: 4b6bca1a8c2b2a64eac54ed6f2f9d530, type: 3}
+      propertyPath: _actionButtons.Array.size
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 4816039654783985219, guid: 4b6bca1a8c2b2a64eac54ed6f2f9d530, type: 3}
+      propertyPath: _actionButtons.Array.data[0]
+      value: 
+      objectReference: {fileID: 838756608}
+    - target: {fileID: 4816039654783985219, guid: 4b6bca1a8c2b2a64eac54ed6f2f9d530, type: 3}
+      propertyPath: _actionButtons.Array.data[1]
+      value: 
+      objectReference: {fileID: 1864768198}
+    - target: {fileID: 4816039654783985219, guid: 4b6bca1a8c2b2a64eac54ed6f2f9d530, type: 3}
+      propertyPath: _actionButtons.Array.data[2]
+      value: 
+      objectReference: {fileID: 837182904}
+    - target: {fileID: 4816039654783985219, guid: 4b6bca1a8c2b2a64eac54ed6f2f9d530, type: 3}
+      propertyPath: _actionButtons.Array.data[3]
+      value: 
+      objectReference: {fileID: 60446918}
+    - target: {fileID: 4816039654783985219, guid: 4b6bca1a8c2b2a64eac54ed6f2f9d530, type: 3}
+      propertyPath: _actionButtons.Array.data[4]
+      value: 
+      objectReference: {fileID: 2014831740}
+    - target: {fileID: 4816039654783985219, guid: 4b6bca1a8c2b2a64eac54ed6f2f9d530, type: 3}
+      propertyPath: _actionButtons.Array.data[5]
+      value: 
+      objectReference: {fileID: 309613356}
+    - target: {fileID: 4816039654783985219, guid: 4b6bca1a8c2b2a64eac54ed6f2f9d530, type: 3}
+      propertyPath: _actionButtons.Array.data[6]
+      value: 
+      objectReference: {fileID: 763663705}
+    - target: {fileID: 4816039654783985219, guid: 4b6bca1a8c2b2a64eac54ed6f2f9d530, type: 3}
+      propertyPath: _actionButtons.Array.data[7]
+      value: 
+      objectReference: {fileID: 1455125267}
+    - target: {fileID: 4816039654783985219, guid: 4b6bca1a8c2b2a64eac54ed6f2f9d530, type: 3}
+      propertyPath: _actionButtons.Array.data[8]
+      value: 
+      objectReference: {fileID: 467918694}
+    - target: {fileID: 4816039654783985219, guid: 4b6bca1a8c2b2a64eac54ed6f2f9d530, type: 3}
+      propertyPath: _actionButtons.Array.data[9]
+      value: 
+      objectReference: {fileID: 384042861}
+    - target: {fileID: 4816039654783985219, guid: 4b6bca1a8c2b2a64eac54ed6f2f9d530, type: 3}
+      propertyPath: _actionButtons.Array.data[10]
+      value: 
+      objectReference: {fileID: 1735190818}
+    - target: {fileID: 4816039654783985219, guid: 4b6bca1a8c2b2a64eac54ed6f2f9d530, type: 3}
+      propertyPath: _actionButtons.Array.data[11]
+      value: 
+      objectReference: {fileID: 1191259335}
+    - target: {fileID: 4816039654783985219, guid: 4b6bca1a8c2b2a64eac54ed6f2f9d530, type: 3}
+      propertyPath: _actionButtons.Array.data[12]
+      value: 
+      objectReference: {fileID: 994880565}
+    - target: {fileID: 4816039654783985219, guid: 4b6bca1a8c2b2a64eac54ed6f2f9d530, type: 3}
+      propertyPath: _actionButtons.Array.data[13]
+      value: 
+      objectReference: {fileID: 1250406149}
+    - target: {fileID: 4816039654783985219, guid: 4b6bca1a8c2b2a64eac54ed6f2f9d530, type: 3}
+      propertyPath: _actionButtons.Array.data[14]
+      value: 
+      objectReference: {fileID: 857338528}
+    - target: {fileID: 4816039654783985219, guid: 4b6bca1a8c2b2a64eac54ed6f2f9d530, type: 3}
+      propertyPath: _actionButtons.Array.data[15]
+      value: 
+      objectReference: {fileID: 104354474}
+    - target: {fileID: 4816039654783985219, guid: 4b6bca1a8c2b2a64eac54ed6f2f9d530, type: 3}
+      propertyPath: _actionButtons.Array.data[16]
+      value: 
+      objectReference: {fileID: 850640349}
+    - target: {fileID: 4816039654783985219, guid: 4b6bca1a8c2b2a64eac54ed6f2f9d530, type: 3}
+      propertyPath: _objectsWithButtons.Array.size
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 4816039654783985219, guid: 4b6bca1a8c2b2a64eac54ed6f2f9d530, type: 3}
+      propertyPath: _objectsWithButtons.Array.data[0]
+      value: 
+      objectReference: {fileID: 1005398069}
+    - target: {fileID: 4816039654783985219, guid: 4b6bca1a8c2b2a64eac54ed6f2f9d530, type: 3}
+      propertyPath: _objectsWithButtons.Array.data[1]
+      value: 
+      objectReference: {fileID: 2129776623}
+    - target: {fileID: 4816039654783985219, guid: 4b6bca1a8c2b2a64eac54ed6f2f9d530, type: 3}
+      propertyPath: _objectsWithButtons.Array.data[2]
+      value: 
+      objectReference: {fileID: 1942035977}
+    - target: {fileID: 4816039654783985219, guid: 4b6bca1a8c2b2a64eac54ed6f2f9d530, type: 3}
+      propertyPath: _objectsWithButtons.Array.data[3]
+      value: 
+      objectReference: {fileID: 639623685}
+    - target: {fileID: 4816039654783985219, guid: 4b6bca1a8c2b2a64eac54ed6f2f9d530, type: 3}
+      propertyPath: _objectsWithButtons.Array.data[4]
+      value: 
+      objectReference: {fileID: 2095901338}
+    - target: {fileID: 4816039654783985219, guid: 4b6bca1a8c2b2a64eac54ed6f2f9d530, type: 3}
+      propertyPath: _objectsWithButtons.Array.data[5]
+      value: 
+      objectReference: {fileID: 1268725087}
+    - target: {fileID: 4816039654783985219, guid: 4b6bca1a8c2b2a64eac54ed6f2f9d530, type: 3}
+      propertyPath: _objectsWithButtons.Array.data[6]
+      value: 
+      objectReference: {fileID: 856744200}
+    - target: {fileID: 4816039654783985219, guid: 4b6bca1a8c2b2a64eac54ed6f2f9d530, type: 3}
+      propertyPath: _objectsWithButtons.Array.data[7]
+      value: 
+      objectReference: {fileID: 1692874199}
+    - target: {fileID: 4816039654783985219, guid: 4b6bca1a8c2b2a64eac54ed6f2f9d530, type: 3}
+      propertyPath: _objectsWithButtons.Array.data[8]
+      value: 
+      objectReference: {fileID: 1310370784}
+    - target: {fileID: 4816039654783985219, guid: 4b6bca1a8c2b2a64eac54ed6f2f9d530, type: 3}
+      propertyPath: _objectsWithButtons.Array.data[9]
+      value: 
+      objectReference: {fileID: 1711744379}
+    - target: {fileID: 4816039654783985219, guid: 4b6bca1a8c2b2a64eac54ed6f2f9d530, type: 3}
+      propertyPath: _objectsWithButtons.Array.data[10]
+      value: 
+      objectReference: {fileID: 653979498}
+    - target: {fileID: 4816039654783985219, guid: 4b6bca1a8c2b2a64eac54ed6f2f9d530, type: 3}
+      propertyPath: _objectsWithButtons.Array.data[11]
+      value: 
+      objectReference: {fileID: 1571813809}
+    - target: {fileID: 4816039654783985219, guid: 4b6bca1a8c2b2a64eac54ed6f2f9d530, type: 3}
+      propertyPath: _objectsWithButtons.Array.data[12]
+      value: 
+      objectReference: {fileID: 9488789}
+    - target: {fileID: 4816039654783985219, guid: 4b6bca1a8c2b2a64eac54ed6f2f9d530, type: 3}
+      propertyPath: _objectsWithButtons.Array.data[13]
+      value: 
+      objectReference: {fileID: 1102849922}
+    - target: {fileID: 4816039654783985219, guid: 4b6bca1a8c2b2a64eac54ed6f2f9d530, type: 3}
+      propertyPath: _objectsWithButtons.Array.data[14]
+      value: 
+      objectReference: {fileID: 770170893}
+    - target: {fileID: 4816039654783985219, guid: 4b6bca1a8c2b2a64eac54ed6f2f9d530, type: 3}
+      propertyPath: _objectsWithButtons.Array.data[15]
+      value: 
+      objectReference: {fileID: 495733062}
+    - target: {fileID: 4816039654783985219, guid: 4b6bca1a8c2b2a64eac54ed6f2f9d530, type: 3}
+      propertyPath: _objectsWithButtons.Array.data[16]
+      value: 
+      objectReference: {fileID: 1301364999}
     - target: {fileID: 4816039654861602621, guid: 4b6bca1a8c2b2a64eac54ed6f2f9d530, type: 3}
       propertyPath: _map
       value: 

@@ -64,4 +64,16 @@ public class CanvasController : MonoBehaviour
     {
         _textToShowInCanvas.text = text;
     }
+    public void DisableActionButtons()
+    {
+        _currentCanvas.DisaleActionButtons();
+    }
+    public void EnableCanvasObjectsColliders(bool value)
+    {
+        _currentCanvas.EnableObjectsColliders(value);
+    }
+    public void EnbaleMeasureActions(bool value)
+    {
+        _currentCanvas.EnableMeasure(value);
+    }
 }

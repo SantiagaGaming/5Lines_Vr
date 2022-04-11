@@ -22,13 +22,16 @@ public class CanvasObject : MonoBehaviour, IClickAble, IHoverAble, ICanvasObject
     [SerializeField] protected TextMesh _textMesh;
     [SerializeField] protected GameObject _portal;
     [SerializeField] private GameObject[] _objectsWithButtons;
+    [SerializeField] private GameObject[] _actionButtons;
 
-    protected CanvasController _cameraSwitch;
+    private bool _canMeaseure = true;
+
+    protected CanvasController canvasController;
 
     private void Start()
     {
-        _cameraSwitch = FindObjectOfType<CanvasController>();
-        EnableObjectsCollidesrs(false);
+        canvasController = FindObjectOfType<CanvasController>();
+        EnableObjectsColliders(false);
     }
 
     public virtual void DisableCanvas()
@@ -41,11 +44,11 @@ public class CanvasObject : MonoBehaviour, IClickAble, IHoverAble, ICanvasObject
         _helpImage.SetActive(false);
         _zoomController.ResetZoomCamera();
         _portal.SetActive(true);
-        EnableObjectsCollidesrs(false);
+        EnableObjectsColliders(false);
     }
     public virtual void OnClicked(InteractHand interactHand)
     {
-        if(_cameraSwitch.CanSwitch)
+        if(canvasController.CanSwitch)
         {
             ShowCanvas();
             _canIterractSign.SetActive(false);
@@ -57,7 +60,7 @@ public class CanvasObject : MonoBehaviour, IClickAble, IHoverAble, ICanvasObject
         _canvas.SetActive(true);
         EnableCanvasEvent?.Invoke(this,_textMesh);
         _portal.SetActive(false);
-        EnableObjectsCollidesrs(true);
+        EnableObjectsColliders(true);
     }
 
     public void OnHoverIn(InteractHand interactHand)
@@ -76,9 +79,20 @@ public class CanvasObject : MonoBehaviour, IClickAble, IHoverAble, ICanvasObject
     {
         return _amperPosition;
     }
-    private void EnableObjectsCollidesrs(bool value)
+    public void DisaleActionButtons()
     {
-        if(_objectsWithButtons !=null)
+        if (_actionButtons != null)
+        {
+            foreach (var item in _actionButtons)
+            {
+                item.SetActive(false);
+            }
+        }
+    }
+
+    public void EnableObjectsColliders(bool value)
+    {
+        if (_objectsWithButtons != null)
         {
             foreach (var item in _objectsWithButtons)
             {
@@ -86,6 +100,16 @@ public class CanvasObject : MonoBehaviour, IClickAble, IHoverAble, ICanvasObject
             }
         }
     }
+
+    public void EnableMeasure(bool value)
+    {
+        _canMeaseure = value;
+    }
+    public bool GetMeasureValue()
+    {
+        return _canMeaseure;
+    }
+
     public bool IsHoverable { get; set; } = true;
 
     public bool IsClickable { get; set; } = true;

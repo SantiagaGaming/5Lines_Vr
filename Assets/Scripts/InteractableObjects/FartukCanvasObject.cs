@@ -16,7 +16,7 @@ public class FartukCanvasObject : CanvasObject
     }
     private void OnCloseFartuk()
     {
-        if (_cameraSwitch.CompareObjects(this))
+        if (canvasController.CompareObjects(this))
             StartCoroutine(RoofRotator(false));
     }
     public override void DisableCanvas()
@@ -47,6 +47,6 @@ public class FartukCanvasObject : CanvasObject
                 yield return new WaitForSeconds(0.001f);
             }
         }
-        _cameraSwitch.CanSwitch = true;
+        canvasController.CanSwitch = true;
     }
 }

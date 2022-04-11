@@ -10,12 +10,20 @@ public class MovebleObject : MonoBehaviour
     [SerializeField] protected GameObject _moveObjButton;
     [SerializeField] protected bool _condition;
     [SerializeField] protected bool _yPoz;
+
+    protected CanvasController canvasController;
+   protected void Start()
+    {
+        canvasController = FindObjectOfType<CanvasController>();
+    }
     public virtual void RepairObject()
     {
         StartCoroutine(Move());
     }
     private IEnumerator Move()
     { int x = 0;
+        canvasController.EnableCanvasObjectsColliders(false);
+        canvasController.EnbaleMeasureActions(false);
         _moveObjButton.SetActive(false);
         _condition = true;
         while (x<=32)
@@ -49,6 +57,8 @@ public class MovebleObject : MonoBehaviour
             yield return new WaitForSeconds(0.02f);
             x--;
         }
+        canvasController.EnableCanvasObjectsColliders(true);
+        canvasController.EnbaleMeasureActions(true);
         _moveObjButton.SetActive(true);
     }
     public bool GetCondition()

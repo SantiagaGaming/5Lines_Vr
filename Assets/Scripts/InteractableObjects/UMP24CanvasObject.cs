@@ -24,16 +24,16 @@ public class UMP24CanvasObject : CanvasObject
     }
     private void OnCloseUMPRoof()
     {
-        if(_cameraSwitch.CompareObjects(this))
+        if(canvasController.CompareObjects(this))
         StartCoroutine(RoofMover(false));
     }
 
     private IEnumerator RoofMover(bool value)
     {
-        if(!_isAmimated && _cameraSwitch.CanSwitch)
+        if(!_isAmimated && canvasController.CanSwitch)
         {
             _roof.SetActive(true);
-            _cameraSwitch.CanSwitch = false;
+            canvasController.CanSwitch = false;
             _isAmimated = true;
             int y = 0;
             while (y < 25)
@@ -45,7 +45,7 @@ public class UMP24CanvasObject : CanvasObject
                 yield return new WaitForSeconds(0.02f);
                 y++;
             }
-            _cameraSwitch.CanSwitch = true;
+            canvasController.CanSwitch = true;
             if (value)
             {
                 base.OnClicked(interactHand);

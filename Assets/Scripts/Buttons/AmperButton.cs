@@ -22,17 +22,26 @@ public class AmperButton : BaseButtton
     }
     public override void OnClicked(InteractHand interactHand)
     {
-        if (!_amper)
+        if(_canvasObject.GetMeasureValue())
         {
-            _amper = true;
-            _measureButtons.SetActive(true);
+            if (!_amper)
+            {
+                _amper = true;
+                _measureButtons.SetActive(true);
+                _canvasObject.EnableObjectsColliders(false);
+            }
+            else
+            {
+                _amper = false;
+                _measureButtons.SetActive(false);
+                ShupController shup = FindObjectOfType<ShupController>();
+                shup.ResetShupPosition();
+                _canvasObject.EnableObjectsColliders(true);
+            }
+            _ampermetr.EnableAmper(_amper, _canvasObject.GetAmperPosition());
+            _canvasObject.DisaleActionButtons();
         }
-        else
-        {
-            _amper = false;
-            _measureButtons.SetActive(false);
-        }
-        _ampermetr.EnableAmper(_amper, _canvasObject.GetAmperPosition());
+
     }
     private void OnDisableMeasureButtons()
     {

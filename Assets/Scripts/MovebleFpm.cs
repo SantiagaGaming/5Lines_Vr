@@ -8,6 +8,7 @@ using UnityEngine.Events;
 public class MovebleFpm : MovebleObject
 {
     [SerializeField] private GameObject _fpmObject;
+
     public override void RepairObject()
     {
         StartCoroutine(Move());
@@ -16,6 +17,8 @@ public class MovebleFpm : MovebleObject
     {
         int x = 0;
         _moveObjButton.SetActive(false);
+        canvasController.EnableCanvasObjectsColliders(false);
+        canvasController.EnbaleMeasureActions(false);
         _condition = true;
         while (x <= 32)
         {
@@ -38,6 +41,8 @@ public class MovebleFpm : MovebleObject
             yield return new WaitForSeconds(0.02f);
             x--;
         }
+        canvasController.EnbaleMeasureActions(true);
+        canvasController.EnableCanvasObjectsColliders(true);
         _moveObjButton.SetActive(true);
     }
 
