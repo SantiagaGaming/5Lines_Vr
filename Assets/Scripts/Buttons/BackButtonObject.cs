@@ -11,5 +11,7 @@ public class BackButtonObject : BaseButtton
     public override void OnClicked(InteractHand interactHand)
     {
         BackButtonClickEvent?.Invoke();
+        CanvasController canvas = FindObjectOfType<CanvasController>();
+        canvas.SetMeasureText(" ");
     }
 }

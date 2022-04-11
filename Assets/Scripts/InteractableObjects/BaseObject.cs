@@ -8,6 +8,7 @@ using UnityEngine.Events;
 
 public class BaseObject : MonoBehaviour, IClickAble, IHoverAble
 {
+    protected CanvasController canvas;
     public bool IsHoverable { get; set; } = true;
     public bool IsClickable { get; set; } = true;
 
@@ -17,6 +18,7 @@ public class BaseObject : MonoBehaviour, IClickAble, IHoverAble
     {
         _objectColor = GetComponent<Renderer>().material.color;
         _hoverColor = new Color(0.05202916f, 0.6003655f, 0.745283f);
+        canvas = FindObjectOfType<CanvasController>();
     }
 
     public virtual void OnClicked(InteractHand interactHand)
@@ -32,6 +34,8 @@ public class BaseObject : MonoBehaviour, IClickAble, IHoverAble
         else if (GetComponentInParent<Renderer>())
             GetComponentInParent<Renderer>().material.color = _hoverColor;
         else return;
+        StartCoroutine(GetObjectName());
+        canvas.SetMeasureText(" ");
 
     }
     public virtual void OnHoverOut(InteractHand interactHand)
@@ -43,5 +47,11 @@ public class BaseObject : MonoBehaviour, IClickAble, IHoverAble
         else if (GetComponentInParent<Renderer>())
             GetComponentInParent<Renderer>().material.color = _objectColor;
         else return;
+      StopCoroutine(GetObjectName());
+    }
+    protected IEnumerator GetObjectName()
+    {
+        yield return new WaitForSeconds(2f);
+        canvas.SetMeasureText(gameObject.name);
     }
 }
