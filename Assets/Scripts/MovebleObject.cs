@@ -8,7 +8,7 @@ using UnityEngine.Events;
 public class MovebleObject : MonoBehaviour
 {
     [SerializeField] protected GameObject _moveObjButton;
-    [SerializeField] protected bool _condition;
+    [SerializeField][HideInInspector] protected bool _condition;
     [SerializeField] protected bool _yPoz;
 
     protected CanvasController canvasController;
