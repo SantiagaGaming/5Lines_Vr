@@ -187,6 +187,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempDoor
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5478e71ce41ef8e43b2e3a018892ef73, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5478e71ce41ef8e43b2e3a018892ef73, type: 3}
 --- !u!4 &543450653094172486 stripped
@@ -249,6 +253,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempDoor
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 88f6770984cbc1c4c8274fbb4564bfe7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 88f6770984cbc1c4c8274fbb4564bfe7, type: 3}
 --- !u!4 &543450652910845263 stripped
@@ -308,12 +316,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: ad15f880122f3994bad87044266d5477, type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: ad15f880122f3994bad87044266d5477, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 561a45892ea31be409294e4d38bb4202, type: 2}
     - target: {fileID: 919132149155446097, guid: ad15f880122f3994bad87044266d5477, type: 3}
       propertyPath: m_Name
       value: walls_outKorid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ad15f880122f3994bad87044266d5477, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad15f880122f3994bad87044266d5477, type: 3}
@@ -376,6 +392,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c10e47a6a42f4194e869cae56b1f729a, type: 3}
       propertyPath: m_Name
       value: korid_out
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c10e47a6a42f4194e869cae56b1f729a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c10e47a6a42f4194e869cae56b1f729a, type: 3}
@@ -470,6 +490,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: corid_dsp
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5478e71ce41ef8e43b2e3a018892ef73, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5478e71ce41ef8e43b2e3a018892ef73, type: 3}
 --- !u!1 &4857670207641979302 stripped
@@ -562,6 +586,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 88f6770984cbc1c4c8274fbb4564bfe7, type: 3}
       propertyPath: m_Name
       value: corid_rele
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 88f6770984cbc1c4c8274fbb4564bfe7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 88f6770984cbc1c4c8274fbb4564bfe7, type: 3}
