@@ -16,11 +16,11 @@ public class BaseButtton : MonoBehaviour, IClickAble, IHoverAble
 
     public void OnHoverIn(InteractHand interactHand)
     {
-        transform.localScale *= 2;
+        transform.localScale *= 1.5f;
     }
     public void OnHoverOut(InteractHand interactHand)
     {
-        transform.localScale /= 2;
+        transform.localScale /= 1.5f;
     }
 
 }
