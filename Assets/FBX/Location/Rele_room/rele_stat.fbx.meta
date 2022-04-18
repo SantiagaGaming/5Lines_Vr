@@ -3,12 +3,87 @@ guid: e692187d548ba874fb031a6b780da698
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #3237
+    second: {fileID: 2100000, guid: c00deeb61b295fb4b8573268936d1043, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #527
+    second: {fileID: 2100000, guid: 84ffa82f2b7e1214890d21e184553731, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #680
+    second: {fileID: 2100000, guid: 8071f324d36d44845a823056d31e1ca9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #682
+    second: {fileID: 2100000, guid: 5679551df97271547b32a65e20bc833d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #693
+    second: {fileID: 2100000, guid: 40568402c349ce6468ef1e2ebbdfe061, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #709
+    second: {fileID: 2100000, guid: b7144a3acaf0402409d89a828dbd99a3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SP
+    second: {fileID: 2100000, guid: 8561a10808f74f142bdfc4ce4900547f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: apsh
+    second: {fileID: 2100000, guid: ad1388eeee69a5c41985c32d0d5c1e88, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fff
+    second: {fileID: 2100000, guid: 026ac406999f55f43bb7c5259650393f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kip_Mesh
+    second: {fileID: 2100000, guid: db73b8b20be31d84f8c9175c992b1113, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kmsh
+    second: {fileID: 2100000, guid: 15c166601221e7242b923fac7d87a1d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: krut
+    second: {fileID: 2100000, guid: 3ba299e07b22f7f44b275506eb58dff0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: numb
+    second: {fileID: 2100000, guid: 350e4fedba1b04a498c9ef4c9c3eeb00, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pmph
+    second: {fileID: 2100000, guid: 26c21b67e99c9a345a24c64cc0c99250, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pumpsh
+    second: {fileID: 2100000, guid: 057f671fb3a323344844264d6fb713e5, type: 2}
   materials:
     materialImportMode: 1
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 2
+    materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
