@@ -98,6 +98,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ograda
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 75a9f15d99731a34687479ec674f9a81, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a9f15d99731a34687479ec674f9a81, type: 3}
 --- !u!4 &4755546737886442443 stripped
@@ -163,6 +167,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 1911632916c06c24b90f8447f9a29205, type: 3}
       propertyPath: m_Name
       value: ograda_03
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1911632916c06c24b90f8447f9a29205, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1911632916c06c24b90f8447f9a29205, type: 3}
@@ -230,6 +238,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: build_vag
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 26555e26f1df3f94eace3174edbd869c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 26555e26f1df3f94eace3174edbd869c, type: 3}
 --- !u!4 &4755546737678279404 stripped
@@ -295,6 +307,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 1589fa948fe6a3641ac2a5e5c7bec4e2, type: 3}
       propertyPath: m_Name
       value: ograda_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1589fa948fe6a3641ac2a5e5c7bec4e2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1589fa948fe6a3641ac2a5e5c7bec4e2, type: 3}
@@ -362,6 +378,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: platform_zabor
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 23addcbf8656a3342ac42c0012b05a45, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 23addcbf8656a3342ac42c0012b05a45, type: 3}
 --- !u!4 &4755546737412081748 stripped
@@ -427,6 +447,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: f978ff3e7aeefbf438eb8c1d0729559b, type: 3}
       propertyPath: m_Name
       value: square
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f978ff3e7aeefbf438eb8c1d0729559b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f978ff3e7aeefbf438eb8c1d0729559b, type: 3}
@@ -494,6 +518,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tablo
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5c3a561048f41144aa0dc806e4797f33, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c3a561048f41144aa0dc806e4797f33, type: 3}
 --- !u!4 &4755546736406117792 stripped
@@ -560,6 +588,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: platform
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d4046eb7ee297034899d4eebe53ed436, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4046eb7ee297034899d4eebe53ed436, type: 3}
 --- !u!4 &4755546736394790053 stripped
@@ -625,6 +657,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 1911632916c06c24b90f8447f9a29205, type: 3}
       propertyPath: m_Name
       value: ograda_03 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1911632916c06c24b90f8447f9a29205, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1911632916c06c24b90f8447f9a29205, type: 3}
