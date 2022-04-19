@@ -3,7 +3,82 @@ guid: 6e48c3d6b4d527342b911447f5761353
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #682
+    second: {fileID: 2100000, guid: 5679551df97271547b32a65e20bc833d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_#706
+    second: {fileID: 2100000, guid: e375ffec2a3cb0144973d70d9886bfbe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Red_box_corner
+    second: {fileID: 2100000, guid: 06dc830f1fb87a54eb4beb460426c346, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: all
+    second: {fileID: 2100000, guid: bd54e2f767d69b54fa53da5965d85a75, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: clock
+    second: {fileID: 2100000, guid: 557e340709a550a48871c3c4e7646637, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: papka_stena
+    second: {fileID: 2100000, guid: 8b1dade50361d2f4cab3b9fe587fa474, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pozarka
+    second: {fileID: 2100000, guid: 908078a6d47e33341a1d761b682643dd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: r_walls
+    second: {fileID: 2100000, guid: 4247595dbc4ccd24dab9d54c16b66399, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shelf_boxes
+    second: {fileID: 2100000, guid: 8aec6fd4003d93540b504ef30afea8a9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stand_gold_paper
+    second: {fileID: 2100000, guid: 62f8c1e135c3fed4aa7c6da41862f256, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: switches
+    second: {fileID: 2100000, guid: b40083a274a85f34494dc8c26ee4710a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tabs
+    second: {fileID: 2100000, guid: 5aeae5900973f6448ad56382b2e8d143, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: venik
+    second: {fileID: 2100000, guid: 5264731c6585eee41b592c24209c6b82, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vent
+    second: {fileID: 2100000, guid: b6dd68a3ea9ffb845bcdb824f528dc32, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wires_top
+    second: {fileID: 2100000, guid: c22e9b16e54d9ab4abad45228cfbec28, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0

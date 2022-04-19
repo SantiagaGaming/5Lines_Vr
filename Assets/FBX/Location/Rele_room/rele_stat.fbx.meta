@@ -38,7 +38,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: SP
-    second: {fileID: 2100000, guid: 8561a10808f74f142bdfc4ce4900547f, type: 2}
+    second: {fileID: 2100000, guid: 2c180ecc7d7964545a96b74907b88f5a, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -53,7 +53,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: kip_Mesh
-    second: {fileID: 2100000, guid: db73b8b20be31d84f8c9175c992b1113, type: 2}
+    second: {fileID: 2100000, guid: 957503a5a0979e748a04172f790e5518, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -63,12 +63,12 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: krut
-    second: {fileID: 2100000, guid: 3ba299e07b22f7f44b275506eb58dff0, type: 2}
+    second: {fileID: 2100000, guid: 36a9d460d12a2ba4dbc18aea36bd4b21, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: numb
-    second: {fileID: 2100000, guid: 350e4fedba1b04a498c9ef4c9c3eeb00, type: 2}
+    second: {fileID: 2100000, guid: 90871e305f46404479b10452c46b2a54, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -83,7 +83,7 @@ ModelImporter:
     materialImportMode: 1
     materialName: 2
     materialSearch: 2
-    materialLocation: 0
+    materialLocation: 1
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -141,7 +141,7 @@ ModelImporter:
     useFileScale: 1
   tangentSpace:
     normalSmoothAngle: 60
-    normalImportMode: 0
+    normalImportMode: 1
     tangentImportMode: 3
     normalCalculationMode: 4
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
