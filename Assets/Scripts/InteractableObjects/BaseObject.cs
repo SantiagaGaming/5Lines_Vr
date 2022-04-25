@@ -16,7 +16,10 @@ public class BaseObject : MonoBehaviour, IClickAble, IHoverAble
     protected Color _hoverColor;
     protected void Start()
     {
+        if(GetComponent<Renderer>())
         _objectColor = GetComponent<Renderer>().material.color;
+        else
+            _objectColor= GetComponentInChildren<Renderer>().material.color;
         _hoverColor = new Color(0.05202916f, 0.6003655f, 0.745283f);
         canvas = FindObjectOfType<CanvasController>();
     }

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MovableObjectWithWires : MovebleObject
+public class MovebleObjectWithWires : MovebleObject
 {
     [SerializeField] private GameObject _wiresOn;
     [SerializeField] private GameObject _wiresOff;
