@@ -6,6 +6,7 @@ public class MovebleObjectWithWires : MovebleObject
 {
     [SerializeField] private GameObject _wiresOn;
     [SerializeField] private GameObject _wiresOff;
+    [SerializeField] private GameObject _contrs;
     public override void RepairObject()
     {
         StartCoroutine(Move());
@@ -29,14 +30,18 @@ public class MovebleObjectWithWires : MovebleObject
         if (GetComponent<MeshRenderer>())
         {
             GetComponent<MeshRenderer>().enabled = false;
+            EnableContrs(false);
             yield return new WaitForSeconds(0.5f);
             GetComponent<MeshRenderer>().enabled = true;
+            EnableContrs(true);
         }
         else
         {
             GetComponentInChildren<MeshRenderer>().enabled = false;
+            EnableContrs(false);
             yield return new WaitForSeconds(0.5f);
             GetComponentInChildren<MeshRenderer>().enabled = true;
+            EnableContrs(true);
         }
 
         while (x > 0)
@@ -51,6 +56,11 @@ public class MovebleObjectWithWires : MovebleObject
         EnableObjectsInCanvas(true);
         _wiresOff.SetActive(false);
         _wiresOn.SetActive(true);
+    }
+    private void EnableContrs(bool value)
+    {
+        if (_contrs != null)
+            _contrs.SetActive(value);
     }
 
 }
