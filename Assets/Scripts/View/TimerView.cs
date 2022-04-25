@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
 
-public class TimerViev : MonoBehaviour
+public class TimerView : MonoBehaviour
 {
     [SerializeField] private Text _timerText;
     public void ShowTimerText(string time)

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class TimerController : MonoBehaviour
 {
-    [SerializeField] private TimerViev _viev;
+    [SerializeField] private TimerView _viev;
     [SerializeField] private Timer _timer;
 
     private void Update()
