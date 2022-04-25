@@ -755,17 +755,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &29025922 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 29025922, guid: ac23b100fa9b0bc41ae1c122aebb68a2, type: 3}
+--- !u!1 &29025921 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7298867593164042242, guid: ac23b100fa9b0bc41ae1c122aebb68a2, type: 3}
   m_PrefabInstance: {fileID: 994540007177695217}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+--- !u!114 &29025922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 29025921}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 034c10c636820594982990a7a28c056a, type: 3}
+  m_Script: {fileID: 11500000, guid: 579e79f1ccbd5194aaac80f19d7a2bcc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _moveObjButton: {fileID: 1257937941}
+  _condition: 0
+  _yPoz: 1
+  _wiresOn: {fileID: 1264035771}
+  _wiresOff: {fileID: 1861049229}
 --- !u!1 &31279952
 GameObject:
   m_ObjectHideFlags: 0
@@ -18564,7 +18575,7 @@ GameObject:
   - component: {fileID: 709528924}
   - component: {fileID: 709528923}
   m_Layer: 5
-  m_Name: TimerViev
+  m_Name: TimerView
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31558,6 +31569,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectStaticGuid: ba16c6a1-596f-4ae4-a0f3-8a7e1eb69cb2
   _padObject: {fileID: 2001104771}
+--- !u!1 &1264035771 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7234647970373694263, guid: ac23b100fa9b0bc41ae1c122aebb68a2, type: 3}
+  m_PrefabInstance: {fileID: 994540007177695217}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1268725087 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4976530650625946668, guid: 4b6bca1a8c2b2a64eac54ed6f2f9d530, type: 3}
@@ -33496,7 +33512,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1397564661}
   m_Layer: 0
-  m_Name: Vievs
+  m_Name: Views
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -43821,6 +43837,11 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4.075459, y: 4.001821, z: 0.12142318}
   m_Center: {x: -0.10397957, y: -0.03704256, z: 0.02630353}
+--- !u!1 &1861049229 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7269971430106373602, guid: ac23b100fa9b0bc41ae1c122aebb68a2, type: 3}
+  m_PrefabInstance: {fileID: 994540007177695217}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1864768198
 GameObject:
   m_ObjectHideFlags: 0
@@ -51307,10 +51328,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 29025922, guid: ac23b100fa9b0bc41ae1c122aebb68a2, type: 3}
-      propertyPath: _moveObjButton
-      value: 
-      objectReference: {fileID: 1257937941}
     - target: {fileID: 29025924, guid: ac23b100fa9b0bc41ae1c122aebb68a2, type: 3}
       propertyPath: _button
       value: 
@@ -51419,6 +51436,10 @@ PrefabInstance:
       propertyPath: _actionButtons.Array.data[1]
       value: 
       objectReference: {fileID: 562312160}
+    - target: {fileID: 7261524988651844226, guid: ac23b100fa9b0bc41ae1c122aebb68a2, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ac23b100fa9b0bc41ae1c122aebb68a2, type: 3}
 --- !u!23 &1117516484886790718

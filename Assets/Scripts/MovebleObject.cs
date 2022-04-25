@@ -22,9 +22,7 @@ public class MovebleObject : MonoBehaviour
     }
     private IEnumerator Move()
     { int x = 0;
-        canvasController.EnableCanvasObjectsColliders(false);
-        canvasController.EnbaleMeasureActions(false);
-        _moveObjButton.SetActive(false);
+        EnableObjectsInCanvas(false);
         _condition = true;
         while (x<=32)
         {
@@ -57,9 +55,13 @@ public class MovebleObject : MonoBehaviour
             yield return new WaitForSeconds(0.02f);
             x--;
         }
-        canvasController.EnableCanvasObjectsColliders(true);
-        canvasController.EnbaleMeasureActions(true);
-        _moveObjButton.SetActive(true);
+        EnableObjectsInCanvas(true);
+    }
+   protected void EnableObjectsInCanvas(bool value)
+    {
+        canvasController.EnableCanvasObjectsColliders(value);
+        canvasController.EnbaleMeasureActions(value);
+        _moveObjButton.SetActive(value);
     }
     public bool GetCondition()
     {
