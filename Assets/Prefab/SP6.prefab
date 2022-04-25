@@ -500,6 +500,7 @@ MonoBehaviour:
   _yPoz: 1
   _wiresOn: {fileID: 7234647970373694263}
   _wiresOff: {fileID: 4405772662489572493}
+  _contrs: {fileID: 0}
 --- !u!114 &54735267273189115
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -676,6 +677,7 @@ MonoBehaviour:
   _yPoz: 1
   _wiresOn: {fileID: 7234647970373694263}
   _wiresOff: {fileID: 5923212862753405038}
+  _contrs: {fileID: 0}
 --- !u!1 &1176114489409339740
 GameObject:
   m_ObjectHideFlags: 0
@@ -2500,6 +2502,7 @@ MonoBehaviour:
   _yPoz: 1
   _wiresOn: {fileID: 7234647970373694263}
   _wiresOff: {fileID: 2142991865576287869}
+  _contrs: {fileID: 0}
 --- !u!65 &1986486128645090924
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2579,6 +2582,7 @@ MonoBehaviour:
   _yPoz: 1
   _wiresOn: {fileID: 7234647970373694263}
   _wiresOff: {fileID: 1986234674197492021}
+  _contrs: {fileID: 0}
 --- !u!114 &935590243832670138
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8689,6 +8693,7 @@ MonoBehaviour:
   _yPoz: 1
   _wiresOn: {fileID: 7234647970373694263}
   _wiresOff: {fileID: 7269971430106373602}
+  _contrs: {fileID: 0}
 --- !u!114 &29025924
 MonoBehaviour:
   m_ObjectHideFlags: 0
