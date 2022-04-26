@@ -14,6 +14,7 @@ public class BaseObject : MonoBehaviour, IClickAble, IHoverAble
 
     protected Color _objectColor;
     protected Color _hoverColor;
+    protected float timer = 2;
     protected void Start()
     {
         if(GetComponent<Renderer>())
@@ -37,9 +38,7 @@ public class BaseObject : MonoBehaviour, IClickAble, IHoverAble
         else if (GetComponentInParent<Renderer>())
             GetComponentInParent<Renderer>().material.color = _hoverColor;
         else return;
-        StartCoroutine(GetObjectName());
-        canvas.SetMeasureText(" ");
-
+        StartCoroutine("GetObjectName");
     }
     public virtual void OnHoverOut(InteractHand interactHand)
     {
@@ -50,11 +49,14 @@ public class BaseObject : MonoBehaviour, IClickAble, IHoverAble
         else if (GetComponentInParent<Renderer>())
             GetComponentInParent<Renderer>().material.color = _objectColor;
         else return;
-      StopCoroutine(GetObjectName());
+        timer = 2;
+        StopCoroutine("GetObjectName");
+        canvas.SetMeasureText("");
     }
     protected IEnumerator GetObjectName()
     {
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(timer);
         canvas.SetMeasureText(gameObject.name);
     }
+
 }
