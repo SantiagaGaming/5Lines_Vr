@@ -26420,7 +26420,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 680161319, guid: bd3d4e0872d0aab4081b136afc06d266, type: 3}
       propertyPath: m_Size.z
-      value: 0.75909543
+      value: 0.61689526
       objectReference: {fileID: 0}
     - target: {fileID: 680161319, guid: bd3d4e0872d0aab4081b136afc06d266, type: 3}
       propertyPath: m_Center.x
@@ -26428,11 +26428,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 680161319, guid: bd3d4e0872d0aab4081b136afc06d266, type: 3}
       propertyPath: m_Center.y
-      value: 1.7173593e-18
+      value: -2.9989307e-17
       objectReference: {fileID: 0}
     - target: {fileID: 680161319, guid: bd3d4e0872d0aab4081b136afc06d266, type: 3}
       propertyPath: m_Center.z
-      value: -0.0007423529
+      value: -0.052933317
       objectReference: {fileID: 0}
     - target: {fileID: 470894973046036442, guid: bd3d4e0872d0aab4081b136afc06d266, type: 3}
       propertyPath: m_StaticEditorFlags
