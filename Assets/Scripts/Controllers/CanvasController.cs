@@ -62,6 +62,7 @@ public class CanvasController : MonoBehaviour
     }
     public void SetMeasureText(string text)
     {
+        if(_textToShowInCanvas!=null)
         _textToShowInCanvas.text = text;
     }
     public void DisableActionButtons()

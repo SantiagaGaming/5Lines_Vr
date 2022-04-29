@@ -20,7 +20,6 @@ public class CanvasObject : MonoBehaviour, IClickAble, IHoverAble, ICanvasObject
     [SerializeField] protected Transform _dietPosition;
     [SerializeField] protected Transform _amperPosition;
     [SerializeField] protected TextMesh _textMesh;
-    [SerializeField] protected GameObject _portal;
     [SerializeField] private GameObject[] _objectsWithButtons;
     [SerializeField] private GameObject[] _actionButtons;
 
@@ -43,7 +42,6 @@ public class CanvasObject : MonoBehaviour, IClickAble, IHoverAble, ICanvasObject
         _map.SetActive(false);
         _helpImage.SetActive(false);
         _zoomController.ResetZoomCamera();
-        _portal.SetActive(true);
         EnableObjectsColliders(false);
     }
     public virtual void OnClicked(InteractHand interactHand)
@@ -59,7 +57,6 @@ public class CanvasObject : MonoBehaviour, IClickAble, IHoverAble, ICanvasObject
     {
         _canvas.SetActive(true);
         EnableCanvasEvent?.Invoke(this,_textMesh);
-        _portal.SetActive(false);
         EnableObjectsColliders(true);
     }
 
