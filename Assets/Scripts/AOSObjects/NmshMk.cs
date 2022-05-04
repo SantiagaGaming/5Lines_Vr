@@ -1,5 +1,5 @@
 using System.Collections;
-using AosSdk.Core.Interfaces;
+using AosSdk.Core.Interaction.Interfaces;
 using AosSdk.Core.Utils;
 using UnityEngine;
 using UnityEngine.Events;

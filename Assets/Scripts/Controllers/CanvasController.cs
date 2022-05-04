@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using AosSdk.Core.Interfaces;
+using AosSdk.Core.Interaction.Interfaces;
 using AosSdk.Core.Player;
 using UnityEngine.Events;
 

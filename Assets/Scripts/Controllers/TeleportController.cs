@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using AosSdk.Core.Player;
-using AosSdk.Core.Interfaces;
+using AosSdk.Core.Interaction.Interfaces;
 public class TeleportController : MonoBehaviour
 {
     [SerializeField] private Door[] _doors;

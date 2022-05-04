@@ -162,7 +162,7 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Teleport Mode Cancel",
+                    "name": "Grab",
                     "type": "Button",
                     "id": "89ce8348-6001-41a3-85b9-f8f2e2dcad7c",
                     "expectedControlType": "Button",
@@ -292,7 +292,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Generic XR Controller",
-                    "action": "Teleport Mode Cancel",
+                    "action": "Grab",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -686,7 +686,7 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Teleport Mode Cancel",
+                    "name": "Grab",
                     "type": "Button",
                     "id": "d587b60c-39a0-4365-8075-477ce484ba0f",
                     "expectedControlType": "Button",
@@ -816,7 +816,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Generic XR Controller",
-                    "action": "Teleport Mode Cancel",
+                    "action": "Grab",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -1136,9 +1136,18 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "MouseClick",
+                    "name": "LeftMouseClick",
                     "type": "Button",
                     "id": "40ac8bf0-33a2-48ad-873b-b3bea8594609",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "RightMouseClick",
+                    "type": "Button",
+                    "id": "901182be-7d54-4cc8-9e57-a95b67c112f2",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -1154,40 +1163,13 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Camera",
-                    "type": "Button",
-                    "id": "ef7d5e57-d431-466e-93b6-d0a01ca6fa17",
-                    "expectedControlType": "Button",
+                    "name": "GrabbedZoom",
+                    "type": "Value",
+                    "id": "e51c176a-11ce-4f51-849a-ccdbc873ca72",
+                    "expectedControlType": "Axis",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": false
-                },
-                {
-                    "name": "Map",
-                    "type": "Button",
-                    "id": "22689e08-1045-4073-92a9-db144095cc1f",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                },
-                {
-                    "name": "Radio",
-                    "type": "Button",
-                    "id": "7b4a996b-1262-4910-afa7-80c877d0e200",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                },
-                {
-                    "name": "Help",
-                    "type": "Button",
-                    "id": "3d243732-930d-4b34-8c70-c4834718b934",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
+                    "initialStateCheck": true
                 }
             ],
             "bindings": [
@@ -1297,7 +1279,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "MouseClick",
+                    "action": "LeftMouseClick",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -1325,45 +1307,23 @@
                 },
                 {
                     "name": "",
-                    "id": "5e29ee88-3854-4a0a-9a01-219506603ebb",
-                    "path": "<Keyboard>/z",
+                    "id": "221bc5be-31fd-4798-a804-c0908eda70f2",
+                    "path": "<Mouse>/rightButton",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Camera",
+                    "action": "RightMouseClick",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
                 {
                     "name": "",
-                    "id": "6062e91d-5cde-4ed5-a3a5-445c6dd7c0fa",
-                    "path": "<Keyboard>/m",
+                    "id": "999e063f-f498-4613-8f12-affbe6702055",
+                    "path": "<Mouse>/scroll/y",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Map",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "f62b82a4-242b-453e-a123-ba07505bf0af",
-                    "path": "<Keyboard>/r",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Radio",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "565e8647-0bc6-4bda-b3bc-26cc5f43e8c8",
-                    "path": "<Keyboard>/h",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Help",
+                    "action": "GrabbedZoom",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

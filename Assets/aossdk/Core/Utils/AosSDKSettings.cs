@@ -1,4 +1,3 @@
-using System.Collections.Generic;
 using UnityEngine;
 
 namespace AosSdk.Core.Utils
@@ -32,14 +31,18 @@ namespace AosSdk.Core.Utils
         
         [Header("Desktop player interaction")]
         [SerializeField] internal float crossHairSizeMultiplier = 1f;
-        [SerializeField] internal float desktopInteractDistance = 0.6f;
-        
+
         [Space]
         
         [Header("VR player")]
         [SerializeField] internal float maxTeleportRadius = 8f;
+
+        [Space]
+        [Header("Interaction")]
         [SerializeField] internal float vrInteractDistance = 0.6f;
-        
+        [SerializeField] internal float desktopInteractDistance = 0.6f;
+        [SerializeField] internal bool hideHandOnGrab = true;
+
         [Space]
         [Header("Common")]
         [SerializeField] internal Color defaultPointerColor = Color.white;

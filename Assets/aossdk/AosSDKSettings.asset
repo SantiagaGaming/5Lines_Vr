@@ -21,9 +21,10 @@ MonoBehaviour:
   mouseLookSpeed: 0.1
   mouseLookXLimit: 80
   crossHairSizeMultiplier: 1
-  desktopInteractDistance: 1.2
   maxTeleportRadius: 8
-  vrInteractDistance: 1.2
+  vrInteractDistance: 1
+  desktopInteractDistance: 1
+  hideHandOnGrab: 1
   defaultPointerColor: {r: 1, g: 1, b: 1, a: 1}
   hoveredPointerColor: {r: 0.052029163, g: 0.60036546, b: 0.745283, a: 255}
   disabledPointerColor: {r: 1, g: 0, b: 0, a: 1}
