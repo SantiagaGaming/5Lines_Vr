@@ -7398,6 +7398,7 @@ GameObject:
   - component: {fileID: 306024971}
   - component: {fileID: 306024975}
   - component: {fileID: 306024974}
+  - component: {fileID: 306024976}
   m_Layer: 0
   m_Name: StoneObject
   m_TagString: Untagged
@@ -7495,6 +7496,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.947403, y: 1.6032865, z: 1.9400965}
   m_Center: {x: -0.013780594, y: 2.8741522e-17, z: 0.030759163}
+--- !u!114 &306024976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 306024970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53e52b04834996147956a3d28457e52c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectStaticGuid: 988b2a62-7c7d-436e-970f-501d5b250aa9
 --- !u!1 &307275712
 GameObject:
   m_ObjectHideFlags: 0
@@ -25407,19 +25421,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1723139796695287830, guid: 2cf5ad3a6a6c2cd49a345546f9fa5af1, type: 3}
   m_PrefabInstance: {fileID: 7401682128444498225}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1024946855
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1024946854}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 53e52b04834996147956a3d28457e52c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objectStaticGuid: 
 --- !u!114 &1027743847 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1027743847, guid: 5b64a7404c205fc46862af1207eab636, type: 3}
@@ -40200,6 +40201,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 47112209eeefe284b8bcdf23c8ac5b74, type: 3}
+--- !u!1 &1734263866 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8497389462844139690, guid: 2cf5ad3a6a6c2cd49a345546f9fa5af1, type: 3}
+  m_PrefabInstance: {fileID: 7401682128444498225}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1734263868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1734263866}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53e52b04834996147956a3d28457e52c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectStaticGuid: 1e6c0be6-4de7-4a3d-9d34-184edcb1379f
 --- !u!1 &1735007027
 GameObject:
   m_ObjectHideFlags: 0
@@ -51259,6 +51278,7 @@ GameObject:
   - component: {fileID: 1711813854475553284}
   - component: {fileID: 919132148470131666}
   - component: {fileID: 919132148470131667}
+  - component: {fileID: 919132148470131668}
   m_Layer: 0
   m_Name: StoneObject
   m_TagString: Untagged
@@ -51293,6 +51313,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.4882038, y: 1.6032865, z: 2.5538318}
   m_Center: {x: 0, y: -0.000000029802322, z: 0}
+--- !u!114 &919132148470131668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132148470131665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53e52b04834996147956a3d28457e52c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectStaticGuid: 035cd77b-2bac-4961-9250-4d5e50732387
 --- !u!1 &932132830632219862
 GameObject:
   m_ObjectHideFlags: 0
