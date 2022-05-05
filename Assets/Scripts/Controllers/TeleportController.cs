@@ -3,8 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using AosSdk.Core.Player;
 using AosSdk.Core.Interaction.Interfaces;
+using UnityEngine.Events;
+
 public class TeleportController : MonoBehaviour
 {
+    public UnityAction<string> TeleportEvent;
     [SerializeField] private Door[] _doors;
     [SerializeField] private CameraFlash _cameraFlash;
 
@@ -15,9 +18,10 @@ public class TeleportController : MonoBehaviour
             Door.TeleportToObjectEvent += OnStartTeleporting;
         }
     }
-    private void OnStartTeleporting(Transform newPlayerPosition)
+    private void OnStartTeleporting(Transform newPlayerPosition, string name)
     {
         Player.Instance.TeleportTo(newPlayerPosition);
         _cameraFlash.CameraFlashStart();
+        TeleportEvent?.Invoke(name);
     }
 }

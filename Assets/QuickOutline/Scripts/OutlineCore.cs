@@ -82,11 +82,11 @@ public class OutlineCore : MonoBehaviour {
 
   void Awake() {
 
-    // Cache renderers
-    renderers = GetComponentsInChildren<Renderer>();
+        // Cache renderers
+        renderers = GetComponentsInChildren<Renderer>();
 
-    // Instantiate outline materials
-    outlineMaskMaterial = Instantiate(Resources.Load<Material>(@"Materials/OutlineMask"));
+        // Instantiate outline materials
+        outlineMaskMaterial = Instantiate(Resources.Load<Material>(@"Materials/OutlineMask"));
     outlineFillMaterial = Instantiate(Resources.Load<Material>(@"Materials/OutlineFill"));
 
     outlineMaskMaterial.name = "OutlineMask (Instance)";
@@ -97,9 +97,10 @@ public class OutlineCore : MonoBehaviour {
 
     // Apply material properties immediately
     needsUpdate = true;
+ 
   }
 
-  void OnEnable() {
+    void OnEnable() {
     foreach (var renderer in renderers) {
 
       // Append outline shaders

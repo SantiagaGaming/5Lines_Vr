@@ -5830,20 +5830,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6003c3d62976dd4887ce862243e7f50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _sp6Roof: {fileID: 612489674}
-  _sp6Privod: {fileID: 303153119}
-  _muftaRoof: {fileID: 1024946858}
-  _muftaPrivod: {fileID: 430386622}
-  _railLeft: {fileID: 149799993}
-  _railRight: {fileID: 351352279}
-  _streetDoor: {fileID: 995031552}
-  _fromKorridorToStreetDoor: {fileID: 334102261}
-  _fromKorridorToReleDoor: {fileID: 1728393752}
-  _fromKorridorToDspDoor: {fileID: 78257205}
-  _fromDspToKorridorDoor: {fileID: 261345563}
-  _dspObject: {fileID: 1043125891}
-  _fromReleToKorridoorDoor: {fileID: 941899082}
-  _releObject: {fileID: 1025525669}
+  _teleportController: {fileID: 1204875824}
+  _sp6Roof: {fileID: 612489672}
+  _sp6Privod: {fileID: 303153115}
+  _muftaRoof: {fileID: 1024946854}
+  _muftaPrivod: {fileID: 430386618}
+  _fartuk: {fileID: 1816308360920304879}
+  _railLeft: {fileID: 149799989}
+  _railRight: {fileID: 351352275}
+  _streetDoor: {fileID: 995031547}
+  _fromKorridorToStreetDoor: {fileID: 334102256}
+  _fromKorridorToReleDoor: {fileID: 1728393747}
+  _fromKorridorToDspDoor: {fileID: 78257200}
+  _fromDspToKorridorDoor: {fileID: 261345558}
+  _dspObject: {fileID: 1043125886}
+  _fromReleToKorridoorDoor: {fileID: 941899077}
+  _releObject: {fileID: 1025525665}
 --- !u!1 &207803836
 GameObject:
   m_ObjectHideFlags: 0
