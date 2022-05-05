@@ -13,7 +13,7 @@ public class OutlineController : MonoBehaviour
     private void Start()
     {  
         _mode = OutlineMode.OutlineAll;
-        _outlineManager.SetOutlineDefaultParameters(255, 0, 255, 3, _mode);
+        _outlineManager.SetOutlineDefaultParameters(255, 255, 0, 3, _mode);
         foreach (var item in _outlineObjectsList)
         {
             _outlineManager.OutlineObjectWithDefaultParameters(item.objectStaticGuid);

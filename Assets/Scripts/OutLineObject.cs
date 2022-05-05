@@ -11,6 +11,7 @@ public class OutLineObject : AosObjectBase
     {
         OutlineController _outlineController = FindObjectOfType<OutlineController>();
         _outlineController.AddOutlineObject(this);
+        print(gameObject.name);
     }
 
 }
