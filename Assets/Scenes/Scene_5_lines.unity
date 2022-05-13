@@ -2489,9 +2489,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04e1b4f6e9351f246a2aaced7723efb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  outlineModeL: 0
-  outlineColor: {r: 0, g: 1, b: 0, a: 1}
-  outlineWidth: 4
+  outlineModeL: 1
+  outlineColor: {r: 0.20091248, g: 1, b: 0, a: 1}
+  outlineWidth: 0
   precomputeOutline: 0
   bakeKeys: []
   bakeValues: []
@@ -4095,6 +4095,10 @@ PrefabInstance:
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1004214696766686427, guid: 790751f78e4c92c4b9694d66bd000358, type: 3}
+      propertyPath: _outLineObjects.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1004214696766686427, guid: 790751f78e4c92c4b9694d66bd000358, type: 3}
       propertyPath: _actionButtons.Array.data[0]
       value: 
       objectReference: {fileID: 1508552786}
@@ -4110,6 +4114,14 @@ PrefabInstance:
       propertyPath: _actionButtons.Array.data[3]
       value: 
       objectReference: {fileID: 116107951}
+    - target: {fileID: 1004214696766686427, guid: 790751f78e4c92c4b9694d66bd000358, type: 3}
+      propertyPath: _outLineObjects.Array.data[0]
+      value: 
+      objectReference: {fileID: 1024946858}
+    - target: {fileID: 1004214696766686427, guid: 790751f78e4c92c4b9694d66bd000358, type: 3}
+      propertyPath: _outLineObjects.Array.data[1]
+      value: 
+      objectReference: {fileID: 430386622}
     - target: {fileID: 1004214696766686427, guid: 790751f78e4c92c4b9694d66bd000358, type: 3}
       propertyPath: _objectsWithButtons.Array.size
       value: 4
@@ -4686,9 +4698,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04e1b4f6e9351f246a2aaced7723efb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  outlineModeL: 0
-  outlineColor: {r: 0, g: 1, b: 0, a: 1}
-  outlineWidth: 4
+  outlineModeL: 1
+  outlineColor: {r: 0.20091248, g: 1, b: 0, a: 1}
+  outlineWidth: 0
   precomputeOutline: 0
   bakeKeys: []
   bakeValues: []
@@ -5787,65 +5799,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d224dabdb85cb7f4c864f3359abad2bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &207285128
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 207285129}
-  - component: {fileID: 207285130}
-  m_Layer: 0
-  m_Name: OutlineController
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &207285129
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 207285128}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 868297410}
-  m_RootOrder: 10
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &207285130
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 207285128}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b6003c3d62976dd4887ce862243e7f50, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _teleportController: {fileID: 1204875824}
-  _sp6Roof: {fileID: 612489672}
-  _sp6Privod: {fileID: 303153115}
-  _muftaRoof: {fileID: 1024946854}
-  _muftaPrivod: {fileID: 430386618}
-  _fartuk: {fileID: 1816308360920304879}
-  _railLeft: {fileID: 149799989}
-  _railRight: {fileID: 351352275}
-  _streetDoor: {fileID: 995031547}
-  _fromKorridorToStreetDoor: {fileID: 334102256}
-  _fromKorridorToReleDoor: {fileID: 1728393747}
-  _fromKorridorToDspDoor: {fileID: 78257200}
-  _fromDspToKorridorDoor: {fileID: 261345558}
-  _dspObject: {fileID: 1043125886}
-  _fromReleToKorridoorDoor: {fileID: 941899077}
-  _releObject: {fileID: 1025525665}
 --- !u!1 &207803836
 GameObject:
   m_ObjectHideFlags: 0
@@ -7042,7 +6995,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlineModeL: 0
   outlineColor: {r: 0, g: 1, b: 0, a: 1}
-  outlineWidth: 4
+  outlineWidth: 0
   precomputeOutline: 0
   bakeKeys: []
   bakeValues: []
@@ -7383,7 +7336,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 291590690106314347, guid: ac23b100fa9b0bc41ae1c122aebb68a2, type: 3}
   m_PrefabInstance: {fileID: 994540007177695217}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &303153119
+--- !u!114 &303153117
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7395,9 +7348,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04e1b4f6e9351f246a2aaced7723efb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  outlineModeL: 0
-  outlineColor: {r: 0, g: 1, b: 0, a: 1}
-  outlineWidth: 4
+  outlineModeL: 1
+  outlineColor: {r: 0.20091248, g: 1, b: 0, a: 1}
+  outlineWidth: 0
   precomputeOutline: 0
   bakeKeys: []
   bakeValues: []
@@ -8339,9 +8292,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04e1b4f6e9351f246a2aaced7723efb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  outlineModeL: 0
-  outlineColor: {r: 0, g: 1, b: 0, a: 1}
-  outlineWidth: 4
+  outlineModeL: 1
+  outlineColor: {r: 0.20091248, g: 1, b: 0, a: 1}
+  outlineWidth: 0
   precomputeOutline: 0
   bakeKeys: []
   bakeValues: []
@@ -8783,9 +8736,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04e1b4f6e9351f246a2aaced7723efb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  outlineModeL: 0
-  outlineColor: {r: 0, g: 1, b: 0, a: 1}
-  outlineWidth: 4
+  outlineModeL: 1
+  outlineColor: {r: 0.20091248, g: 1, b: 0, a: 1}
+  outlineWidth: 0
   precomputeOutline: 0
   bakeKeys: []
   bakeValues: []
@@ -11127,9 +11080,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04e1b4f6e9351f246a2aaced7723efb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  outlineModeL: 0
-  outlineColor: {r: 0, g: 1, b: 0, a: 1}
-  outlineWidth: 4
+  outlineModeL: 1
+  outlineColor: {r: 0.20091248, g: 1, b: 0, a: 1}
+  outlineWidth: 0
   precomputeOutline: 0
   bakeKeys: []
   bakeValues: []
@@ -16123,9 +16076,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04e1b4f6e9351f246a2aaced7723efb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  outlineModeL: 0
-  outlineColor: {r: 0, g: 1, b: 0, a: 1}
-  outlineWidth: 4
+  outlineModeL: 1
+  outlineColor: {r: 0.20091248, g: 1, b: 0, a: 1}
+  outlineWidth: 0
   precomputeOutline: 0
   bakeKeys: []
   bakeValues: []
@@ -22916,7 +22869,6 @@ Transform:
   - {fileID: 182174731}
   - {fileID: 1582504526}
   - {fileID: 523425497}
-  - {fileID: 207285129}
   m_Father: {fileID: 0}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -23474,7 +23426,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlineModeL: 0
   outlineColor: {r: 0, g: 1, b: 0, a: 1}
-  outlineWidth: 4
+  outlineWidth: 0
   precomputeOutline: 0
   bakeKeys: []
   bakeValues: []
@@ -25138,9 +25090,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04e1b4f6e9351f246a2aaced7723efb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  outlineModeL: 0
-  outlineColor: {r: 0, g: 1, b: 0, a: 1}
-  outlineWidth: 4
+  outlineModeL: 1
+  outlineColor: {r: 0.20091248, g: 1, b: 0, a: 1}
+  outlineWidth: 0
   precomputeOutline: 0
   bakeKeys: []
   bakeValues: []
@@ -25638,9 +25590,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04e1b4f6e9351f246a2aaced7723efb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  outlineModeL: 0
-  outlineColor: {r: 0, g: 1, b: 0, a: 1}
-  outlineWidth: 4
+  outlineModeL: 1
+  outlineColor: {r: 0.20091248, g: 1, b: 0, a: 1}
+  outlineWidth: 0
   precomputeOutline: 0
   bakeKeys: []
   bakeValues: []
@@ -25663,7 +25615,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlineModeL: 0
   outlineColor: {r: 0, g: 1, b: 0, a: 1}
-  outlineWidth: 4
+  outlineWidth: 0
   precomputeOutline: 0
   bakeKeys: []
   bakeValues: []
@@ -26036,29 +25988,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 0.015401011}
   m_Center: {x: 0, y: -0.0000029809623, z: -0.001133315}
---- !u!1 &1043125886 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2378023298075853917, guid: 8d7f4f424970bc745abb0088ff43f943, type: 3}
-  m_PrefabInstance: {fileID: 4661883815781056758}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1043125891
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1043125886}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 04e1b4f6e9351f246a2aaced7723efb3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  outlineModeL: 0
-  outlineColor: {r: 0, g: 1, b: 0, a: 1}
-  outlineWidth: 4
-  precomputeOutline: 0
-  bakeKeys: []
-  bakeValues: []
 --- !u!114 &1046049122 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4816039655319298323, guid: 4b6bca1a8c2b2a64eac54ed6f2f9d530, type: 3}
@@ -39950,6 +39879,8 @@ MonoBehaviour:
   _textMesh: {fileID: 108394331}
   _objectsWithButtons: []
   _actionButtons: []
+  _outLineObjects:
+  - {fileID: 1816308360920304883}
   _roof: {fileID: 1816308360920304879}
 --- !u!65 &1717330291
 BoxCollider:
@@ -40429,9 +40360,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04e1b4f6e9351f246a2aaced7723efb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  outlineModeL: 0
-  outlineColor: {r: 0, g: 1, b: 0, a: 1}
-  outlineWidth: 4
+  outlineModeL: 1
+  outlineColor: {r: 0.20091248, g: 1, b: 0, a: 1}
+  outlineWidth: 0
   precomputeOutline: 0
   bakeKeys: []
   bakeValues: []
@@ -43259,6 +43190,9 @@ MonoBehaviour:
   _textMesh: {fileID: 1115798991}
   _objectsWithButtons: []
   _actionButtons: []
+  _outLineObjects:
+  - {fileID: 351352279}
+  - {fileID: 149799993}
 --- !u!4 &1836868989
 Transform:
   m_ObjectHideFlags: 0
@@ -46290,7 +46224,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1655504049650004196, guid: 5b64a7404c205fc46862af1207eab636, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1936284963483533425, guid: 5b64a7404c205fc46862af1207eab636, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -47173,6 +47107,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d224dabdb85cb7f4c864f3359abad2bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1945749061 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2378023298075853917, guid: 8d7f4f424970bc745abb0088ff43f943, type: 3}
+  m_PrefabInstance: {fileID: 4661883815781056758}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1945749066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1945749061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04e1b4f6e9351f246a2aaced7723efb3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineModeL: 1
+  outlineColor: {r: 0.20091248, g: 1, b: 0, a: 1}
+  outlineWidth: 0
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
 --- !u!1 &1947097283
 GameObject:
   m_ObjectHideFlags: 0
@@ -51760,6 +51717,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1535690950}
     - target: {fileID: 2598447178248794336, guid: ac23b100fa9b0bc41ae1c122aebb68a2, type: 3}
+      propertyPath: _outLineObjects.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2598447178248794336, guid: ac23b100fa9b0bc41ae1c122aebb68a2, type: 3}
       propertyPath: _actionButtons.Array.data[0]
       value: 
       objectReference: {fileID: 1257937941}
@@ -51783,6 +51744,14 @@ PrefabInstance:
       propertyPath: _actionButtons.Array.data[5]
       value: 
       objectReference: {fileID: 1682296560}
+    - target: {fileID: 2598447178248794336, guid: ac23b100fa9b0bc41ae1c122aebb68a2, type: 3}
+      propertyPath: _outLineObjects.Array.data[0]
+      value: 
+      objectReference: {fileID: 612489674}
+    - target: {fileID: 2598447178248794336, guid: ac23b100fa9b0bc41ae1c122aebb68a2, type: 3}
+      propertyPath: _outLineObjects.Array.data[1]
+      value: 
+      objectReference: {fileID: 303153117}
     - target: {fileID: 2662749132398794665, guid: ac23b100fa9b0bc41ae1c122aebb68a2, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -52154,9 +52123,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04e1b4f6e9351f246a2aaced7723efb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  outlineModeL: 0
-  outlineColor: {r: 0, g: 1, b: 0, a: 1}
-  outlineWidth: 4
+  outlineModeL: 1
+  outlineColor: {r: 0.20091248, g: 1, b: 0, a: 1}
+  outlineWidth: 0
   precomputeOutline: 0
   bakeKeys: []
   bakeValues: []
@@ -52797,6 +52766,14 @@ PrefabInstance:
       propertyPath: _zoomController
       value: 
       objectReference: {fileID: 1535690950}
+    - target: {fileID: 4661883815308578393, guid: 8d7f4f424970bc745abb0088ff43f943, type: 3}
+      propertyPath: _outLineObjects.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4661883815308578393, guid: 8d7f4f424970bc745abb0088ff43f943, type: 3}
+      propertyPath: _outLineObjects.Array.data[0]
+      value: 
+      objectReference: {fileID: 1945749066}
     - target: {fileID: 4661883815331557956, guid: 8d7f4f424970bc745abb0088ff43f943, type: 3}
       propertyPath: m_Size.z
       value: 1.0917587
@@ -53391,6 +53368,10 @@ PrefabInstance:
       value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 4816039654783985219, guid: 4b6bca1a8c2b2a64eac54ed6f2f9d530, type: 3}
+      propertyPath: _outLineObjects.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4816039654783985219, guid: 4b6bca1a8c2b2a64eac54ed6f2f9d530, type: 3}
       propertyPath: _actionButtons.Array.data[0]
       value: 
       objectReference: {fileID: 838756608}
@@ -53458,6 +53439,10 @@ PrefabInstance:
       propertyPath: _actionButtons.Array.data[16]
       value: 
       objectReference: {fileID: 850640349}
+    - target: {fileID: 4816039654783985219, guid: 4b6bca1a8c2b2a64eac54ed6f2f9d530, type: 3}
+      propertyPath: _outLineObjects.Array.data[0]
+      value: 
+      objectReference: {fileID: 1025525669}
     - target: {fileID: 4816039654783985219, guid: 4b6bca1a8c2b2a64eac54ed6f2f9d530, type: 3}
       propertyPath: _objectsWithButtons.Array.size
       value: 17
@@ -53562,6 +53547,14 @@ PrefabInstance:
       propertyPath: _zoomController
       value: 
       objectReference: {fileID: 1535690950}
+    - target: {fileID: 4816039654861602621, guid: 4b6bca1a8c2b2a64eac54ed6f2f9d530, type: 3}
+      propertyPath: _outLineObjects.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4816039654861602621, guid: 4b6bca1a8c2b2a64eac54ed6f2f9d530, type: 3}
+      propertyPath: _outLineObjects.Array.data[0]
+      value: 
+      objectReference: {fileID: 1025525669}
     - target: {fileID: 4816039655159654756, guid: 4b6bca1a8c2b2a64eac54ed6f2f9d530, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295

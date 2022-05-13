@@ -5,6 +5,7 @@ using AosSdk.Core.Player;
 using AosSdk.Core.Player.Pointer;
 using UnityEngine;
 using UnityEngine.Events;
+using AosSdk.ThirdParty.QuickOutline.Scripts;
 
 public class CanvasObject : MonoBehaviour, IClickAble, IHoverAble, ICanvasObject
 {
@@ -22,6 +23,7 @@ public class CanvasObject : MonoBehaviour, IClickAble, IHoverAble, ICanvasObject
     [SerializeField] protected TextMesh _textMesh;
     [SerializeField] private GameObject[] _objectsWithButtons;
     [SerializeField] private GameObject[] _actionButtons;
+    [SerializeField] private OutlineCore[] _outLineObjects;
 
     private bool _canMeaseure = true;
 
@@ -63,10 +65,27 @@ public class CanvasObject : MonoBehaviour, IClickAble, IHoverAble, ICanvasObject
     public void OnHoverIn(InteractHand interactHand)
     {
         _canIterractSign.SetActive(true);
+        if(_outLineObjects!=null)
+        {
+            foreach (var obj in _outLineObjects)
+            {
+                obj.OutlineWidth = 3;
+            }
+        }
+    
+    
+
     }
     public void OnHoverOut(InteractHand interactHand)
     {
         _canIterractSign.SetActive(false);
+        if (_outLineObjects != null)
+        {
+            foreach (var obj in _outLineObjects)
+            {
+                obj.OutlineWidth = 0;
+            }
+        }
     }
     public Transform GetDietPosition()
     {

@@ -5,10 +5,12 @@ using AosSdk.Core.Player;
 using AosSdk.Core.Player.Pointer;
 using UnityEngine;
 using UnityEngine.Events;
+using AosSdk.ThirdParty.QuickOutline.Scripts;
 
 public class BaseObject : MonoBehaviour, IClickAble, IHoverAble
 {
     protected CanvasController canvas;
+    protected OutlineCore outlineObject;
     public bool IsHoverable { get; set; } = true;
     public bool IsClickable { get; set; } = true;
 
@@ -17,11 +19,7 @@ public class BaseObject : MonoBehaviour, IClickAble, IHoverAble
     protected float timer = 2;
     protected void Start()
     {
-        if(GetComponent<Renderer>())
-        _objectColor = GetComponent<Renderer>().material.color;
-        else
-            _objectColor= GetComponentInChildren<Renderer>().material.color;
-        _hoverColor = new Color(0.05202916f, 0.6003655f, 0.745283f);
+        outlineObject = GetComponent<OutlineCore>();
         canvas = FindObjectOfType<CanvasController>();
     }
 
@@ -31,24 +29,14 @@ public class BaseObject : MonoBehaviour, IClickAble, IHoverAble
     }
     public virtual void OnHoverIn(InteractHand interactHand)
     {
-        if (GetComponent<Renderer>())
-            GetComponent<Renderer>().material.color = _hoverColor;
-        else if (GetComponentInChildren<Renderer>())
-            GetComponentInChildren<Renderer>().material.color = _hoverColor;
-        else if (GetComponentInParent<Renderer>())
-            GetComponentInParent<Renderer>().material.color = _hoverColor;
-        else return;
+        if (outlineObject != null)
+            outlineObject.OutlineWidth = 3;
         StartCoroutine("GetObjectName");
     }
     public virtual void OnHoverOut(InteractHand interactHand)
     {
-        if (GetComponent<Renderer>())
-            GetComponent<Renderer>().material.color = _objectColor;
-        else if (GetComponentInChildren<Renderer>())
-            GetComponentInChildren<Renderer>().material.color = _objectColor;
-        else if (GetComponentInParent<Renderer>())
-            GetComponentInParent<Renderer>().material.color = _objectColor;
-        else return;
+        if (outlineObject != null)
+            outlineObject.OutlineWidth = 0;
         timer = 2;
         StopCoroutine("GetObjectName");
         canvas.SetMeasureText("");
