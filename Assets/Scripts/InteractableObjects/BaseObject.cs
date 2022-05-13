@@ -10,7 +10,7 @@ using AosSdk.ThirdParty.QuickOutline.Scripts;
 public class BaseObject : MonoBehaviour, IClickAble, IHoverAble
 {
     protected CanvasController canvas;
-    protected OutlineCore outlineObject;
+    [SerializeField]protected OutlineCore outlineObject;
     public bool IsHoverable { get; set; } = true;
     public bool IsClickable { get; set; } = true;
 
@@ -19,7 +19,6 @@ public class BaseObject : MonoBehaviour, IClickAble, IHoverAble
     protected float timer = 2;
     protected void Start()
     {
-        outlineObject = GetComponent<OutlineCore>();
         canvas = FindObjectOfType<CanvasController>();
     }
 

@@ -13,6 +13,7 @@ public class LookAtPlayer : MonoBehaviour
     }
     private void Update()
     {
-        transform.LookAt(_playerPos);
+        transform.rotation = _playerPos.rotation;
+        //transform.LookAt(_playerPos);
     }
 }
