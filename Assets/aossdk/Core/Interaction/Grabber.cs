@@ -19,14 +19,13 @@ namespace AosSdk.Core.Interaction
         [SerializeField] private AosSDKSettings sdkSettings;
 
         private GameObject _currentGrabbedGameObject;
-
         private IGrabbable _currentGrabbable;
-
         private Rigidbody _currentGrabbedRigidbody;
-
         private Transform _thisTransform;
-
         private InteractHand _currentInteractHand;
+        private DesktopGrabbedZoomOverrider _currentZoomOverrider;
+        private float _currentMinimumGrabbedZoomLevel;
+        private float _currentMaximumGrabbedZoomLevel;
 
         internal (bool, bool) HandleCurrentGrabbable(InteractHand interactHand, IClickAble clickAble)
         {
@@ -53,9 +52,12 @@ namespace AosSdk.Core.Interaction
                 return (false, true);
             }
 
-            var grabOffset = _thisTransform.localPosition;
-            grabOffset += grabOffset * sharedInput.ZoomValue * 0.1f;
-            _thisTransform.localPosition = grabOffset;
+            if (interactHand == InteractHand.Desktop)
+            {
+                var grabOffset = _thisTransform.localPosition.z;
+                grabOffset += grabOffset * sharedInput.ZoomValue * 0.1f;
+                _thisTransform.localPosition = Vector3.forward * Mathf.Clamp(grabOffset, _currentMinimumGrabbedZoomLevel, _currentMaximumGrabbedZoomLevel);
+            }
 
             if (!sharedInput.IsClicking || _currentGrabbedGameObject == null)
             {
@@ -74,6 +76,8 @@ namespace AosSdk.Core.Interaction
         {
             _currentGrabbedGameObject = gameObjectToGrab;
             var objectToGrabRigidbody = _currentGrabbedGameObject.GetComponent<Rigidbody>();
+
+            _currentZoomOverrider = _currentGrabbedGameObject.GetComponent<DesktopGrabbedZoomOverrider>();
 
             if (!objectToGrabRigidbody)
             {
@@ -94,6 +98,14 @@ namespace AosSdk.Core.Interaction
             _currentGrabbedRigidbody = objectToGrabRigidbody;
 
             _currentInteractHand = interactHand;
+
+            _currentMinimumGrabbedZoomLevel = _currentZoomOverrider ? _currentZoomOverrider.minZoomDistance : sdkSettings.desktopGrabMinZoomDistance;
+            _currentMaximumGrabbedZoomLevel = _currentZoomOverrider ? _currentZoomOverrider.maxZoomDistance : sdkSettings.desktopGrabMaxZoomDistance;
+
+            if (interactHand == InteractHand.Desktop)
+            {
+                _thisTransform.localPosition = Vector3.forward * (_currentMaximumGrabbedZoomLevel - _currentMinimumGrabbedZoomLevel) / 2;
+            }
 
             if (!handRenderer || !sdkSettings.hideHandOnGrab)
             {

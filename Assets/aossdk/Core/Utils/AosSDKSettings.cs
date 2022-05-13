@@ -41,6 +41,9 @@ namespace AosSdk.Core.Utils
         [Header("Interaction")]
         [SerializeField] internal float vrInteractDistance = 0.6f;
         [SerializeField] internal float desktopInteractDistance = 0.6f;
+        [Space] 
+        [SerializeField] internal float desktopGrabMinZoomDistance = 0.2f;
+        [SerializeField] internal float desktopGrabMaxZoomDistance = 2f;
         [SerializeField] internal bool hideHandOnGrab = true;
 
         [Space]
