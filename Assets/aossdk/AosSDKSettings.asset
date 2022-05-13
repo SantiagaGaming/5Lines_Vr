@@ -22,8 +22,8 @@ MonoBehaviour:
   mouseLookXLimit: 80
   crossHairSizeMultiplier: 1
   maxTeleportRadius: 8
-  vrInteractDistance: 1
-  desktopInteractDistance: 1
+  vrInteractDistance: 1.2
+  desktopInteractDistance: 1.2
   desktopGrabMinZoomDistance: 0.5
   desktopGrabMaxZoomDistance: 2
   hideHandOnGrab: 0
