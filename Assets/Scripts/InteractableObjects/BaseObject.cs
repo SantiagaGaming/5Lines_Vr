@@ -10,21 +10,21 @@ using AosSdk.ThirdParty.QuickOutline.Scripts;
 public class BaseObject : MonoBehaviour, IClickAble, IHoverAble
 {
     protected CanvasController canvas;
-    [SerializeField]protected OutlineCore outlineObject;
+    [SerializeField] protected OutlineCore outlineObject;
     public bool IsHoverable { get; set; } = true;
     public bool IsClickable { get; set; } = true;
 
     protected Color _objectColor;
     protected Color _hoverColor;
     protected float timer = 2;
-    protected void Start()
+    protected virtual void Start()
     {
         canvas = FindObjectOfType<CanvasController>();
     }
 
     public virtual void OnClicked(InteractHand interactHand)
     {
-        
+
     }
     public virtual void OnHoverIn(InteractHand interactHand)
     {

@@ -21,17 +21,24 @@ public class CanvasObject : MonoBehaviour, IClickAble, IHoverAble, ICanvasObject
     [SerializeField] protected Transform _dietPosition;
     [SerializeField] protected Transform _amperPosition;
     [SerializeField] protected TextMesh _textMesh;
+    [SerializeField] protected Transform helperPos;
+
+    [SerializeField] protected string helperName;
+    protected float timer = 2;
+
     [SerializeField] private GameObject[] _objectsWithButtons;
     [SerializeField] private GameObject[] _actionButtons;
     [SerializeField] private OutlineCore[] _outLineObjects;
 
     private bool _canMeaseure = true;
+    private CanvasObjectHelperController _canvasHelper;
 
     protected CanvasController canvasController;
 
-    private void Start()
+    protected void Start()
     {
         canvasController = FindObjectOfType<CanvasController>();
+        _canvasHelper = FindObjectOfType<CanvasObjectHelperController>();
         EnableObjectsColliders(false);
     }
 
@@ -48,7 +55,7 @@ public class CanvasObject : MonoBehaviour, IClickAble, IHoverAble, ICanvasObject
     }
     public virtual void OnClicked(InteractHand interactHand)
     {
-        if(canvasController.CanSwitch)
+        if (canvasController.CanSwitch)
         {
             ShowCanvas();
             _canIterractSign.SetActive(false);
@@ -58,27 +65,31 @@ public class CanvasObject : MonoBehaviour, IClickAble, IHoverAble, ICanvasObject
     protected void ShowCanvas()
     {
         _canvas.SetActive(true);
-        EnableCanvasEvent?.Invoke(this,_textMesh);
+        EnableCanvasEvent?.Invoke(this, _textMesh);
         EnableObjectsColliders(true);
     }
 
     public void OnHoverIn(InteractHand interactHand)
     {
         _canIterractSign.SetActive(true);
-        if(_outLineObjects!=null)
+        StartCoroutine("GetHelpName");
+        if (_outLineObjects != null)
         {
             foreach (var obj in _outLineObjects)
             {
                 obj.OutlineWidth = 3;
             }
         }
-    
-    
+
+
 
     }
     public void OnHoverOut(InteractHand interactHand)
     {
         _canIterractSign.SetActive(false);
+        timer = 2;
+        StopCoroutine("GetHelpName");
+        _canvasHelper.HidetextHelper();
         if (_outLineObjects != null)
         {
             foreach (var obj in _outLineObjects)
@@ -125,9 +136,13 @@ public class CanvasObject : MonoBehaviour, IClickAble, IHoverAble, ICanvasObject
     {
         return _canMeaseure;
     }
+   protected IEnumerator GetHelpName()
+    {
+        yield return new WaitForSeconds(timer);
+        _canvasHelper.ShowTextHelper(helperName, helperPos);
+    }
 
     public bool IsHoverable { get; set; } = true;
 
     public bool IsClickable { get; set; } = true;
 }
-
