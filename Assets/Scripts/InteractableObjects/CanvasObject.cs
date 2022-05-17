@@ -52,6 +52,13 @@ public class CanvasObject : MonoBehaviour, IClickAble, IHoverAble, ICanvasObject
         _helpImage.SetActive(false);
         _zoomController.ResetZoomCamera();
         EnableObjectsColliders(false);
+        if (_outLineObjects != null)
+        {
+            foreach (var obj in _outLineObjects)
+            {
+                obj.enabled = true;
+            }
+        }
     }
     public virtual void OnClicked(InteractHand interactHand)
     {
@@ -60,6 +67,13 @@ public class CanvasObject : MonoBehaviour, IClickAble, IHoverAble, ICanvasObject
             ShowCanvas();
             _canIterractSign.SetActive(false);
             gameObject.GetComponent<Collider>().enabled = false;
+            if (_outLineObjects != null)
+            {
+                foreach (var obj in _outLineObjects)
+                {
+                    obj.enabled = false;
+                }
+            }
         }
     }
     protected void ShowCanvas()
@@ -80,10 +94,7 @@ public class CanvasObject : MonoBehaviour, IClickAble, IHoverAble, ICanvasObject
                 obj.OutlineWidth = 3;
             }
         }
-
-
-
-    }
+            }
     public void OnHoverOut(InteractHand interactHand)
     {
         _canIterractSign.SetActive(false);
