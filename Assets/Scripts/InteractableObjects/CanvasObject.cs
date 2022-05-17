@@ -86,7 +86,7 @@ public class CanvasObject : MonoBehaviour, IClickAble, IHoverAble, ICanvasObject
     public void OnHoverIn(InteractHand interactHand)
     {
         _canIterractSign.SetActive(true);
-        StartCoroutine("GetHelpName");
+        _canvasHelper.ShowTextHelper(helperName, helperPos);
         if (_outLineObjects != null)
         {
             foreach (var obj in _outLineObjects)
@@ -99,7 +99,6 @@ public class CanvasObject : MonoBehaviour, IClickAble, IHoverAble, ICanvasObject
     {
         _canIterractSign.SetActive(false);
         timer = 2;
-        StopCoroutine("GetHelpName");
         _canvasHelper.HidetextHelper();
         if (_outLineObjects != null)
         {
@@ -146,11 +145,6 @@ public class CanvasObject : MonoBehaviour, IClickAble, IHoverAble, ICanvasObject
     public bool GetMeasureValue()
     {
         return _canMeaseure;
-    }
-   protected IEnumerator GetHelpName()
-    {
-        yield return new WaitForSeconds(timer);
-        _canvasHelper.ShowTextHelper(helperName, helperPos);
     }
 
     public bool IsHoverable { get; set; } = true;

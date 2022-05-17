@@ -13,22 +13,25 @@ public class Door : BaseObject
     [SerializeField] private Transform _newPlayerPosition;
     [SerializeField] private Transform _helperPos;
     [SerializeField] private string _name;
-    private CanvasObjectHelperController _canvasHelper;
+    private CanvasObjectHelperController _canvasObjectController;
+
     protected override void Start()
     {
         base.Start();
-        _canvasHelper = FindObjectOfType<CanvasObjectHelperController>();
+        _canvasObjectController = FindObjectOfType<CanvasObjectHelperController>();
+
     }
     public override void OnHoverIn(InteractHand interactHand)
     {
         base.OnHoverIn(interactHand);
-        StartCoroutine("GetHelpName");
+        _canvasObjectController.ShowTextHelper(_name, _helperPos);
+
     }
     public override void OnHoverOut(InteractHand interactHand)
     {
         base.OnHoverOut(interactHand);
-        timer = 2;
-        StopCoroutine("GetHelpName");
+        _canvasObjectController.HidetextHelper();
+
     }
     public void StartTeleporting()
     {
@@ -41,10 +44,6 @@ public class Door : BaseObject
     }
 
 
-    private IEnumerator GetHelpName()
-    {
-        yield return new WaitForSeconds(timer);
-        _canvasHelper.ShowTextHelper(_name, _helperPos);
-    }
+
 
 }

@@ -8,15 +8,35 @@ public class CanvasObjectHelperController : MonoBehaviour
     [SerializeField]private TextMeshProUGUI _textMesh;
     [SerializeField] private GameObject _canvasObject;
 
+    private string _name;
+    private Transform _helperPos;
+    private CanvasObjectHelperController _canvasHelper;
+    private float _timer = 2f;
+    private void Start()
+    {
+        _canvasHelper = FindObjectOfType<CanvasObjectHelperController>();
+    }
+
     public void ShowTextHelper(string name, Transform newPos)
     {
-        _canvasObject.SetActive(true);
-        _textMesh.text = name;
-        transform.position = newPos.position;
+        _name = name;
+        _helperPos = newPos;
+        StartCoroutine("GetHelpName");
+   
     }
     public void HidetextHelper()
     {
+        _timer = 2;
+        StopCoroutine("GetHelpName");
         _canvasObject.SetActive(false);
+    }
+
+    private IEnumerator GetHelpName()
+    {
+        yield return new WaitForSeconds(_timer);
+        _canvasObject.SetActive(true);
+        _textMesh.text = _name;
+        transform.position = _helperPos.position;
     }
 
 
