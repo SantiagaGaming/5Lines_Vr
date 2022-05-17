@@ -10,7 +10,10 @@ namespace AosSdk.Examples
     public class GrabbableExample : AosObjectBase, IGrabbable, IClickAble, IHoverAble
     {
         [SerializeField] private Transform _ugrabPos;
+        [SerializeField] private string _name;
+        [SerializeField] private Transform _helperPos;
         private OutlineCore _outlineObject;
+        private CanvasObjectHelperController _canvasObjectController;
         [field: SerializeField] public GrabType GrabType { get; set; }
 
         [field: SerializeField] public Transform GrabAnchor { get; set; }
@@ -22,6 +25,7 @@ namespace AosSdk.Examples
         private void Start()
         {
             _outlineObject = GetComponent<OutlineCore>();
+            _canvasObjectController = FindObjectOfType<CanvasObjectHelperController>();
         }
 
         public void OnGrabbed(InteractHand interactHand)
@@ -48,12 +52,13 @@ namespace AosSdk.Examples
         {
             if (_outlineObject != null)
                 _outlineObject.OutlineWidth = 3;
-
+            _canvasObjectController.ShowTextHelper(_name, _helperPos);
         }
         public virtual void OnHoverOut(InteractHand interactHand)
         {
             if (_outlineObject != null)
                 _outlineObject.OutlineWidth = 0;
+            _canvasObjectController.HidetextHelper();
 
         }
     }
