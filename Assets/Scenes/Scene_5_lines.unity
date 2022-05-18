@@ -35796,7 +35796,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1379299493}
   m_Layer: 0
-  m_Name: GameCanvases
+  m_Name: ObjectsWithCanvases
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -57012,6 +57012,10 @@ PrefabInstance:
     - target: {fileID: 2031953627, guid: 4b6bca1a8c2b2a64eac54ed6f2f9d530, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 2031953628, guid: 4b6bca1a8c2b2a64eac54ed6f2f9d530, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.121
       objectReference: {fileID: 0}
     - target: {fileID: 119398174979715553, guid: 4b6bca1a8c2b2a64eac54ed6f2f9d530, type: 3}
       propertyPath: m_StaticEditorFlags
