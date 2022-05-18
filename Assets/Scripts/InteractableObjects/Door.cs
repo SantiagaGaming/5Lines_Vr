@@ -11,28 +11,7 @@ public class Door : BaseObject
     public UnityAction<Transform, string> TeleportToObjectEvent;
     public UnityAction AosTeleportEvent;
     [SerializeField] private Transform _newPlayerPosition;
-    [SerializeField] private Transform _helperPos;
-    [SerializeField] private string _name;
-    private CanvasObjectHelperController _canvasObjectController;
 
-    protected override void Start()
-    {
-        base.Start();
-        _canvasObjectController = FindObjectOfType<CanvasObjectHelperController>();
-
-    }
-    public override void OnHoverIn(InteractHand interactHand)
-    {
-        base.OnHoverIn(interactHand);
-        _canvasObjectController.ShowTextHelper(_name, _helperPos);
-
-    }
-    public override void OnHoverOut(InteractHand interactHand)
-    {
-        base.OnHoverOut(interactHand);
-        _canvasObjectController.HidetextHelper();
-
-    }
     public void StartTeleporting()
     {
         TeleportToObjectEvent?.Invoke(_newPlayerPosition, gameObject.name);

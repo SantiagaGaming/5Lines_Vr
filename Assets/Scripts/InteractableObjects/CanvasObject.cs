@@ -7,9 +7,10 @@ using UnityEngine;
 using UnityEngine.Events;
 using AosSdk.ThirdParty.QuickOutline.Scripts;
 
-public class CanvasObject : MonoBehaviour, IClickAble, IHoverAble, ICanvasObject
+public class CanvasObject :BaseObject, ICanvasObject
 {
     public UnityAction<ICanvasObject, TextMesh> EnableCanvasEvent;
+
 
     [SerializeField] protected GameObject _canvas;
     [SerializeField] protected GameObject _canIterractSign;
@@ -21,24 +22,18 @@ public class CanvasObject : MonoBehaviour, IClickAble, IHoverAble, ICanvasObject
     [SerializeField] protected Transform _dietPosition;
     [SerializeField] protected Transform _amperPosition;
     [SerializeField] protected TextMesh _textMesh;
-    [SerializeField] protected Transform helperPos;
 
-    [SerializeField] protected string helperName;
-    protected float timer = 2;
 
     [SerializeField] private GameObject[] _objectsWithButtons;
     [SerializeField] private GameObject[] _actionButtons;
     [SerializeField] private OutlineCore[] _outLineObjects;
 
     private bool _canMeaseure = true;
-    private CanvasObjectHelperController _canvasHelper;
 
-    protected CanvasController canvasController;
 
-    protected void Start()
+    override protected void Start()
     {
-        canvasController = FindObjectOfType<CanvasController>();
-        _canvasHelper = FindObjectOfType<CanvasObjectHelperController>();
+        base.Start();
         EnableObjectsColliders(false);
     }
 
@@ -60,7 +55,7 @@ public class CanvasObject : MonoBehaviour, IClickAble, IHoverAble, ICanvasObject
             }
         }
     }
-    public virtual void OnClicked(InteractHand interactHand)
+    public override void OnClicked(InteractHand interactHand)
     {
         if (canvasController.CanSwitch)
         {
@@ -68,12 +63,10 @@ public class CanvasObject : MonoBehaviour, IClickAble, IHoverAble, ICanvasObject
             _canIterractSign.SetActive(false);
             gameObject.GetComponent<Collider>().enabled = false;
             if (_outLineObjects != null)
-            {
                 foreach (var obj in _outLineObjects)
                 {
                     obj.enabled = false;
                 }
-            }
         }
     }
     protected void ShowCanvas()
@@ -83,30 +76,16 @@ public class CanvasObject : MonoBehaviour, IClickAble, IHoverAble, ICanvasObject
         EnableObjectsColliders(true);
     }
 
-    public void OnHoverIn(InteractHand interactHand)
+    public override void OnHoverIn(InteractHand interactHand)
     {
+        base.OnHoverIn(interactHand);
         _canIterractSign.SetActive(true);
-        _canvasHelper.ShowTextHelper(helperName, helperPos);
-        if (_outLineObjects != null)
-        {
-            foreach (var obj in _outLineObjects)
-            {
-                obj.OutlineWidth = 3;
-            }
-        }
-            }
-    public void OnHoverOut(InteractHand interactHand)
+    }
+    public override void OnHoverOut(InteractHand interactHand)
     {
+        base.OnHoverOut(interactHand);
         _canIterractSign.SetActive(false);
-        timer = 2;
-        _canvasHelper.HidetextHelper();
-        if (_outLineObjects != null)
-        {
-            foreach (var obj in _outLineObjects)
-            {
-                obj.OutlineWidth = 0;
-            }
-        }
+
     }
     public Transform GetDietPosition()
     {
@@ -119,23 +98,18 @@ public class CanvasObject : MonoBehaviour, IClickAble, IHoverAble, ICanvasObject
     public void DisaleActionButtons()
     {
         if (_actionButtons != null)
-        {
             foreach (var item in _actionButtons)
             {
                 item.SetActive(false);
             }
-        }
     }
-
     public void EnableObjectsColliders(bool value)
     {
         if (_objectsWithButtons != null)
-        {
             foreach (var item in _objectsWithButtons)
             {
                 item.GetComponent<Collider>().enabled = value;
             }
-        }
     }
 
     public void EnableMeasure(bool value)
@@ -147,7 +121,5 @@ public class CanvasObject : MonoBehaviour, IClickAble, IHoverAble, ICanvasObject
         return _canMeaseure;
     }
 
-    public bool IsHoverable { get; set; } = true;
 
-    public bool IsClickable { get; set; } = true;
 }

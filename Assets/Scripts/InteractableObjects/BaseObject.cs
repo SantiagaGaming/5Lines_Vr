@@ -9,17 +9,20 @@ using AosSdk.ThirdParty.QuickOutline.Scripts;
 
 public class BaseObject : MonoBehaviour, IClickAble, IHoverAble
 {
-    protected CanvasController canvas;
-    [SerializeField] protected OutlineCore outlineObject;
     public bool IsHoverable { get; set; } = true;
     public bool IsClickable { get; set; } = true;
 
-    protected Color _objectColor;
-    protected Color _hoverColor;
-    protected float timer = 2;
+    protected CanvasController canvasController;
+    protected CanvasObjectHelperController canvasHelper;
+
+    [SerializeField] protected OutlineCore[] outlineObjects;
+    [SerializeField] protected Transform helperPos;
+    [SerializeField] protected string helperName;
+   
     protected virtual void Start()
     {
-        canvas = FindObjectOfType<CanvasController>();
+        canvasController = FindObjectOfType<CanvasController>();
+        canvasHelper = FindObjectOfType<CanvasObjectHelperController>();
     }
 
     public virtual void OnClicked(InteractHand interactHand)
@@ -28,22 +31,24 @@ public class BaseObject : MonoBehaviour, IClickAble, IHoverAble
     }
     public virtual void OnHoverIn(InteractHand interactHand)
     {
-        if (outlineObject != null)
-            outlineObject.OutlineWidth = 3;
-        StartCoroutine("GetObjectName");
+        if (helperPos != null)
+            canvasHelper.ShowTextHelper(helperName, helperPos);
+        if (outlineObjects != null)
+            foreach (var obj in outlineObjects)
+            {
+                obj.OutlineWidth = 3;
+            }
+   
+
     }
     public virtual void OnHoverOut(InteractHand interactHand)
     {
-        if (outlineObject != null)
-            outlineObject.OutlineWidth = 0;
-        timer = 2;
-        StopCoroutine("GetObjectName");
-        canvas.SetMeasureText("");
-    }
-    protected IEnumerator GetObjectName()
-    {
-        yield return new WaitForSeconds(timer);
-        canvas.SetMeasureText(gameObject.name);
+        canvasHelper.HidetextHelper();
+        if (outlineObjects != null)
+            foreach (var obj in outlineObjects)
+            {
+                obj.OutlineWidth = 0;
+            }
     }
 
 }
