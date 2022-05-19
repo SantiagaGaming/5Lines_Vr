@@ -11,6 +11,6 @@ public class ZoomButton : BaseButtton
     [SerializeField] private ZoomController _playerInventController;
     public override void OnClicked(InteractHand interactHand)
     {
-        _playerInventController.ZoomCamera();
+       // _playerInventController.ZoomCamera();
     }
 }

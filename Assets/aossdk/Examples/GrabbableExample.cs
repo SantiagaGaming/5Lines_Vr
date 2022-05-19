@@ -12,8 +12,11 @@ namespace AosSdk.Examples
         [SerializeField] private Transform _ugrabPos;
         [SerializeField] private string _name;
         [SerializeField] private Transform _helperPos;
+
         private OutlineCore _outlineObject;
         private CanvasObjectHelperController _canvasObjectController;
+
+        private ZoomController _zoomController;
         [field: SerializeField] public GrabType GrabType { get; set; }
 
         [field: SerializeField] public Transform GrabAnchor { get; set; }
@@ -26,10 +29,12 @@ namespace AosSdk.Examples
         {
             _outlineObject = GetComponent<OutlineCore>();
             _canvasObjectController = FindObjectOfType<CanvasObjectHelperController>();
+            _zoomController = FindObjectOfType<ZoomController>();
         }
 
         public void OnGrabbed(InteractHand interactHand)
         {
+            _zoomController.CanZoom = false;
             GetComponent<Collider>().isTrigger = false;
             GetComponent<Rigidbody>().isKinematic = false;
             if (_outlineObject != null)
@@ -38,6 +43,7 @@ namespace AosSdk.Examples
 
         public void OnUnGrabbed(InteractHand interactHand)
         {
+            _zoomController.CanZoom = true;
             GetComponent<Rigidbody>().isKinematic = true;
             transform.position = _ugrabPos.position;
             transform.rotation = _ugrabPos.rotation;

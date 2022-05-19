@@ -18,7 +18,6 @@ public class CanvasObject :BaseObject, ICanvasObject
     [SerializeField] protected Ampermetr _amper;
     [SerializeField] protected GameObject _map;
     [SerializeField] protected GameObject _helpImage;
-    [SerializeField] protected ZoomController _zoomController;
     [SerializeField] protected Transform _dietPosition;
     [SerializeField] protected Transform _amperPosition;
     [SerializeField] protected TextMesh _textMesh;
@@ -45,7 +44,6 @@ public class CanvasObject :BaseObject, ICanvasObject
         _amper.EnableAmper(false, _amperPosition);
         _map.SetActive(false);
         _helpImage.SetActive(false);
-        _zoomController.ResetZoomCamera();
         EnableObjectsColliders(false);
         if (_outLineObjects != null)
         {

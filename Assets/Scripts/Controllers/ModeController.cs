@@ -6,17 +6,7 @@ public class ModeController : MonoBehaviour
 {
     [SerializeField] private GameObject _desktopPlayer;
     [SerializeField] private GameObject _vrPlayer;
-    [SerializeField] private GameObject []_zoomButtons;
-    private void Start()
-    {
-        if (!_desktopPlayer.activeSelf)
-        {
-            foreach (var item in _zoomButtons)
-            {
-                item.SetActive(false);
-            }
-        }  
-    }
+
     public Transform GetPlayerTransform()
     {
         if (!_desktopPlayer.activeSelf)
