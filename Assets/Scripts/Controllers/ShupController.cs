@@ -21,18 +21,26 @@ public class ShupController : AosObjectBase
     [AosAction(name: "Измерение точки")]
     public string SetShupPosition([AosParameter("Позиция щупа и название точки измерения")]Transform newPos, string text)
     {
-      
+
         if (!_firstMeasure)
         {
             if (_redShup.transform.position != newPos.position && _blackShup.transform.position != newPos.position)
             {
                 _redShup.transform.position = newPos.position;
                 _redShup.transform.rotation = Quaternion.Euler(20, 0, 0);
-                _blackShup.transform.position = Vector3.zero;
                 _firstMeasure = true;
                 measureText = text;
                 SetMeasureTextEvent?.Invoke(measureText);
-                OnShupConnected?.Invoke(measureText);
+                OnShupConnected?.Invoke(measureText + " Измерение красным щупом");
+            }
+            else if (_redShup.transform.position == newPos.position)
+            {
+                _redShup.transform.position = Vector3.zero;
+            }
+            else if (_blackShup.transform.position == newPos.position)
+            {
+                _blackShup.transform.position = Vector3.zero;
+                _firstMeasure = true;
             }
         }
         else if (_firstMeasure)
@@ -44,9 +52,23 @@ public class ShupController : AosObjectBase
                 _firstMeasure = false;
                 measureText += " " + text;
                 SetMeasureTextEvent?.Invoke(measureText);
-                OnShupConnected?.Invoke(measureText);
+                OnShupConnected?.Invoke(measureText + " Измерение черным щупом");
+            }
+
+            else if (_blackShup.transform.position == newPos.position)
+            {
+                _blackShup.transform.position = Vector3.zero;
+            }
+            else if (_redShup.transform.position == newPos.position)
+            {
+                _redShup.transform.position = Vector3.zero;
+                _firstMeasure = false;
             }
         }
+        if (_redShup.transform.position == Vector3.zero && _blackShup.transform.position == Vector3.zero)
+            _firstMeasure = false;
+ 
+
         return measureText;
     }
 
