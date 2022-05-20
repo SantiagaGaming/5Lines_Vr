@@ -18,6 +18,7 @@ public class ObjectWithButton : BaseObject
     }
     public override void OnClicked(InteractHand interactHand)
     {
+        base.OnClicked(interactHand);
         CanvasController canvasController = FindObjectOfType<CanvasController>();
         canvasController.DisableActionButtons();
         _button.SetActive(true);

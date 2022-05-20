@@ -9,6 +9,9 @@ using AosSdk.ThirdParty.QuickOutline.Scripts;
 
 public class BaseObject : MonoBehaviour, IClickAble, IHoverAble
 {
+    public UnityAction<string> OnHoverInEvent;
+    public UnityAction<string> OnHoverOutEvent;
+    public UnityAction<string> OnClickEvent;
     public bool IsHoverable { get; set; } = true;
     public bool IsClickable { get; set; } = true;
 
@@ -27,7 +30,7 @@ public class BaseObject : MonoBehaviour, IClickAble, IHoverAble
 
     public virtual void OnClicked(InteractHand interactHand)
     {
-
+        OnClickEvent?.Invoke(gameObject.name);
     }
     public virtual void OnHoverIn(InteractHand interactHand)
     {
@@ -38,6 +41,7 @@ public class BaseObject : MonoBehaviour, IClickAble, IHoverAble
             {
                 obj.OutlineWidth = 3;
             }
+        OnHoverInEvent?.Invoke(gameObject.name);
    
 
     }
@@ -49,6 +53,7 @@ public class BaseObject : MonoBehaviour, IClickAble, IHoverAble
             {
                 obj.OutlineWidth = 0;
             }
+        OnHoverOutEvent?.Invoke(gameObject.name);
     }
 
 }
