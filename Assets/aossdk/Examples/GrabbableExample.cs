@@ -39,6 +39,7 @@ namespace AosSdk.Examples
             GetComponent<Rigidbody>().isKinematic = false;
             if (_outlineObject != null)
                 _outlineObject.OutlineWidth = 0;
+            _canvasObjectController.HidetextHelper();
         }
 
         public void OnUnGrabbed(InteractHand interactHand)

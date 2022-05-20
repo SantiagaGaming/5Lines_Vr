@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class LookAtPlayer : MonoBehaviour
 {
+    [SerializeField] private bool _rot;
     private ModeController _modeController;
     private Transform _playerPos;
     private void Start()
@@ -13,7 +14,11 @@ public class LookAtPlayer : MonoBehaviour
     }
     private void Update()
     {
-        transform.rotation = _playerPos.rotation;
+        //
         //transform.LookAt(_playerPos);
+        if(!_rot)
+        transform.rotation = Quaternion.LookRotation(transform.position - _playerPos.position);
+        else
+            transform.rotation = _playerPos.rotation;
     }
 }

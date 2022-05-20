@@ -6,6 +6,7 @@ using UnityEngine;
 public class ObjectWithButton : BaseObject
 {
     [SerializeField] private GameObject _button;
+    [SerializeField] private GameObject _watchButton;
     [SerializeField] private BackButtonObject _backButton;
 
     private void OnEnable()
@@ -22,10 +23,14 @@ public class ObjectWithButton : BaseObject
         CanvasController canvasController = FindObjectOfType<CanvasController>();
         canvasController.DisableActionButtons();
         _button.SetActive(true);
+        if (_watchButton != null)
+            _watchButton.SetActive(true);
     }
     private void OnHideButton()
     {
         _button.SetActive(false);
+        if(_watchButton!=null)
+        _watchButton.SetActive(false);
     }
 
 }

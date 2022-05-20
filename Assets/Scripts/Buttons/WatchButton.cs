@@ -13,7 +13,7 @@ public class WatchButton : BaseButtton
     /// <param name="interactHand"></param>
     public override void OnClicked(InteractHand interactHand)
     {
-        print("исправно");
+        print("Осмотрено");
     }
 
 }
