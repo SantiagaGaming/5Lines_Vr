@@ -498,7 +498,7 @@ MonoBehaviour:
   outlineObjects:
   - {fileID: 9488795}
   helperPos: {fileID: 17761032}
-  helperName: "\u0418\u0437\u0433\u0438\u0431"
+  helperName: "\u0414\u0443\u0436\u043A\u0430 \u041B5"
   _button: {fileID: 104354474}
   _watchButton: {fileID: 0}
   _backButton: {fileID: 201702209}
@@ -3592,7 +3592,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d224dabdb85cb7f4c864f3359abad2bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _rot: 0
+  _rot: 1
 --- !u!4 &101038499
 Transform:
   m_ObjectHideFlags: 0
@@ -13504,7 +13504,7 @@ MonoBehaviour:
   outlineObjects:
   - {fileID: 495733068}
   helperPos: {fileID: 17761032}
-  helperName: "\u0418\u0437\u0433\u0438\u0431"
+  helperName: "\u0414\u0443\u0436\u043A\u0430 \u041B2"
   _button: {fileID: 994880565}
   _watchButton: {fileID: 0}
   _backButton: {fileID: 201702209}
@@ -17579,7 +17579,7 @@ MonoBehaviour:
   outlineObjects:
   - {fileID: 639623691}
   helperPos: {fileID: 510204293}
-  helperName: "\u041D\u041C\u0428 \u041C\u041A"
+  helperName: "\u0420\u0435\u043B\u0435 \u041C\u041A"
   _button: {fileID: 1864768198}
   _watchButton: {fileID: 0}
   _backButton: {fileID: 201702209}
@@ -18003,7 +18003,9 @@ MonoBehaviour:
   outlineObjects:
   - {fileID: 653979504}
   helperPos: {fileID: 35074198}
-  helperName: "\u0424\u0443\u0437"
+  helperName: "\u041F\u0440\u0435\u0434\u043E\u0445\u0440\u0430\u043D\u0438\u0442\u0435\u043B\u044C
+    \u0440\u0430\u0431\u043E\u0447\u0435\u0439 \u0446\u0435\u043F\u0438 \u0424\u0430\u0437\u0430
+    \u0421"
   _button: {fileID: 467918694}
   _watchButton: {fileID: 0}
   _backButton: {fileID: 201702209}
@@ -21181,7 +21183,7 @@ MonoBehaviour:
   outlineObjects:
   - {fileID: 770170899}
   helperPos: {fileID: 17761032}
-  helperName: "\u0418\u0437\u0433\u0438\u0431"
+  helperName: "\u0414\u0443\u0436\u043A\u0430 \u041B3"
   _button: {fileID: 1250406149}
   _watchButton: {fileID: 0}
   _backButton: {fileID: 201702209}
@@ -23613,7 +23615,7 @@ MonoBehaviour:
   outlineObjects:
   - {fileID: 856744206}
   helperPos: {fileID: 1740862439}
-  helperName: "\u0410\u041F\u0428"
+  helperName: "\u0420\u0435\u043B\u0435 \u041D\u041F\u0421"
   _button: {fileID: 2014831740}
   _watchButton: {fileID: 0}
   _backButton: {fileID: 201702209}
@@ -26529,7 +26531,7 @@ MonoBehaviour:
   outlineObjects:
   - {fileID: 1005398075}
   helperPos: {fileID: 1727165169}
-  helperName: C 18
+  helperName: "\u0411\u043B\u043E\u043A \u0421"
   _button: {fileID: 1191259335}
   _watchButton: {fileID: 0}
   _backButton: {fileID: 201702209}
@@ -29547,7 +29549,7 @@ MonoBehaviour:
   outlineObjects:
   - {fileID: 1102849928}
   helperPos: {fileID: 17761032}
-  helperName: "\u0418\u0437\u0433\u0438\u0431"
+  helperName: "\u0414\u0443\u0436\u043A\u0430 \u041B4"
   _button: {fileID: 857338528}
   _watchButton: {fileID: 0}
   _backButton: {fileID: 201702209}
@@ -33727,7 +33729,7 @@ MonoBehaviour:
   - {fileID: 1268725093}
   - {fileID: 1826862677}
   helperPos: {fileID: 206933151}
-  helperName: "\u041F\u041C\u041F\u0428"
+  helperName: "\u0420\u0435\u043B\u0435 \u041F\u041F\u0421"
   _button: {fileID: 60446918}
   _watchButton: {fileID: 0}
   _backButton: {fileID: 201702209}
@@ -34183,7 +34185,7 @@ MonoBehaviour:
   outlineObjects:
   - {fileID: 1301365005}
   helperPos: {fileID: 17761032}
-  helperName: "\u0418\u0437\u0433\u0438\u0431"
+  helperName: "\u0414\u0443\u0436\u043A\u0430 \u041B1"
   _button: {fileID: 850640349}
   _watchButton: {fileID: 0}
   _backButton: {fileID: 201702209}
@@ -34225,7 +34227,9 @@ MonoBehaviour:
   outlineObjects:
   - {fileID: 1310370790}
   helperPos: {fileID: 2087312415}
-  helperName: "\u0424\u0443\u0437"
+  helperName: "\u041F\u0440\u0435\u0434\u043E\u0445\u0440\u0430\u043D\u0438\u0442\u0435\u043B\u044C
+    \u0440\u0430\u0431\u043E\u0447\u0435\u0439 \u0446\u0435\u043F\u0438 \u0424\u0430\u0437\u0430
+    \u0410"
   _button: {fileID: 763663705}
   _watchButton: {fileID: 0}
   _backButton: {fileID: 201702209}
@@ -39725,7 +39729,7 @@ MonoBehaviour:
   outlineObjects:
   - {fileID: 1571813815}
   helperPos: {fileID: 756178135}
-  helperName: "\u0424\u041F\u041C"
+  helperName: "\u0411\u043B\u043E\u043A \u0424\u041F\u041C"
   _button: {fileID: 384042861}
   _watchButton: {fileID: 0}
   _backButton: {fileID: 201702209}
@@ -42543,7 +42547,7 @@ MonoBehaviour:
   outlineObjects:
   - {fileID: 1692874205}
   helperPos: {fileID: 1909577990}
-  helperName: "\u041D\u041C\u0428 \u0411\u0424\u041A"
+  helperName: "\u0420\u0435\u043B\u0435 \u0411\u0424\u041A"
   _button: {fileID: 309613356}
   _watchButton: {fileID: 0}
   _backButton: {fileID: 201702209}
@@ -43044,7 +43048,9 @@ MonoBehaviour:
   outlineObjects:
   - {fileID: 1711744385}
   helperPos: {fileID: 1552782548}
-  helperName: "\u0424\u0443\u0437"
+  helperName: "\u041F\u0440\u0435\u0434\u043E\u0445\u0440\u0430\u043D\u0438\u0442\u0435\u043B\u044C
+    \u0440\u0430\u0431\u043E\u0447\u0435\u0439 \u0446\u0435\u043F\u0438 \u0424\u0430\u0437\u0430
+    \u0412"
   _button: {fileID: 1455125267}
   _watchButton: {fileID: 0}
   _backButton: {fileID: 201702209}
@@ -50667,7 +50673,7 @@ MonoBehaviour:
   outlineObjects:
   - {fileID: 1942035983}
   helperPos: {fileID: 1998133759}
-  helperName: "\u041D\u041C\u0428 \u041F\u041A"
+  helperName: "\u0420\u0435\u043B\u0435 \u041F\u041A"
   _button: {fileID: 838756608}
   _watchButton: {fileID: 0}
   _backButton: {fileID: 201702209}
@@ -54074,7 +54080,7 @@ MonoBehaviour:
   outlineObjects:
   - {fileID: 2095901344}
   helperPos: {fileID: 1538991130}
-  helperName: "\u041A\u041C\u0428"
+  helperName: "\u0420\u0435\u043B\u0435 \u041E\u041A"
   _button: {fileID: 837182904}
   _watchButton: {fileID: 0}
   _backButton: {fileID: 201702209}
@@ -55009,7 +55015,7 @@ MonoBehaviour:
   outlineObjects:
   - {fileID: 2129776629}
   helperPos: {fileID: 804793345}
-  helperName: CP 18
+  helperName: "\u0411\u043B\u043E\u043A \u0421\u041F"
   _button: {fileID: 1735190818}
   _watchButton: {fileID: 0}
   _backButton: {fileID: 201702209}
