@@ -11590,7 +11590,8 @@ MonoBehaviour:
   outlineObjects:
   - {fileID: 424926351}
   helperPos: {fileID: 325654175}
-  helperName: "\u041F\u0430\u0434 \u0421"
+  helperName: "\u041A\u043B\u0435\u043C\u043C\u043D\u0430\u044F \u043A\u043E\u043B\u043E\u0434\u043A\u0430
+    \u0421"
   _button: {fileID: 397378281}
   _watchButton: {fileID: 1857747191}
   _backButton: {fileID: 1024945307}
@@ -35953,7 +35954,8 @@ MonoBehaviour:
   outlineObjects:
   - {fileID: 1393927622}
   helperPos: {fileID: 159474503}
-  helperName: "\u041F\u0430\u0434 \u0410"
+  helperName: "\u041A\u043B\u0435\u043C\u043C\u043D\u0430\u044F \u043A\u043E\u043B\u043E\u0434\u043A\u0430
+    \u0410"
   _button: {fileID: 1508552786}
   _watchButton: {fileID: 1663223954}
   _backButton: {fileID: 1024945307}
@@ -36828,7 +36830,8 @@ MonoBehaviour:
   outlineObjects:
   - {fileID: 1428119648}
   helperPos: {fileID: 915590154}
-  helperName: "\u041F\u0430\u0434 \u0411"
+  helperName: "\u041A\u043B\u0435\u043C\u043C\u043D\u0430\u044F \u043A\u043E\u043B\u043E\u0434\u043A\u0430
+    \u0412"
   _button: {fileID: 1840675752}
   _watchButton: {fileID: 2033766489}
   _backButton: {fileID: 1024945307}
