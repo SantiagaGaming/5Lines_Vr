@@ -39,6 +39,7 @@ public class BaseObject : MonoBehaviour, IClickAble, IHoverAble
         if (outlineObjects != null)
             foreach (var obj in outlineObjects)
             {
+                obj.enabled = true;
                 obj.OutlineWidth = 3;
             }
         OnHoverInEvent?.Invoke(gameObject.name);
@@ -51,6 +52,7 @@ public class BaseObject : MonoBehaviour, IClickAble, IHoverAble
         if (outlineObjects != null)
             foreach (var obj in outlineObjects)
             {
+                obj.enabled = false;
                 obj.OutlineWidth = 0;
             }
         OnHoverOutEvent?.Invoke(gameObject.name);
