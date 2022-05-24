@@ -3,7 +3,12 @@ guid: bec05123453178346a248e90193d0743
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: apsh_24
+    second: {fileID: 2100000, guid: 4123b9a2372f15248af92a70c4e1f0f6, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
