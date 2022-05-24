@@ -22,14 +22,16 @@ public class ObjectWithButton : BaseObject
         base.OnClicked(interactHand);
         CanvasController canvasController = FindObjectOfType<CanvasController>();
         canvasController.DisableActionButtons();
-        _button.SetActive(true);
+        if (_button != null)
+            _button.SetActive(true);
         if (_watchButton != null)
             _watchButton.SetActive(true);
     }
     private void OnHideButton()
     {
+        if (_button != null)
         _button.SetActive(false);
-        if(_watchButton!=null)
+        if (_watchButton != null)
         _watchButton.SetActive(false);
     }
 
