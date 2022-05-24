@@ -25,7 +25,6 @@ public class CanvasObject :BaseObject, ICanvasObject
 
     [SerializeField] private GameObject[] _objectsWithButtons;
     [SerializeField] private GameObject[] _actionButtons;
-    [SerializeField] private OutlineCore[] _outLineObjects;
 
     private bool _canMeaseure = true;
 
@@ -45,9 +44,9 @@ public class CanvasObject :BaseObject, ICanvasObject
         _map.SetActive(false);
         _helpImage.SetActive(false);
         EnableObjectsColliders(false);
-        if (_outLineObjects != null)
+        if (outlineObjects != null)
         {
-            foreach (var obj in _outLineObjects)
+            foreach (var obj in outlineObjects)
             {
                 obj.enabled = true;
             }
@@ -60,8 +59,8 @@ public class CanvasObject :BaseObject, ICanvasObject
             ShowCanvas();
             _canIterractSign.SetActive(false);
             gameObject.GetComponent<Collider>().enabled = false;
-            if (_outLineObjects != null)
-                foreach (var obj in _outLineObjects)
+            if (outlineObjects != null)
+                foreach (var obj in outlineObjects)
                 {
                     obj.enabled = false;
                 }
