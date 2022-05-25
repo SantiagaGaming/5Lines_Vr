@@ -10,6 +10,10 @@ public class RadioButton : BaseButtton
     [SerializeField] private Diet _diet;
     [SerializeField] private CanvasObject _canvasObject;
     private bool _radio = false;
+    protected override void Start()
+    {
+        base.Start();
+    }
     public override void OnClicked(InteractHand interactHand)
     {
      if(!_radio) _radio = true;

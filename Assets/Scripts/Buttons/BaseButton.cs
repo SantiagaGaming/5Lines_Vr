@@ -5,21 +5,22 @@ using AosSdk.Core.Player;
 using AosSdk.Core.Player.Pointer;
 using UnityEngine;
 using UnityEngine.Events;
-public class BaseButtton : MonoBehaviour, IClickAble, IHoverAble
+public class BaseButtton : BaseObject
 {
-    public bool IsClickable { get; set; } = true;
-    public bool IsHoverable { get; set; } = true;
-    public virtual void OnClicked(InteractHand interactHand)
+
+    public override void OnClicked(InteractHand interactHand)
     {
 
     }
 
-    public void OnHoverIn(InteractHand interactHand)
+    public override void OnHoverIn(InteractHand interactHand)
     {
+        base.OnHoverIn(interactHand);
         transform.localScale *= 1.5f;
     }
-    public void OnHoverOut(InteractHand interactHand)
+    public override void OnHoverOut(InteractHand interactHand)
     {
+        base.OnHoverOut(interactHand);
         transform.localScale /= 1.5f;
     }
 

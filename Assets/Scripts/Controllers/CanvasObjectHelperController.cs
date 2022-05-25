@@ -10,7 +10,7 @@ public class CanvasObjectHelperController : MonoBehaviour
 
     private string _name;
     private Transform _helperPos;
-    private float _timer = 2f;
+    private float _timer = 0.3f;
 
     public void ShowTextHelper(string name, Transform newPos)
     {
