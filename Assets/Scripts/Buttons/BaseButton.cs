@@ -23,5 +23,9 @@ public class BaseButtton : BaseObject
         base.OnHoverOut(interactHand);
         transform.localScale /= 1.5f;
     }
+    public void DisableButton()
+    {
+        gameObject.SetActive(false);
+    }
 
 }

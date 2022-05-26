@@ -24,7 +24,6 @@ public class CanvasObject :BaseObject, ICanvasObject
 
 
     [SerializeField] private GameObject[] _objectsWithButtons;
-    [SerializeField] private GameObject[] _actionButtons;
 
     private bool _canMeaseure = true;
 
@@ -94,11 +93,7 @@ public class CanvasObject :BaseObject, ICanvasObject
     }
     public void DisaleActionButtons()
     {
-        if (_actionButtons != null)
-            foreach (var item in _actionButtons)
-            {
-                item.SetActive(false);
-            }
+
     }
     public void EnableObjectsColliders(bool value)
     {

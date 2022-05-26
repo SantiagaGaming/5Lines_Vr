@@ -6,8 +6,9 @@ using UnityEngine;
 public class ObjectWithButton : BaseObject
 {
     [SerializeField] private GameObject _button;
-    [SerializeField] private GameObject _watchButton;
+    [SerializeField] private GameObject _2button;
     [SerializeField] private BackButtonObject _backButton;
+    private ButtonsController _buttonsController;
 
     private void OnEnable()
     {
@@ -20,19 +21,19 @@ public class ObjectWithButton : BaseObject
     public override void OnClicked(InteractHand interactHand)
     {
         base.OnClicked(interactHand);
-        CanvasController canvasController = FindObjectOfType<CanvasController>();
-        canvasController.DisableActionButtons();
+        _buttonsController = FindObjectOfType<ButtonsController>();
+        _buttonsController.DisableButtons();
         if (_button != null)
             _button.SetActive(true);
-        if (_watchButton != null)
-            _watchButton.SetActive(true);
+        if (_2button != null)
+            _2button.SetActive(true);
     }
     private void OnHideButton()
     {
         if (_button != null)
         _button.SetActive(false);
-        if (_watchButton != null)
-        _watchButton.SetActive(false);
+        if (_2button != null)
+        _2button.SetActive(false);
     }
 
 }
