@@ -7,19 +7,11 @@ using UnityEngine;
 using UnityEngine.Events;
 public class WatchButton : BaseButtton
 {
-    private ButtonsController _buttonController;
     /// <summary>
     /// TODO состояние объекта.
     /// </summary>
     /// <param name="interactHand"></param>
     /// 
-    protected override void Start()
-    {
-        base.Start();
-        _buttonController = FindObjectOfType<ButtonsController>();
-        _buttonController.Buttons.Add(this);
-        Debug.Log(_buttonController.Buttons.Count);
-    }
     public override void OnClicked(InteractHand interactHand)
     {
         print("Осмотрено");

@@ -7,7 +7,6 @@ using UnityEngine;
 using UnityEngine.Events;
 public class BaseButtton : BaseObject
 {
-
     public override void OnClicked(InteractHand interactHand)
     {
 
@@ -17,6 +16,7 @@ public class BaseButtton : BaseObject
     {
         base.OnHoverIn(interactHand);
         transform.localScale *= 1.5f;
+
     }
     public override void OnHoverOut(InteractHand interactHand)
     {

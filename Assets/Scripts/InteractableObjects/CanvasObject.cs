@@ -25,6 +25,7 @@ public class CanvasObject :BaseObject, ICanvasObject
 
     [SerializeField] private GameObject[] _objectsWithButtons;
 
+
     private bool _canMeaseure = true;
 
 
@@ -43,6 +44,7 @@ public class CanvasObject :BaseObject, ICanvasObject
         _map.SetActive(false);
         _helpImage.SetActive(false);
         EnableObjectsColliders(false);
+        DisaleActionButtons();
         if (outlineObjects != null)
         {
             foreach (var obj in outlineObjects)
@@ -50,6 +52,7 @@ public class CanvasObject :BaseObject, ICanvasObject
                 obj.enabled = true;
             }
         }
+
     }
     public override void OnClicked(InteractHand interactHand)
     {
@@ -93,6 +96,7 @@ public class CanvasObject :BaseObject, ICanvasObject
     }
     public void DisaleActionButtons()
     {
+   
 
     }
     public void EnableObjectsColliders(bool value)

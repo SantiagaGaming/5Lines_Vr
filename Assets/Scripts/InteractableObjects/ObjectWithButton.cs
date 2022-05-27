@@ -7,14 +7,10 @@ public class ObjectWithButton : BaseObject
 {
     [SerializeField] private GameObject[] _buttons;
 
-    private ButtonsController _buttonsController;
-
-
     public override void OnClicked(InteractHand interactHand)
     {
         base.OnClicked(interactHand);
-        _buttonsController = FindObjectOfType<ButtonsController>();
-        _buttonsController.OnDisableButtons();
+        ButtonsContainer.Instance.HideButtons();
         if (_buttons !=null)
         {
             foreach (var button in _buttons)
@@ -22,16 +18,6 @@ public class ObjectWithButton : BaseObject
                 button.SetActive(true);
             }
         }  
-    }
-    private void OnHideButton()
-    {
-        if (_buttons != null)
-        {
-            foreach (var button in _buttons)
-            {
-                button.SetActive(false);
-            }
-        }
     }
 
 }

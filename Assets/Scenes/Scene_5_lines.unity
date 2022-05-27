@@ -277,6 +277,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ea211b6ba2e37d46934d24f50f7d03d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 1
   outlineObjects: []
   helperPos: {fileID: 301485151}
   helperName: "\u0420\u0435\u0433\u0443\u043B\u0438\u0440\u043E\u0432\u043A\u0430
@@ -423,6 +424,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -573,6 +575,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -643,6 +646,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ea211b6ba2e37d46934d24f50f7d03d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 1
   outlineObjects: []
   helperPos: {fileID: 953236514}
   helperName: "\u041F\u0440\u043E\u0432\u0435\u0440\u0438\u0442\u044C \u043A\u043E\u043D\u0442\u0440\u043E\u043B\u044C\u043D\u0443\u044E
@@ -810,6 +814,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e25f840a117090f45b10752e8586c47a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 1
   outlineObjects: []
   helperPos: {fileID: 2055340710}
   helperName: "\u041E\u0441\u043C\u043E\u0442\u0440\u0435\u0442\u044C \u0441\u0435\u0440\u044C\u0433\u0443
@@ -1000,6 +1005,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e090daf16ec50a84a92bd951d8049bef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects:
   - {fileID: 9488795}
   helperPos: {fileID: 17761032}
@@ -1177,6 +1183,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4fdc5e5bade5844191319091d92ceb9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 1712621938}
   helperName: "\u041F\u043E\u0441\u043C\u043E\u0442\u0440\u0435\u0442\u044C \u0441\u0445\u0435\u043C\u0443"
@@ -1427,6 +1434,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -1623,6 +1631,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -2019,6 +2028,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -2169,6 +2179,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -2387,6 +2398,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e090daf16ec50a84a92bd951d8049bef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects:
   - {fileID: 48131819}
   helperPos: {fileID: 418573737}
@@ -2480,6 +2492,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05cca146729773b479f2e7cf40bb7715, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 530720199}
   helperName: "\u041D\u0430\u0437\u0430\u0434"
@@ -2673,6 +2686,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e25f840a117090f45b10752e8586c47a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 1
   outlineObjects: []
   helperPos: {fileID: 1914332371}
   helperName: "\u0412\u0438\u0437\u0443\u0430\u043B\u044C\u043D\u044B\u0439 \u043E\u0441\u043C\u043E\u0442\u0440
@@ -2894,6 +2908,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -2950,6 +2965,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b06c3b95ff475440aecccbe7318df7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 1
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -3340,6 +3356,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae3de6005a2f0524798c24c05bc73bd2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 937741774}
   helperName: "\u0418\u0437\u043C\u0435\u0440\u0435\u043D\u0438\u0435 \u043D\u0430\u043F\u0440\u044F\u0436\u0435\u043D\u0438\u044F"
@@ -3588,6 +3605,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -3703,6 +3721,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e090daf16ec50a84a92bd951d8049bef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects:
   - {fileID: 76190134}
   helperPos: {fileID: 416439846}
@@ -4178,6 +4197,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -4315,6 +4335,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -4455,6 +4476,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ea211b6ba2e37d46934d24f50f7d03d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 1
   outlineObjects: []
   helperPos: {fileID: 1043469002}
   helperName: "\u0420\u0435\u0433\u0443\u043B\u0438\u0440\u043E\u0432\u043A\u0430
@@ -4670,6 +4692,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4fdc5e5bade5844191319091d92ceb9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 715278165}
   helperName: "\u041F\u043E\u0441\u043C\u043E\u0442\u0440\u0435\u0442\u044C \u0441\u0445\u0435\u043C\u0443"
@@ -5091,6 +5114,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b06c3b95ff475440aecccbe7318df7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -5286,6 +5310,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b06c3b95ff475440aecccbe7318df7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 1
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -5656,6 +5681,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -5724,6 +5750,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e090daf16ec50a84a92bd951d8049bef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects:
   - {fileID: 106913558}
   helperPos: {fileID: 426289032}
@@ -6176,6 +6203,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b06c3b95ff475440aecccbe7318df7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 1
   outlineObjects: []
   helperPos: {fileID: 53679335}
   helperName: "\u0417\u0430\u043C\u0435\u043D\u0430 \u0411\u0412\u0421"
@@ -6750,6 +6778,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e090daf16ec50a84a92bd951d8049bef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects:
   - {fileID: 135047869}
   helperPos: {fileID: 1265241741}
@@ -6974,6 +7003,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -7684,6 +7714,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86f96cfb53c19ad4eb7aeaa5a7e84d62, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -7878,6 +7909,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -8245,6 +8277,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ea211b6ba2e37d46934d24f50f7d03d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 1
   outlineObjects: []
   helperPos: {fileID: 1814691416}
   helperName: "\u041F\u0440\u043E\u0432\u0435\u0440\u043A\u0430 \u043A\u043E\u043D\u0442\u0430\u043A\u0442\u0430
@@ -8311,6 +8344,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7500b9c36b50fca489cc4c3894957fb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 1501423257}
   helperName: "\u0417\u0430\u043F\u0440\u043E\u0441\u0438\u0442\u044C \u043F\u0435\u0440\u0435\u0432\u043E\u0434
@@ -8528,6 +8562,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -8585,6 +8620,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05cca146729773b479f2e7cf40bb7715, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 1201417092}
   helperName: "\u041D\u0430\u0437\u0430\u0434"
@@ -8749,6 +8785,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e090daf16ec50a84a92bd951d8049bef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects:
   - {fileID: 202165793}
   helperPos: {fileID: 1404399461}
@@ -9023,6 +9060,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -9197,6 +9235,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -9407,6 +9446,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -9570,6 +9610,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -9867,6 +9908,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -10201,6 +10243,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -10328,6 +10371,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e25f840a117090f45b10752e8586c47a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 1
   outlineObjects: []
   helperPos: {fileID: 1820493857}
   helperName: "\u0412\u0438\u0437\u0443\u0430\u043B\u044C\u043D\u044B\u0439 \u043E\u0441\u043C\u043E\u0442\u0440
@@ -10695,6 +10739,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b06c3b95ff475440aecccbe7318df7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 1
   outlineObjects: []
   helperPos: {fileID: 60450229}
   helperName: "\u0417\u0430\u043C\u0435\u043D\u0430 \u043F\u0440\u0435\u0434\u043E\u0445\u0440\u0430\u043D\u0438\u0442\u0435\u043B\u044F
@@ -11365,6 +11410,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -11476,6 +11522,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e090daf16ec50a84a92bd951d8049bef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -11590,6 +11637,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b06c3b95ff475440aecccbe7318df7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 1
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -11737,6 +11785,49 @@ RectTransform:
   m_AnchoredPosition: {x: -0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &311516758
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 311516759}
+  - component: {fileID: 311516760}
+  m_Layer: 0
+  m_Name: ButtonsContainer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &311516759
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 311516758}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 868297410}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &311516760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 311516758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa1f490b3d2a50f4ab65c171ad0d3e27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &312926003
 GameObject:
   m_ObjectHideFlags: 0
@@ -11884,6 +11975,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -12021,6 +12113,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -12206,6 +12299,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -12317,6 +12411,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e090daf16ec50a84a92bd951d8049bef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects:
   - {fileID: 325771663}
   helperPos: {fileID: 897789661}
@@ -12480,6 +12575,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b06c3b95ff475440aecccbe7318df7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -12739,6 +12835,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -12776,6 +12873,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b06c3b95ff475440aecccbe7318df7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 1
   outlineObjects: []
   helperPos: {fileID: 633702573}
   helperName: "\u0417\u0430\u043C\u0435\u043D\u0430 \u043F\u0440\u0435\u0434\u043E\u0445\u0440\u0430\u043D\u0438\u0442\u0435\u043B\u044F
@@ -13163,6 +13261,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ea211b6ba2e37d46934d24f50f7d03d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 1
   outlineObjects: []
   helperPos: {fileID: 1587046810}
   helperName: "\u041F\u0440\u043E\u0432\u0435\u0440\u043A\u0430 \u043A\u043E\u043D\u0442\u0430\u043A\u0442\u0430
@@ -13310,6 +13409,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b06c3b95ff475440aecccbe7318df7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 1
   outlineObjects: []
   helperPos: {fileID: 508415159}
   helperName: "\u0417\u0430\u043C\u0435\u043D\u0438\u0442\u044C \u0431\u043B\u043E\u043A
@@ -13521,6 +13621,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e25f840a117090f45b10752e8586c47a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 1
   outlineObjects: []
   helperPos: {fileID: 402872985}
   helperName: "\u0412\u0438\u0437\u0443\u0430\u043B\u044C\u043D\u044B\u0439 \u043E\u0441\u043C\u043E\u0442\u0440
@@ -13718,6 +13819,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ea211b6ba2e37d46934d24f50f7d03d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 1
   outlineObjects: []
   helperPos: {fileID: 1322653946}
   helperName: "\u041F\u0440\u043E\u0432\u0435\u0440\u043A\u0430 \u043A\u043E\u043D\u0442\u0430\u043A\u0442\u0430
@@ -13879,6 +13981,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -14108,6 +14211,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -14258,6 +14362,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -14314,6 +14419,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b06c3b95ff475440aecccbe7318df7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 1
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -14689,6 +14795,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -14872,6 +14979,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -15035,6 +15143,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -15217,6 +15326,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b06c3b95ff475440aecccbe7318df7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 1
   outlineObjects: []
   helperPos: {fileID: 2069255363}
   helperName: "\u0417\u0430\u043C\u0435\u043D\u0430 \u043A\u043B\u0435\u043C\u043C\u043D\u043E\u0439 
@@ -15387,6 +15497,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -15556,6 +15667,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e090daf16ec50a84a92bd951d8049bef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects:
   - {fileID: 405789621}
   helperPos: {fileID: 1533292594}
@@ -15747,6 +15859,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ea211b6ba2e37d46934d24f50f7d03d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 1
   outlineObjects: []
   helperPos: {fileID: 797601295}
   helperName: "\u041F\u0440\u043E\u0432\u0435\u0440\u043A\u0430 \u043A\u043E\u043D\u0442\u0430\u043A\u0442\u0430
@@ -16032,6 +16145,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -16070,6 +16184,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e090daf16ec50a84a92bd951d8049bef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects:
   - {fileID: 424926351}
   helperPos: {fileID: 325654175}
@@ -16256,6 +16371,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -16628,6 +16744,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -16927,6 +17044,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae3de6005a2f0524798c24c05bc73bd2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 289955513}
   helperName: "\u0418\u0437\u043C\u0435\u0440\u0435\u043D\u0438\u0435 \u043D\u0430\u043F\u0440\u044F\u0436\u0435\u043D\u0438\u044F"
@@ -17051,6 +17169,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7500b9c36b50fca489cc4c3894957fb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 518953279}
   helperName: "\u0417\u0430\u043F\u0440\u043E\u0441\u0438\u0442\u044C \u043F\u0435\u0440\u0435\u0432\u043E\u0434
@@ -17417,6 +17536,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e25f840a117090f45b10752e8586c47a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 1
   outlineObjects: []
   helperPos: {fileID: 645512955}
   helperName: "\u041E\u0441\u043C\u043E\u0442\u0440\u0435\u0442\u044C \u0441\u0435\u0440\u044C\u0433\u0443
@@ -17674,6 +17794,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ea211b6ba2e37d46934d24f50f7d03d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 1
   outlineObjects: []
   helperPos: {fileID: 1447795608}
   helperName: "\u0420\u0435\u0433\u0443\u043B\u0438\u0440\u043E\u0432\u043A\u0430
@@ -17987,6 +18108,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -18276,6 +18398,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e090daf16ec50a84a92bd951d8049bef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects:
   - {fileID: 495733068}
   helperPos: {fileID: 17761032}
@@ -18446,6 +18569,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ea211b6ba2e37d46934d24f50f7d03d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 1
   outlineObjects: []
   helperPos: {fileID: 115617278}
   helperName: "\u041F\u0440\u043E\u0432\u0435\u0440\u043A\u0430 \u043A\u043E\u043D\u0442\u0430\u043A\u0442\u0430
@@ -18661,6 +18785,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -18826,6 +18951,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ea211b6ba2e37d46934d24f50f7d03d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 1
   outlineObjects: []
   helperPos: {fileID: 1758817122}
   helperName: "\u041F\u0440\u043E\u0432\u0435\u0440\u0438\u0442\u044C \u0441\u0435\u0440\u044C\u0433\u0443
@@ -18956,6 +19082,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6af5575cd4d7b64a804cfc74f341285, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects:
   - {fileID: 1758132140}
   helperPos: {fileID: 1073243900}
@@ -19057,6 +19184,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e25f840a117090f45b10752e8586c47a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 1
   outlineObjects: []
   helperPos: {fileID: 1308863308}
   helperName: "\u041E\u0441\u043C\u043E\u0442\u0440\u0435\u0442\u044C \u043A\u043E\u043D\u0442\u0440\u043E\u043B\u044C\u043D\u0443\u044E
@@ -19287,6 +19415,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4fdc5e5bade5844191319091d92ceb9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -19409,6 +19538,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b06c3b95ff475440aecccbe7318df7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 1
   outlineObjects: []
   helperPos: {fileID: 1821041847}
   helperName: "\u0417\u0430\u043C\u0435\u043D\u0430 \u043F\u0440\u0435\u0434\u043E\u0445\u0440\u0430\u043D\u0438\u0442\u0435\u043B\u044F
@@ -19776,6 +19906,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -20144,6 +20275,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -20530,6 +20662,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -20667,6 +20800,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -20736,6 +20870,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4fdc5e5bade5844191319091d92ceb9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 1115512137}
   helperName: "\u041F\u043E\u0441\u043C\u043E\u0442\u0440\u0435\u0442\u044C \u0441\u0445\u0435\u043C\u0443"
@@ -21069,6 +21204,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -21287,6 +21423,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -21341,6 +21478,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6157bdbc9fa8c204b91f507adf5271f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -21734,6 +21872,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ea211b6ba2e37d46934d24f50f7d03d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 1
   outlineObjects: []
   helperPos: {fileID: 585877843}
   helperName: "\u041F\u0440\u043E\u0432\u0435\u0440\u0438\u0442\u044C \u0434\u043B\u0438\u043D\u043D\u0443\u044E
@@ -21807,6 +21946,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b06c3b95ff475440aecccbe7318df7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 1
   outlineObjects: []
   helperPos: {fileID: 601924994}
   helperName: "\u0417\u0430\u043C\u0435\u043D\u0438\u0442\u044C \u0440\u0435\u0434\u0443\u043A\u0442\u043E\u0440"
@@ -22066,6 +22206,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -22149,6 +22290,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b06c3b95ff475440aecccbe7318df7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 1
   outlineObjects: []
   helperPos: {fileID: 814235751}
   helperName: "\u0417\u0430\u043C\u0435\u043D\u0438\u0442\u044C \u0431\u043B\u043E\u043A
@@ -22383,6 +22525,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -22512,6 +22655,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7500b9c36b50fca489cc4c3894957fb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 991633225}
   helperName: "\u0417\u0430\u043F\u0440\u043E\u0441\u0438\u0442\u044C \u043F\u0435\u0440\u0435\u0432\u043E\u0434
@@ -22883,6 +23027,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -23266,6 +23411,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -23321,6 +23467,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4fdc5e5bade5844191319091d92ceb9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -23610,6 +23757,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -23795,6 +23943,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -24113,6 +24262,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e090daf16ec50a84a92bd951d8049bef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects:
   - {fileID: 639623691}
   helperPos: {fileID: 510204293}
@@ -24353,6 +24503,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -24586,6 +24737,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -24611,6 +24763,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e090daf16ec50a84a92bd951d8049bef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects:
   - {fileID: 653979504}
   helperPos: {fileID: 35074198}
@@ -24963,6 +25116,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -25277,6 +25431,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -25427,6 +25582,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -25590,6 +25746,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -25784,6 +25941,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -26106,6 +26264,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ea211b6ba2e37d46934d24f50f7d03d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 1
   outlineObjects: []
   helperPos: {fileID: 534833223}
   helperName: "\u041F\u0440\u043E\u0432\u0435\u0440\u043A\u0430 \u043A\u043E\u043D\u0442\u0430\u043A\u0442\u0430
@@ -26266,6 +26425,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -26408,6 +26568,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -26478,6 +26639,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b06c3b95ff475440aecccbe7318df7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 1
   outlineObjects: []
   helperPos: {fileID: 1945826064}
   helperName: "\u0417\u0430\u043C\u0435\u043D\u0430 \u043F\u0440\u0435\u0434\u043E\u0445\u0440\u0430\u043D\u0438\u0442\u0435\u043B\u044F
@@ -27280,6 +27442,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4fdc5e5bade5844191319091d92ceb9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 443125318}
   helperName: "\u041F\u043E\u0441\u043C\u043E\u0442\u0440\u0435\u0442\u044C \u0441\u0445\u0435\u043C\u0443"
@@ -27449,6 +27612,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e25f840a117090f45b10752e8586c47a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 1
   outlineObjects: []
   helperPos: {fileID: 265785237}
   helperName: "\u041E\u0441\u043C\u043E\u0442\u0440\u0435\u0442\u044C \u043A\u043E\u043D\u0442\u0440\u043E\u043B\u044C\u043D\u0443\u044E
@@ -27833,6 +27997,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -28118,6 +28283,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b215d626ba5ddf40b0ee8d7355ec499, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -28189,6 +28355,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e090daf16ec50a84a92bd951d8049bef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects:
   - {fileID: 758217776}
   helperPos: {fileID: 478889944}
@@ -28384,6 +28551,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b06c3b95ff475440aecccbe7318df7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 1
   outlineObjects: []
   helperPos: {fileID: 644546266}
   helperName: "\u0417\u0430\u043C\u0435\u043D\u0430 \u043F\u0440\u0435\u0434\u043E\u0445\u0440\u0430\u043D\u0438\u0442\u0435\u043B\u044F
@@ -28581,6 +28749,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e090daf16ec50a84a92bd951d8049bef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects:
   - {fileID: 770170899}
   helperPos: {fileID: 17761032}
@@ -28657,6 +28826,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4fdc5e5bade5844191319091d92ceb9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 778329293}
   helperName: "\u041F\u043E\u0441\u043C\u043E\u0442\u0440\u0435\u0442\u044C \u0441\u0445\u0435\u043C\u0443"
@@ -28959,6 +29129,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e090daf16ec50a84a92bd951d8049bef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects:
   - {fileID: 793995477}
   helperPos: {fileID: 1183793980}
@@ -29209,6 +29380,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -29678,6 +29850,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -29828,6 +30001,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -29965,6 +30139,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -30407,6 +30582,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b06c3b95ff475440aecccbe7318df7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 1
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -30572,6 +30748,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b06c3b95ff475440aecccbe7318df7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 1
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -30831,6 +31008,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -31018,6 +31196,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ea211b6ba2e37d46934d24f50f7d03d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 1
   outlineObjects: []
   helperPos: {fileID: 275300168}
   helperName: "\u041F\u0440\u043E\u0432\u0435\u0440\u043A\u0430 \u043A\u043E\u043D\u0442\u0430\u043A\u0442\u0430
@@ -31085,6 +31264,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b06c3b95ff475440aecccbe7318df7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 1
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -31289,6 +31469,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e090daf16ec50a84a92bd951d8049bef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects:
   - {fileID: 856744206}
   helperPos: {fileID: 1740862439}
@@ -31359,6 +31540,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b06c3b95ff475440aecccbe7318df7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 1
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -31624,6 +31806,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -31790,7 +31973,7 @@ Transform:
   - {fileID: 1582504526}
   - {fileID: 523425497}
   - {fileID: 1640872386}
-  - {fileID: 1854307147}
+  - {fileID: 311516759}
   m_Father: {fileID: 0}
   m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -31918,6 +32101,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e25f840a117090f45b10752e8586c47a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 1
   outlineObjects: []
   helperPos: {fileID: 474337078}
   helperName: "\u0412\u0438\u0437\u0443\u0430\u043B\u044C\u043D\u044B\u0439 \u043E\u0441\u043C\u043E\u0442\u0440
@@ -32143,6 +32327,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -32639,6 +32824,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e25f840a117090f45b10752e8586c47a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 1
   outlineObjects: []
   helperPos: {fileID: 1694244545}
   helperName: "\u0412\u0438\u0437\u0443\u0430\u043B\u044C\u043D\u044B\u0439 \u043E\u0441\u043C\u043E\u0442\u0440
@@ -33019,6 +33205,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ea211b6ba2e37d46934d24f50f7d03d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 1
   outlineObjects: []
   helperPos: {fileID: 1052202308}
   helperName: "\u041F\u0440\u043E\u0432\u0435\u0440\u0438\u0442\u044C \u043A\u043E\u043D\u0442\u0440\u043E\u043B\u044C\u043D\u0443\u044E
@@ -33266,6 +33453,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -33383,6 +33571,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae3de6005a2f0524798c24c05bc73bd2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 875237359}
   helperName: "\u0418\u0437\u043C\u0435\u0440\u0435\u043D\u0438\u0435 \u043D\u0430\u043F\u0440\u044F\u0436\u0435\u043D\u0438\u044F"
@@ -33577,6 +33766,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e25f840a117090f45b10752e8586c47a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 1
   outlineObjects: []
   helperPos: {fileID: 635374706}
   helperName: "\u041E\u0441\u043C\u043E\u0442\u0440\u0435\u0442\u044C \u0440\u0430\u0431\u043E\u0447\u0443\u044E
@@ -33768,6 +33958,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05cca146729773b479f2e7cf40bb7715, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 1356767978}
   helperName: "\u041D\u0430\u0437\u0430\u0434"
@@ -33984,6 +34175,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ea211b6ba2e37d46934d24f50f7d03d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 1
   outlineObjects: []
   helperPos: {fileID: 105039038}
   helperName: "\u041F\u0440\u043E\u0432\u0435\u0440\u0438\u0442\u044C  \u043A\u043E\u0440\u043E\u0442\u043A\u0443\u044E
@@ -34398,6 +34590,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4fdc5e5bade5844191319091d92ceb9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 1558523322}
   helperName: "\u041F\u043E\u0441\u043C\u043E\u0442\u0440\u0435\u0442\u044C \u0441\u0445\u0435\u043C\u0443"
@@ -34613,6 +34806,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -34810,6 +35004,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b215d626ba5ddf40b0ee8d7355ec499, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -34862,6 +35057,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b06c3b95ff475440aecccbe7318df7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 1
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -35060,6 +35256,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e25f840a117090f45b10752e8586c47a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 1
   outlineObjects: []
   helperPos: {fileID: 318656912}
   helperName: "\u041E\u0441\u043C\u043E\u0442\u0440\u0435\u0442\u044C \u0441\u0435\u0440\u044C\u0433\u0443
@@ -35362,6 +35559,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -35432,6 +35630,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b06c3b95ff475440aecccbe7318df7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 1
   outlineObjects: []
   helperPos: {fileID: 978861198}
   helperName: "\u0417\u0430\u043C\u0435\u043D\u0430 \u043F\u0440\u0435\u0434\u043E\u0445\u0440\u0430\u043D\u0438\u0442\u0435\u043B\u044F
@@ -35567,6 +35766,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e090daf16ec50a84a92bd951d8049bef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects:
   - {fileID: 1005398075}
   helperPos: {fileID: 1727165169}
@@ -35746,6 +35946,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae3de6005a2f0524798c24c05bc73bd2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 1527979318}
   helperName: "\u0418\u0437\u043C\u0435\u0440\u0435\u043D\u0438\u0435 \u043D\u0430\u043F\u0440\u044F\u0436\u0435\u043D\u0438\u044F"
@@ -35936,6 +36137,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05cca146729773b479f2e7cf40bb7715, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 2051361488}
   helperName: "\u041D\u0430\u0437\u0430\u0434"
@@ -36550,6 +36752,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e090daf16ec50a84a92bd951d8049bef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects:
   - {fileID: 1029142946}
   helperPos: {fileID: 169224451}
@@ -37027,6 +37230,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -37306,6 +37510,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -37443,6 +37648,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -37743,6 +37949,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -37812,6 +38019,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7500b9c36b50fca489cc4c3894957fb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 1079681442}
   helperName: "\u0417\u0430\u043F\u0440\u043E\u0441\u0438\u0442\u044C \u043F\u0435\u0440\u0435\u0432\u043E\u0434
@@ -37933,6 +38141,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6157bdbc9fa8c204b91f507adf5271f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -38077,6 +38286,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e090daf16ec50a84a92bd951d8049bef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects:
   - {fileID: 1074096310}
   helperPos: {fileID: 497285220}
@@ -38342,6 +38552,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b06c3b95ff475440aecccbe7318df7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 1
   outlineObjects: []
   helperPos: {fileID: 76604107}
   helperName: "\u0417\u0430\u043C\u0435\u043D\u0430 \u043F\u0440\u0435\u0434\u043E\u0445\u0440\u0430\u043D\u0438\u0442\u0435\u043B\u044F
@@ -38525,6 +38736,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e25f840a117090f45b10752e8586c47a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 1
   outlineObjects: []
   helperPos: {fileID: 1042193706}
   helperName: "\u041E\u0441\u043C\u043E\u0442\u0440\u0435\u0442\u044C \u0434\u043B\u0438\u043D\u043D\u0443\u044E
@@ -38805,6 +39017,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -39171,6 +39384,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ea211b6ba2e37d46934d24f50f7d03d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 1
   outlineObjects: []
   helperPos: {fileID: 1000712416}
   helperName: "\u0420\u0435\u0433\u0443\u043B\u0438\u0440\u043E\u0432\u043A\u0430
@@ -39350,6 +39564,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -39500,6 +39715,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -39557,6 +39773,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b06c3b95ff475440aecccbe7318df7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 1
   outlineObjects: []
   helperPos: {fileID: 719291004}
   helperName: "\u0417\u0430\u043C\u0435\u043D\u0430 \u043F\u0440\u0435\u0434\u043E\u0445\u0440\u0430\u043D\u0438\u0442\u0435\u043B\u044F
@@ -39740,6 +39957,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e090daf16ec50a84a92bd951d8049bef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects:
   - {fileID: 1101072330}
   helperPos: {fileID: 418573737}
@@ -39797,6 +40015,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e090daf16ec50a84a92bd951d8049bef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects:
   - {fileID: 1102849928}
   helperPos: {fileID: 17761032}
@@ -40137,6 +40356,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -40599,6 +40819,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -40667,6 +40888,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e090daf16ec50a84a92bd951d8049bef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects:
   - {fileID: 1127942847}
   helperPos: {fileID: 529034566}
@@ -40992,6 +41214,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ea211b6ba2e37d46934d24f50f7d03d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 1
   outlineObjects: []
   helperPos: {fileID: 1015085878}
   helperName: "\u041F\u0440\u043E\u0432\u0435\u0440\u0438\u0442\u044C \u0441\u0435\u0440\u044C\u0433\u0443
@@ -41149,6 +41372,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -41386,6 +41610,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -41467,6 +41692,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e090daf16ec50a84a92bd951d8049bef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects:
   - {fileID: 1146884784}
   helperPos: {fileID: 2135458740}
@@ -41682,6 +41908,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -42026,6 +42253,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e090daf16ec50a84a92bd951d8049bef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects:
   - {fileID: 1162612129}
   helperPos: {fileID: 2034548279}
@@ -42285,6 +42513,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -42397,6 +42626,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3fbc28394d8adb8408ce8f45f2d97763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects:
   - {fileID: 540686627}
   - {fileID: 1245645571}
@@ -42555,6 +42785,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e25f840a117090f45b10752e8586c47a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 1
   outlineObjects: []
   helperPos: {fileID: 1849400551}
   helperName: "\u0412\u0438\u0437\u0443\u0430\u043B\u044C\u043D\u044B\u0439 \u043E\u0441\u043C\u043E\u0442\u0440
@@ -42685,6 +42916,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b06c3b95ff475440aecccbe7318df7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 1
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -43381,6 +43613,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -43531,6 +43764,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -43586,6 +43820,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4fdc5e5bade5844191319091d92ceb9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -43788,6 +44023,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -44034,6 +44270,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -44197,6 +44434,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -44405,6 +44643,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -44442,6 +44681,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b06c3b95ff475440aecccbe7318df7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 1
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -44607,6 +44847,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e25f840a117090f45b10752e8586c47a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 1
   outlineObjects: []
   helperPos: {fileID: 556611145}
   helperName: "\u041E\u0441\u043C\u043E\u0442\u0440\u0435\u0442\u044C \u0436\u0435\u043B\u043E\u0431"
@@ -44886,6 +45127,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b215d626ba5ddf40b0ee8d7355ec499, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -45053,6 +45295,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b06c3b95ff475440aecccbe7318df7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 1
   outlineObjects: []
   helperPos: {fileID: 1770820657}
   helperName: "\u0417\u0430\u043C\u0435\u043D\u0438\u0442\u044C \u0414\u0432\u0438\u0433\u0430\u0442\u0435\u043B\u044C"
@@ -45217,6 +45460,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -45414,6 +45658,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e090daf16ec50a84a92bd951d8049bef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects:
   - {fileID: 1268725093}
   - {fileID: 1826862677}
@@ -45486,6 +45731,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e090daf16ec50a84a92bd951d8049bef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects:
   - {fileID: 1269113420}
   helperPos: {fileID: 347517669}
@@ -45659,6 +45905,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4fdc5e5bade5844191319091d92ceb9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 624537864}
   helperName: "\u041F\u043E\u0441\u043C\u043E\u0442\u0440\u0435\u0442\u044C \u0441\u0445\u0435\u043C\u0443"
@@ -45741,6 +45988,7 @@ GameObject:
   - component: {fileID: 1289917233}
   - component: {fileID: 1289917232}
   - component: {fileID: 1289917231}
+  - component: {fileID: 1289917230}
   m_Layer: 0
   m_Name: AdjustButtonShiber
   m_TagString: Untagged
@@ -45748,6 +45996,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
+--- !u!65 &1289917230
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1289917229}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 0.26093102}
+  m_Center: {x: 4.4173054e-10, y: -2.6086086e-11, z: -0.014753537}
 --- !u!114 &1289917231
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45760,6 +46021,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ea211b6ba2e37d46934d24f50f7d03d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 1
   outlineObjects: []
   helperPos: {fileID: 1819377360}
   helperName: "\u041F\u0440\u043E\u0432\u0435\u0440\u0438\u0442\u044C \u0440\u0430\u0431\u043E\u0447\u0443\u044E
@@ -45933,6 +46195,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05cca146729773b479f2e7cf40bb7715, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 27440864}
   helperName: "\u041D\u0430\u0437\u0430\u0434"
@@ -46309,6 +46572,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e090daf16ec50a84a92bd951d8049bef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects:
   - {fileID: 1301365005}
   helperPos: {fileID: 17761032}
@@ -46366,6 +46630,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e25f840a117090f45b10752e8586c47a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 1
   outlineObjects: []
   helperPos: {fileID: 1902080066}
   helperName: "\u041E\u0441\u043C\u043E\u0442\u0440\u0435\u0442\u044C \u043A\u043E\u0440\u043E\u0442\u043A\u0443\u044E
@@ -46551,6 +46816,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e090daf16ec50a84a92bd951d8049bef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects:
   - {fileID: 1310370790}
   helperPos: {fileID: 2087312415}
@@ -46784,6 +47050,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e090daf16ec50a84a92bd951d8049bef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects:
   - {fileID: 1327224932}
   helperPos: {fileID: 1821764685}
@@ -46955,6 +47222,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -47144,6 +47412,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -47294,6 +47563,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -47377,6 +47647,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b06c3b95ff475440aecccbe7318df7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 1
   outlineObjects: []
   helperPos: {fileID: 1596102736}
   helperName: "\u0417\u0430\u043C\u0435\u043D\u0438\u0442\u044C \u0431\u043B\u043E\u043A
@@ -47969,6 +48240,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ea211b6ba2e37d46934d24f50f7d03d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 1
   outlineObjects: []
   helperPos: {fileID: 476561509}
   helperName: "\u0420\u0435\u0433\u0443\u043B\u0438\u0440\u043E\u0432\u043A\u0430
@@ -48333,6 +48605,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05cca146729773b479f2e7cf40bb7715, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 1205089692}
   helperName: "\u041D\u0430\u0437\u0430\u0434"
@@ -48692,6 +48965,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e090daf16ec50a84a92bd951d8049bef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects:
   - {fileID: 1393927622}
   helperPos: {fileID: 159474503}
@@ -48944,6 +49218,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -49245,6 +49520,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -49461,6 +49737,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ea211b6ba2e37d46934d24f50f7d03d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 1
   outlineObjects: []
   helperPos: {fileID: 293347957}
   helperName: "\u041F\u0440\u043E\u0432\u0435\u0440\u043A\u0430 \u043A\u043E\u043D\u0442\u0430\u043A\u0442\u0430
@@ -49651,6 +49928,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -49707,6 +49985,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7500b9c36b50fca489cc4c3894957fb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 309670165}
   helperName: "\u0417\u0430\u043F\u0440\u043E\u0441\u0438\u0442\u044C \u043F\u0435\u0440\u0435\u0432\u043E\u0434
@@ -49813,6 +50092,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e090daf16ec50a84a92bd951d8049bef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects:
   - {fileID: 1428119648}
   helperPos: {fileID: 915590154}
@@ -50089,6 +50369,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e090daf16ec50a84a92bd951d8049bef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects:
   - {fileID: 1434537701}
   helperPos: {fileID: 397202345}
@@ -50277,6 +50558,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -50768,6 +51050,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -51226,6 +51509,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e25f840a117090f45b10752e8586c47a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 1
   outlineObjects: []
   helperPos: {fileID: 1793791407}
   helperName: "\u0412\u0438\u0437\u0443\u0430\u043B\u044C\u043D\u044B\u0439 \u043E\u0441\u043C\u043E\u0442\u0440
@@ -51322,6 +51606,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7500b9c36b50fca489cc4c3894957fb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 1240923741}
   helperName: "\u0417\u0430\u043F\u0440\u043E\u0441\u0438\u0442\u044C \u043F\u0435\u0440\u0435\u0432\u043E\u0434
@@ -51632,6 +51917,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -51782,6 +52068,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -51915,6 +52202,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7500b9c36b50fca489cc4c3894957fb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 1983297826}
   helperName: "\u0417\u0430\u043F\u0440\u043E\u0441\u0438\u0442\u044C \u043F\u0435\u0440\u0435\u0432\u043E\u0434
@@ -52220,6 +52508,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b06c3b95ff475440aecccbe7318df7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 1
   outlineObjects: []
   helperPos: {fileID: 166831435}
   helperName: "\u0417\u0430\u043C\u0435\u043D\u0430 \u043A\u043B\u0435\u043C\u043C\u043D\u043E\u0439 
@@ -52385,6 +52674,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -52616,6 +52906,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -53167,6 +53458,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e090daf16ec50a84a92bd951d8049bef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects:
   - {fileID: 1571813815}
   helperPos: {fileID: 756178135}
@@ -53269,6 +53561,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05cca146729773b479f2e7cf40bb7715, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 98462192}
   helperName: "\u041D\u0430\u0437\u0430\u0434"
@@ -53807,6 +54100,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e090daf16ec50a84a92bd951d8049bef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects:
   - {fileID: 1592800901}
   helperPos: {fileID: 228624384}
@@ -54193,6 +54487,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -54338,6 +54633,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7500b9c36b50fca489cc4c3894957fb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 1941955832}
   helperName: "\u0417\u0430\u043F\u0440\u043E\u0441\u0438\u0442\u044C \u043F\u0435\u0440\u0435\u0432\u043E\u0434
@@ -54638,6 +54934,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -54788,6 +55085,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -54843,6 +55141,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4fdc5e5bade5844191319091d92ceb9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -55063,6 +55362,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -55191,6 +55491,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e25f840a117090f45b10752e8586c47a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 1
   outlineObjects: []
   helperPos: {fileID: 581777977}
   helperName: "\u041E\u0441\u043C\u043E\u0442\u0440 \u0411\u0412\u0421"
@@ -55618,6 +55919,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e25f840a117090f45b10752e8586c47a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 1
   outlineObjects: []
   helperPos: {fileID: 1854810159}
   helperName: "\u0412\u0438\u0437\u0443\u0430\u043B\u044C\u043D\u044B\u0439 \u043E\u0441\u043C\u043E\u0442\u0440
@@ -55855,6 +56157,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e25f840a117090f45b10752e8586c47a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 1
   outlineObjects: []
   helperPos: {fileID: 1949562460}
   helperName: "\u041E\u0441\u043C\u043E\u0442\u0440 \u043A\u043B\u0435\u043C\u043C\u043D\u043E\u0439 
@@ -56113,6 +56416,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ea211b6ba2e37d46934d24f50f7d03d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 1
   outlineObjects: []
   helperPos: {fileID: 526090309}
   helperName: "\u041F\u0440\u043E\u0432\u0435\u0440\u043A\u0430 \u043A\u043E\u043D\u0442\u0430\u043A\u0442\u0430
@@ -56222,6 +56526,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b06c3b95ff475440aecccbe7318df7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 1
   outlineObjects: []
   helperPos: {fileID: 1575273137}
   helperName: "\u0417\u0430\u043C\u0435\u043D\u0438\u0442\u044C \u0431\u043B\u043E\u043A
@@ -56725,6 +57030,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e090daf16ec50a84a92bd951d8049bef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects:
   - {fileID: 1692874205}
   helperPos: {fileID: 1909577990}
@@ -56800,6 +57106,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4fdc5e5bade5844191319091d92ceb9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -57262,6 +57569,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e090daf16ec50a84a92bd951d8049bef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects:
   - {fileID: 1711744385}
   helperPos: {fileID: 1552782548}
@@ -57595,6 +57903,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -57628,6 +57937,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f679f2ef963e6449bce8bded3fd9973, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects:
   - {fileID: 1816308360920304883}
   helperPos: {fileID: 103980113}
@@ -58073,6 +58383,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86f96cfb53c19ad4eb7aeaa5a7e84d62, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -58290,6 +58601,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b06c3b95ff475440aecccbe7318df7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 1
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -58481,6 +58793,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6af5575cd4d7b64a804cfc74f341285, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects:
   - {fileID: 1107546512}
   helperPos: {fileID: 1563040129}
@@ -58730,6 +59043,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05cca146729773b479f2e7cf40bb7715, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 1395966565}
   helperName: "\u041D\u0430\u0437\u0430\u0434"
@@ -58918,6 +59232,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -59072,11 +59387,10 @@ GameObject:
   - component: {fileID: 1758136965}
   - component: {fileID: 1758136972}
   - component: {fileID: 1758136971}
-  - component: {fileID: 1758136970}
-  - component: {fileID: 1758136969}
   - component: {fileID: 1758136968}
   - component: {fileID: 1758136967}
   - component: {fileID: 1758136966}
+  - component: {fileID: 1758136969}
   m_Layer: 0
   m_Name: AdjustReductButton
   m_TagString: Untagged
@@ -59183,22 +59497,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1758136964}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d224dabdb85cb7f4c864f3359abad2bb, type: 3}
+  m_Script: {fileID: 11500000, guid: 0ea211b6ba2e37d46934d24f50f7d03d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _rot: 0
---- !u!114 &1758136970
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1758136964}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e25f840a117090f45b10752e8586c47a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  Button: 1
   outlineObjects: []
   helperPos: {fileID: 545938819}
   helperName: "\u0420\u0435\u0433\u0443\u043B\u0438\u0440\u043E\u0432\u043A\u0430
@@ -59464,6 +59766,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -60014,6 +60317,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05cca146729773b479f2e7cf40bb7715, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 464188365}
   helperName: "\u041D\u0430\u0437\u0430\u0434"
@@ -60292,6 +60596,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -60575,7 +60880,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d224dabdb85cb7f4c864f3359abad2bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _rot: 0
+  _rot: 1
 --- !u!114 &1799826418
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60626,6 +60931,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ea211b6ba2e37d46934d24f50f7d03d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 864905881}
   helperName: "\u041F\u0440\u043E\u0432\u0435\u0440\u0438\u0442\u044C \u0441\u0435\u0440\u044C\u0433\u0443
@@ -60918,6 +61224,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -60969,6 +61276,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 436c02772db24624a93fb56fb4209e99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -61277,6 +61585,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -61556,6 +61865,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -61706,6 +62016,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -61739,6 +62050,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6af5575cd4d7b64a804cfc74f341285, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects:
   - {fileID: 493278227}
   helperPos: {fileID: 1436185664}
@@ -61979,6 +62291,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -62131,6 +62444,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b06c3b95ff475440aecccbe7318df7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 1
   outlineObjects: []
   helperPos: {fileID: 936249206}
   helperName: "\u0417\u0430\u043C\u0435\u043D\u0430 \u043A\u043B\u0435\u043C\u043C\u043D\u043E\u0439 
@@ -62603,51 +62917,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 40
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1854307146
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1854307147}
-  - component: {fileID: 1854307148}
-  m_Layer: 0
-  m_Name: ButtonsController
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1854307147
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1854307146}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 868297410}
-  m_RootOrder: 11
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1854307148
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1854307146}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e4150f03b2f6854bbde56d06852e1f1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Buttons: []
-  BackButtons: []
 --- !u!1 &1854810158
 GameObject:
   m_ObjectHideFlags: 0
@@ -62760,6 +63029,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e25f840a117090f45b10752e8586c47a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 1
   outlineObjects: []
   helperPos: {fileID: 1388338863}
   helperName: "\u041E\u0441\u043C\u043E\u0442\u0440 \u043A\u043B\u0435\u043C\u043C\u043D\u043E\u0439 
@@ -63013,6 +63283,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -63082,6 +63353,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b06c3b95ff475440aecccbe7318df7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 1
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -63341,6 +63613,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -63396,6 +63669,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4fdc5e5bade5844191319091d92ceb9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -63598,6 +63872,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -63761,6 +64036,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -63911,6 +64187,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -64061,6 +64338,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -64298,6 +64576,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -65231,6 +65510,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -65632,6 +65912,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -65795,6 +66076,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -65886,6 +66168,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4fdc5e5bade5844191319091d92ceb9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -66052,6 +66335,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e090daf16ec50a84a92bd951d8049bef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects:
   - {fileID: 1942035983}
   helperPos: {fileID: 1998133759}
@@ -66696,6 +66980,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -66859,6 +67144,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -67055,6 +67341,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -67205,6 +67492,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -67260,6 +67548,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4fdc5e5bade5844191319091d92ceb9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -67510,6 +67799,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -67660,6 +67950,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -67817,6 +68108,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ea211b6ba2e37d46934d24f50f7d03d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 1
   outlineObjects: []
   helperPos: {fileID: 1657727305}
   helperName: "\u0420\u0435\u0433\u0443\u043B\u0438\u0440\u043E\u0432\u043A\u0430
@@ -68171,6 +68463,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7500b9c36b50fca489cc4c3894957fb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 752385024}
   helperName: "\u0417\u0430\u043F\u0440\u043E\u0441\u0438\u0442\u044C \u043F\u0435\u0440\u0435\u0432\u043E\u0434
@@ -68332,6 +68625,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b06c3b95ff475440aecccbe7318df7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 1
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -68496,6 +68790,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4fdc5e5bade5844191319091d92ceb9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -68908,6 +69203,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e25f840a117090f45b10752e8586c47a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 1
   outlineObjects: []
   helperPos: {fileID: 1035235844}
   helperName: "\u041E\u0441\u043C\u043E\u0442\u0440 \u043A\u043B\u0435\u043C\u043C\u043D\u043E\u0439 
@@ -69219,6 +69515,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -69275,6 +69572,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4fdc5e5bade5844191319091d92ceb9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 1604660311}
   helperName: "\u041F\u043E\u0441\u043C\u043E\u0442\u0440\u0435\u0442\u044C \u0441\u0445\u0435\u043C\u0443"
@@ -69554,6 +69852,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4fdc5e5bade5844191319091d92ceb9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 2140241854}
   helperName: "\u041F\u043E\u0441\u043C\u043E\u0442\u0440\u0435\u0442\u044C \u0441\u0445\u0435\u043C\u0443"
@@ -69756,6 +70055,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -69884,6 +70184,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b06c3b95ff475440aecccbe7318df7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 1
   outlineObjects: []
   helperPos: {fileID: 2036182373}
   helperName: "\u0417\u0430\u043C\u0435\u043D\u0430 \u043F\u0440\u0435\u0434\u043E\u0445\u0440\u0430\u043D\u0438\u0442\u0435\u043B\u044F
@@ -70031,6 +70332,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e25f840a117090f45b10752e8586c47a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 1
   outlineObjects: []
   helperPos: {fileID: 152766760}
   helperName: "\u041E\u0441\u043C\u043E\u0442\u0440\u0435\u0442\u044C \u0436\u0435\u043B\u043E\u0431
@@ -70297,6 +70599,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -70557,6 +70860,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e090daf16ec50a84a92bd951d8049bef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects:
   - {fileID: 2095901344}
   helperPos: {fileID: 1538991130}
@@ -70861,6 +71165,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -71104,6 +71409,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -71496,6 +71802,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e090daf16ec50a84a92bd951d8049bef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects:
   - {fileID: 2129776629}
   helperPos: {fileID: 804793345}
@@ -71683,6 +71990,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -72056,6 +72364,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dbf966e3832ff4ab9efed8e588b0fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -72272,6 +72581,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e090daf16ec50a84a92bd951d8049bef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: 0
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
@@ -72697,6 +73007,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1535690950}
     - target: {fileID: 2598447178248794336, guid: ac23b100fa9b0bc41ae1c122aebb68a2, type: 3}
+      propertyPath: _actionButtons.Array.size
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 2598447178248794336, guid: ac23b100fa9b0bc41ae1c122aebb68a2, type: 3}
       propertyPath: outlineObjects.Array.size
       value: 2
       objectReference: {fileID: 0}
@@ -72729,6 +73043,22 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1682296560}
     - target: {fileID: 2598447178248794336, guid: ac23b100fa9b0bc41ae1c122aebb68a2, type: 3}
+      propertyPath: _actionButtons.Array.data[6]
+      value: 
+      objectReference: {fileID: 921794738}
+    - target: {fileID: 2598447178248794336, guid: ac23b100fa9b0bc41ae1c122aebb68a2, type: 3}
+      propertyPath: _actionButtons.Array.data[7]
+      value: 
+      objectReference: {fileID: 1177205616}
+    - target: {fileID: 2598447178248794336, guid: ac23b100fa9b0bc41ae1c122aebb68a2, type: 3}
+      propertyPath: _actionButtons.Array.data[8]
+      value: 
+      objectReference: {fileID: 357407725}
+    - target: {fileID: 2598447178248794336, guid: ac23b100fa9b0bc41ae1c122aebb68a2, type: 3}
+      propertyPath: _actionButtons.Array.data[9]
+      value: 
+      objectReference: {fileID: 1682296560}
+    - target: {fileID: 2598447178248794336, guid: ac23b100fa9b0bc41ae1c122aebb68a2, type: 3}
       propertyPath: outlineObjects.Array.data[0]
       value: 
       objectReference: {fileID: 612489674}
@@ -72736,6 +73066,54 @@ PrefabInstance:
       propertyPath: outlineObjects.Array.data[1]
       value: 
       objectReference: {fileID: 303153117}
+    - target: {fileID: 2598447178248794336, guid: ac23b100fa9b0bc41ae1c122aebb68a2, type: 3}
+      propertyPath: _actionButtons.Array.data[10]
+      value: 
+      objectReference: {fileID: 1682296560}
+    - target: {fileID: 2598447178248794336, guid: ac23b100fa9b0bc41ae1c122aebb68a2, type: 3}
+      propertyPath: _actionButtons.Array.data[11]
+      value: 
+      objectReference: {fileID: 1682296560}
+    - target: {fileID: 2598447178248794336, guid: ac23b100fa9b0bc41ae1c122aebb68a2, type: 3}
+      propertyPath: _actionButtons.Array.data[12]
+      value: 
+      objectReference: {fileID: 1682296560}
+    - target: {fileID: 2598447178248794336, guid: ac23b100fa9b0bc41ae1c122aebb68a2, type: 3}
+      propertyPath: _actionButtons.Array.data[13]
+      value: 
+      objectReference: {fileID: 1682296560}
+    - target: {fileID: 2598447178248794336, guid: ac23b100fa9b0bc41ae1c122aebb68a2, type: 3}
+      propertyPath: _actionButtons.Array.data[14]
+      value: 
+      objectReference: {fileID: 1682296560}
+    - target: {fileID: 2598447178248794336, guid: ac23b100fa9b0bc41ae1c122aebb68a2, type: 3}
+      propertyPath: _actionButtons.Array.data[15]
+      value: 
+      objectReference: {fileID: 1682296560}
+    - target: {fileID: 2598447178248794336, guid: ac23b100fa9b0bc41ae1c122aebb68a2, type: 3}
+      propertyPath: _actionButtons.Array.data[16]
+      value: 
+      objectReference: {fileID: 1682296560}
+    - target: {fileID: 2598447178248794336, guid: ac23b100fa9b0bc41ae1c122aebb68a2, type: 3}
+      propertyPath: _actionButtons.Array.data[17]
+      value: 
+      objectReference: {fileID: 1682296560}
+    - target: {fileID: 2598447178248794336, guid: ac23b100fa9b0bc41ae1c122aebb68a2, type: 3}
+      propertyPath: _actionButtons.Array.data[18]
+      value: 
+      objectReference: {fileID: 1682296560}
+    - target: {fileID: 2598447178248794336, guid: ac23b100fa9b0bc41ae1c122aebb68a2, type: 3}
+      propertyPath: _actionButtons.Array.data[19]
+      value: 
+      objectReference: {fileID: 1682296560}
+    - target: {fileID: 2598447178248794336, guid: ac23b100fa9b0bc41ae1c122aebb68a2, type: 3}
+      propertyPath: _actionButtons.Array.data[20]
+      value: 
+      objectReference: {fileID: 1682296560}
+    - target: {fileID: 2598447178248794336, guid: ac23b100fa9b0bc41ae1c122aebb68a2, type: 3}
+      propertyPath: _actionButtons.Array.data[21]
+      value: 
+      objectReference: {fileID: 1682296560}
     - target: {fileID: 2598447178248794336, guid: ac23b100fa9b0bc41ae1c122aebb68a2, type: 3}
       propertyPath: _outLineObjects.Array.data[0]
       value: 

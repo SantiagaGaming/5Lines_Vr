@@ -12,6 +12,7 @@ public class BaseObject : MonoBehaviour, IClickAble, IHoverAble
     public UnityAction<string> OnHoverInEvent;
     public UnityAction<string> OnHoverOutEvent;
     public UnityAction<string> OnClickEvent;
+    public bool Button;
     public bool IsHoverable { get; set; } = true;
     public bool IsClickable { get; set; } = true;
 
@@ -21,11 +22,13 @@ public class BaseObject : MonoBehaviour, IClickAble, IHoverAble
     [SerializeField] protected OutlineCore[] outlineObjects;
     [SerializeField] protected Transform helperPos;
     [SerializeField] protected string helperName;
-   
+
     protected virtual void Start()
     {
         canvasController = FindObjectOfType<CanvasController>();
         canvasHelper = FindObjectOfType<CanvasObjectHelperController>();
+        if(Button)
+        ButtonsContainer.Instance.AddButton(this);
     }
 
     public virtual void OnClicked(InteractHand interactHand)
@@ -56,6 +59,10 @@ public class BaseObject : MonoBehaviour, IClickAble, IHoverAble
                 obj.OutlineWidth = 0;
             }
         OnHoverOutEvent?.Invoke(gameObject.name);
+    }
+    public void DisableObject()
+    {
+        gameObject.SetActive(false);
     }
 
 }
