@@ -12,6 +12,7 @@ public class BackButtonObject : BaseButtton
     public override void OnClicked(InteractHand interactHand)
     {
         BackButtonClickEvent?.Invoke();
+        ButtonsContainer.Instance.HideButtons();
         CanvasController canvas = FindObjectOfType<CanvasController>();
         canvas.SetMeasureText(" ");
     }

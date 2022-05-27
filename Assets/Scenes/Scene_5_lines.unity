@@ -649,9 +649,9 @@ MonoBehaviour:
   Button: 1
   outlineObjects: []
   helperPos: {fileID: 953236514}
-  helperName: "\u041F\u0440\u043E\u0432\u0435\u0440\u0438\u0442\u044C \u043A\u043E\u043D\u0442\u0440\u043E\u043B\u044C\u043D\u0443\u044E
-    \u043B\u0438\u043D\u0435\u0439\u043A\u0443 \u0434\u043B\u0438\u043D\u043D\u043E\u0439
-    \u0442\u044F\u0433\u0438"
+  helperName: "\u0420\u0435\u0433\u0443\u043B\u0438\u0440\u043E\u0432\u043A\u0430
+    \u043A\u043E\u043D\u0442\u0440\u043E\u043B\u044C\u043D\u043E\u0439 \u043B\u0438\u043D\u0435\u0439\u043A\u0438
+    \u0434\u043B\u0438\u043D\u043D\u043E\u0439 \u0442\u044F\u0433\u0438"
 --- !u!65 &4539897
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -776,7 +776,7 @@ GameObject:
   - component: {fileID: 6628992}
   - component: {fileID: 6628993}
   m_Layer: 0
-  m_Name: watchOstr
+  m_Name: WatchOstrButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -817,8 +817,9 @@ MonoBehaviour:
   Button: 1
   outlineObjects: []
   helperPos: {fileID: 2055340710}
-  helperName: "\u041E\u0441\u043C\u043E\u0442\u0440\u0435\u0442\u044C \u0441\u0435\u0440\u044C\u0433\u0443
-    \u0440\u0430\u0431\u043E\u0447\u0435\u0439 \u0442\u044F\u0433\u0438"
+  helperName: "\u0412\u0438\u0437\u0443\u0430\u043B\u044C\u043D\u044B\u0439 \u043E\u0441\u043C\u043E\u0442\u0440
+    \u0441\u0435\u0440\u044C\u0433\u0438 \u0440\u0430\u0431\u043E\u0447\u0435\u0439
+    \u0442\u044F\u0433\u0438"
 --- !u!65 &6628993
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6783,7 +6784,8 @@ MonoBehaviour:
   - {fileID: 135047869}
   helperPos: {fileID: 1265241741}
   helperName: "\u0416\u0435\u043B\u043E\u0431 \u043E\u0441\u0442\u0440\u044F\u043A\u0430"
-  _buttons: []
+  _buttons:
+  - {fileID: 2081106410}
 --- !u!114 &135047869
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9306,7 +9308,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 228624383}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.088, z: -0.002}
+  m_LocalPosition: {x: 0, y: 0.025, z: -0.001}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1592800899}
@@ -15673,7 +15675,9 @@ MonoBehaviour:
   helperPos: {fileID: 1533292594}
   helperName: "\u041A\u043E\u0440\u043E\u0442\u043A\u0430\u044F \u043A\u043E\u043D\u0442\u0440\u043E\u043B\u044C\u043D\u0430\u044F
     \u0442\u044F\u0433\u0430 \u0441 \u0441\u0435\u0440\u044C\u0433\u043E\u0439"
-  _buttons: []
+  _buttons:
+  - {fileID: 973762379}
+  - {fileID: 1305856112}
 --- !u!114 &405789621
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17518,7 +17522,7 @@ GameObject:
   - component: {fileID: 452287411}
   - component: {fileID: 452287410}
   m_Layer: 0
-  m_Name: WatchTyagaRight
+  m_Name: WatchTyagaRightButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17539,8 +17543,8 @@ MonoBehaviour:
   Button: 1
   outlineObjects: []
   helperPos: {fileID: 645512955}
-  helperName: "\u041E\u0441\u043C\u043E\u0442\u0440\u0435\u0442\u044C \u0441\u0435\u0440\u044C\u0433\u0443
-    \u043C\u0435\u0436\u043E\u0441\u0442\u0440\u044F\u043A\u043E\u0432\u043E\u0439
+  helperName: "\u0412\u0438\u0437\u0443\u0430\u043B\u044C\u043D\u044B\u0439 \u043E\u0441\u043C\u043E\u0442\u0440
+    \u0441\u0435\u0440\u044C\u0433\u0438 \u043C\u0435\u0436\u043E\u0441\u0442\u0440\u044F\u043A\u043E\u0432\u043E\u0439
     \u0442\u044F\u0433\u0438 \u0441\u043F\u0440\u0430\u0432\u0430"
 --- !u!65 &452287411
 BoxCollider:
@@ -18805,7 +18809,7 @@ GameObject:
   - component: {fileID: 503242388}
   - component: {fileID: 503242382}
   m_Layer: 0
-  m_Name: adjTyagaLeft
+  m_Name: AdjustTyagaLeftButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18954,8 +18958,8 @@ MonoBehaviour:
   Button: 1
   outlineObjects: []
   helperPos: {fileID: 1758817122}
-  helperName: "\u041F\u0440\u043E\u0432\u0435\u0440\u0438\u0442\u044C \u0441\u0435\u0440\u044C\u0433\u0443
-    \u043C\u0435\u0436\u043E\u0441\u0442\u0440\u044F\u043A\u043E\u0432\u043E\u0439
+  helperName: "\u0420\u0435\u0433\u0443\u043B\u0438\u0440\u043E\u0432\u043A\u0430
+    \u0441\u0435\u0440\u044C\u0433\u0438 \u043C\u0435\u0436\u043E\u0441\u0442\u0440\u044F\u043A\u043E\u0432\u043E\u0439
     \u0442\u044F\u0433\u0438 \u0441\u043B\u0435\u0432\u0430"
 --- !u!1 &503529375
 GameObject:
@@ -19187,9 +19191,9 @@ MonoBehaviour:
   Button: 1
   outlineObjects: []
   helperPos: {fileID: 1308863308}
-  helperName: "\u041E\u0441\u043C\u043E\u0442\u0440\u0435\u0442\u044C \u043A\u043E\u043D\u0442\u0440\u043E\u043B\u044C\u043D\u0443\u044E
-    \u043B\u0438\u043D\u0435\u0439\u043A\u0443 \u0434\u043B\u0438\u043D\u043D\u043E\u0439
-    \u0442\u044F\u0433\u0438"
+  helperName: "\u0412\u0438\u0437\u0443\u0430\u043B\u044C\u043D\u044B\u0439 \u043E\u0441\u043C\u043E\u0442\u0440
+    \u043A\u043E\u043D\u0442\u0440\u043E\u043B\u044C\u043D\u043E\u0439 \u043B\u0438\u043D\u0435\u0439\u043A\u0438
+    \u0434\u043B\u0438\u043D\u043D\u043E\u0439 \u0442\u044F\u0433\u0438"
 --- !u!65 &508350370
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21726,7 +21730,7 @@ GameObject:
   - component: {fileID: 559682970}
   - component: {fileID: 559682964}
   m_Layer: 0
-  m_Name: adjOstrLong
+  m_Name: AdjustOstrLongButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21875,9 +21879,9 @@ MonoBehaviour:
   Button: 1
   outlineObjects: []
   helperPos: {fileID: 585877843}
-  helperName: "\u041F\u0440\u043E\u0432\u0435\u0440\u0438\u0442\u044C \u0434\u043B\u0438\u043D\u043D\u0443\u044E
-    \u043A\u043E\u043D\u0442\u0440\u043E\u043B\u044C\u043D\u0443\u044E \u0442\u044F\u0433\u0443
-    \u0441 \u0441\u0435\u0440\u044C\u0433\u043E\u0439"
+  helperName: "\u0420\u0435\u0433\u0443\u043B\u0438\u0440\u043E\u0432\u043A\u0430
+    \u0434\u043B\u0438\u043D\u043D\u043E\u0439 \u043A\u043E\u043D\u0442\u0440\u043E\u043B\u044C\u043D\u043E\u0439
+    \u0442\u044F\u0433\u0438 \u0441 \u0441\u0435\u0440\u044C\u0433\u043E\u0439"
 --- !u!1 &562312160
 GameObject:
   m_ObjectHideFlags: 0
@@ -23435,7 +23439,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &604175620
 RectTransform:
   m_ObjectHideFlags: 0
@@ -27615,9 +27619,9 @@ MonoBehaviour:
   Button: 1
   outlineObjects: []
   helperPos: {fileID: 265785237}
-  helperName: "\u041E\u0441\u043C\u043E\u0442\u0440\u0435\u0442\u044C \u043A\u043E\u043D\u0442\u0440\u043E\u043B\u044C\u043D\u0443\u044E
-    \u043B\u0438\u043D\u0435\u0439\u043A\u0443 \u043A\u043E\u0440\u043E\u0442\u043A\u043E\u0439
-    \u0442\u044F\u0433\u0438"
+  helperName: "\u0412\u0438\u0437\u0443\u0430\u043B\u044C\u043D\u044B\u0439 \u043E\u0441\u043C\u043E\u0442\u0440
+    \u043A\u043E\u043D\u0442\u0440\u043E\u043B\u044C\u043D\u043E\u0439 \u043B\u0438\u043D\u0435\u0439\u043A\u0438
+    \u043A\u043E\u0440\u043E\u0442\u043A\u043E\u0439 \u0442\u044F\u0433\u0438"
 --- !u!65 &750933746
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -32828,8 +32832,7 @@ MonoBehaviour:
   outlineObjects: []
   helperPos: {fileID: 1694244545}
   helperName: "\u0412\u0438\u0437\u0443\u0430\u043B\u044C\u043D\u044B\u0439 \u043E\u0441\u043C\u043E\u0442\u0440
-    \u043F\u043B\u044E\u0441\u043E\u0432\u044B\u0445 \u043A\u043E\u043D\u0442\u0430\u043A\u0442\u043E\u0432
-    \u0430\u0432\u0442\u043E\u043F\u0435\u0440\u0435\u043A\u043B\u044E\u0447\u0430\u0442\u0435\u043B\u044F"
+    \u0434\u0432\u0438\u0433\u0430\u0442\u0435\u043B\u044F"
 --- !u!114 &921794744
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33208,9 +33211,9 @@ MonoBehaviour:
   Button: 1
   outlineObjects: []
   helperPos: {fileID: 1052202308}
-  helperName: "\u041F\u0440\u043E\u0432\u0435\u0440\u0438\u0442\u044C \u043A\u043E\u043D\u0442\u0440\u043E\u043B\u044C\u043D\u0443\u044E
-    \u043B\u0438\u043D\u0435\u0439\u043A\u0443 \u043A\u043E\u0440\u043E\u0442\u043A\u043E\u0439
-    \u0442\u044F\u0433\u0438"
+  helperName: "\u0420\u0435\u0433\u0443\u043B\u0438\u0440\u043E\u0432\u043A\u0430
+    \u043A\u043E\u043D\u0442\u0440\u043E\u043B\u044C\u043D\u043E\u0439 \u043B\u0438\u043D\u0435\u0439\u043A\u0438
+    \u043A\u043E\u0440\u043E\u0442\u043A\u043E\u0439 \u0442\u044F\u0433\u0438"
 --- !u!65 &951869884
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -33769,8 +33772,8 @@ MonoBehaviour:
   Button: 1
   outlineObjects: []
   helperPos: {fileID: 635374706}
-  helperName: "\u041E\u0441\u043C\u043E\u0442\u0440\u0435\u0442\u044C \u0440\u0430\u0431\u043E\u0447\u0443\u044E
-    \u0442\u044F\u0433\u0443 \u0438 \u0448\u0438\u0431\u0435\u0440"
+  helperName: "\u0412\u0438\u0437\u0443\u0430\u043B\u044C\u043D\u044B\u0439 \u043E\u0441\u043C\u043E\u0442\u0440
+    \u0440\u0430\u0431\u043E\u0447\u0435\u0439 \u0442\u044F\u0433\u0438 \u0438 \u0448\u0438\u0431\u0435\u0440\u0430"
 --- !u!65 &963657138
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -34029,7 +34032,7 @@ GameObject:
   - component: {fileID: 973762386}
   - component: {fileID: 973762380}
   m_Layer: 0
-  m_Name: adjOstrShort
+  m_Name: AdjustOstrShortButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -34178,8 +34181,9 @@ MonoBehaviour:
   Button: 1
   outlineObjects: []
   helperPos: {fileID: 105039038}
-  helperName: "\u041F\u0440\u043E\u0432\u0435\u0440\u0438\u0442\u044C  \u043A\u043E\u0440\u043E\u0442\u043A\u0443\u044E
-    \u043A\u043E\u043D\u0442\u0440\u043E\u043B\u044C\u043D\u0443\u044E \u0442\u044F\u0433\u0443"
+  helperName: "\u0420\u0435\u0433\u0443\u043B\u0438\u0440\u043E\u0432\u043A\u0430
+    \u043A\u043E\u0440\u043E\u0442\u043A\u043E\u0439 \u043A\u043E\u043D\u0442\u0440\u043E\u043B\u044C\u043D\u043E\u0439
+    \u0442\u044F\u0433\u0438 \u0441 \u0441\u0435\u0440\u044C\u0433\u043E\u0439"
 --- !u!1 &978861197
 GameObject:
   m_ObjectHideFlags: 0
@@ -35238,7 +35242,7 @@ GameObject:
   - component: {fileID: 998833756}
   - component: {fileID: 998833755}
   m_Layer: 0
-  m_Name: WatchTyagaLeft
+  m_Name: WatchTyagaLeftButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -35259,8 +35263,8 @@ MonoBehaviour:
   Button: 1
   outlineObjects: []
   helperPos: {fileID: 318656912}
-  helperName: "\u041E\u0441\u043C\u043E\u0442\u0440\u0435\u0442\u044C \u0441\u0435\u0440\u044C\u0433\u0443
-    \u043C\u0435\u0436\u043E\u0441\u0442\u0440\u044F\u043A\u043E\u0432\u043E\u0439
+  helperName: "\u0412\u0438\u0437\u0443\u0430\u043B\u044C\u043D\u044B\u0439 \u043E\u0441\u043C\u043E\u0442\u0440
+    \u0441\u0435\u0440\u044C\u0433\u0438 \u043C\u0435\u0436\u043E\u0441\u0442\u0440\u044F\u043A\u043E\u0432\u043E\u0439
     \u0442\u044F\u0433\u0438 \u0441\u043B\u0435\u0432\u0430"
 --- !u!65 &998833756
 BoxCollider:
@@ -38292,7 +38296,9 @@ MonoBehaviour:
   helperPos: {fileID: 497285220}
   helperName: "\u0421\u0435\u0440\u044C\u0433\u0430 \u043C\u0435\u0436\u043E\u0441\u0442\u0440\u044F\u043A\u043E\u0432\u043E\u0439
     \u0442\u044F\u0433\u0438 \u0441\u043F\u0440\u0430\u0432\u0430"
-  _buttons: []
+  _buttons:
+  - {fileID: 452287409}
+  - {fileID: 1135969783}
 --- !u!1001 &1074746128
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38718,7 +38724,7 @@ GameObject:
   - component: {fileID: 1081568320}
   - component: {fileID: 1081568319}
   m_Layer: 0
-  m_Name: WatchOstrLong
+  m_Name: WatchOstrLongButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -38739,9 +38745,9 @@ MonoBehaviour:
   Button: 1
   outlineObjects: []
   helperPos: {fileID: 1042193706}
-  helperName: "\u041E\u0441\u043C\u043E\u0442\u0440\u0435\u0442\u044C \u0434\u043B\u0438\u043D\u043D\u0443\u044E
-    \u043A\u043E\u043D\u0442\u0440\u043E\u043B\u044C\u043D\u0443\u044E \u0442\u044F\u0433\u0443
-    \u0441 \u0441\u0435\u0440\u044C\u0433\u043E\u0439"
+  helperName: "\u0412\u0438\u0437\u0443\u0430\u043B\u044C\u043D\u044B\u0439 \u043E\u0441\u043C\u043E\u0442\u0440
+    \u0434\u043B\u0438\u043D\u043D\u043E\u0439 \u043A\u043E\u043D\u0442\u0440\u043E\u043B\u044C\u043D\u043E\u0439
+    \u0442\u044F\u0433\u0438 \u0441 \u0441\u0435\u0440\u044C\u0433\u043E\u0439"
 --- !u!65 &1081568320
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -41068,7 +41074,7 @@ GameObject:
   - component: {fileID: 1135969785}
   - component: {fileID: 1135969784}
   m_Layer: 0
-  m_Name: adjTyagaRight
+  m_Name: AdjustTyagaRightButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -41217,8 +41223,8 @@ MonoBehaviour:
   Button: 1
   outlineObjects: []
   helperPos: {fileID: 1015085878}
-  helperName: "\u041F\u0440\u043E\u0432\u0435\u0440\u0438\u0442\u044C \u0441\u0435\u0440\u044C\u0433\u0443
-    \u043C\u0435\u0436\u043E\u0441\u0442\u0440\u044F\u043A\u043E\u0432\u043E\u0439
+  helperName: "\u0420\u0435\u0433\u0443\u043B\u0438\u0440\u043E\u0432\u043A\u0430
+    \u0441\u0435\u0440\u044C\u0433\u0438 \u043C\u0435\u0436\u043E\u0441\u0442\u0440\u044F\u043A\u043E\u0432\u043E\u0439
     \u0442\u044F\u0433\u0438 \u0441\u043F\u0440\u0430\u0432\u0430"
 --- !u!1 &1136063263 stripped
 GameObject:
@@ -42259,7 +42265,9 @@ MonoBehaviour:
   helperPos: {fileID: 2034548279}
   helperName: "\u0414\u043B\u0438\u043D\u043D\u0430\u044F \u043A\u043E\u043D\u0442\u0440\u043E\u043B\u044C\u043D\u0430\u044F
     \u0442\u044F\u0433\u0430 \u0441 \u0441\u0435\u0440\u044C\u0433\u043E\u0439"
-  _buttons: []
+  _buttons:
+  - {fileID: 1081568318}
+  - {fileID: 559682963}
 --- !u!114 &1162612129
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43788,7 +43796,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1215645046
 RectTransform:
   m_ObjectHideFlags: 0
@@ -44829,7 +44837,7 @@ GameObject:
   - component: {fileID: 1254656135}
   - component: {fileID: 1254656134}
   m_Layer: 0
-  m_Name: WatchJelobRight
+  m_Name: WatchJelobRightButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -45736,7 +45744,8 @@ MonoBehaviour:
   - {fileID: 1269113420}
   helperPos: {fileID: 347517669}
   helperName: "\u0416\u0435\u043B\u043E\u0431 \u043E\u0441\u0442\u0440\u044F\u043A\u0430"
-  _buttons: []
+  _buttons:
+  - {fileID: 1254656133}
 --- !u!114 &1269113420
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46024,8 +46033,8 @@ MonoBehaviour:
   Button: 1
   outlineObjects: []
   helperPos: {fileID: 1819377360}
-  helperName: "\u041F\u0440\u043E\u0432\u0435\u0440\u0438\u0442\u044C \u0440\u0430\u0431\u043E\u0447\u0443\u044E
-    \u0442\u044F\u0433\u0443 \u0438 \u0448\u0438\u0431\u0435\u0440"
+  helperName: "\u0420\u0435\u0433\u0443\u043B\u0438\u0440\u043E\u0432\u043A\u0430
+    \u0440\u0430\u0431\u043E\u0447\u0435\u0439 \u0442\u044F\u0433\u0438 \u0438 \u0448\u0438\u0431\u0435\u0440\u0430"
 --- !u!114 &1289917232
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46612,7 +46621,7 @@ GameObject:
   - component: {fileID: 1305856114}
   - component: {fileID: 1305856113}
   m_Layer: 0
-  m_Name: WatchOstrShort
+  m_Name: WatchOstrShortButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -46633,9 +46642,9 @@ MonoBehaviour:
   Button: 1
   outlineObjects: []
   helperPos: {fileID: 1902080066}
-  helperName: "\u041E\u0441\u043C\u043E\u0442\u0440\u0435\u0442\u044C \u043A\u043E\u0440\u043E\u0442\u043A\u0443\u044E
-    \u043A\u043E\u043D\u0442\u0440\u043E\u043B\u044C\u043D\u0443\u044E \u0442\u044F\u0433\u0443
-    \u0441 \u0441\u0435\u0440\u044C\u0433\u043E\u0439"
+  helperName: "\u0412\u0438\u0437\u0443\u0430\u043B\u044C\u043D\u044B\u0439 \u043E\u0441\u043C\u043E\u0442\u0440
+    \u043A\u043E\u0440\u043E\u0442\u043A\u043E\u0439 \u043A\u043E\u043D\u0442\u0440\u043E\u043B\u044C\u043D\u043E\u0439
+    \u0442\u044F\u0433\u0438 \u0441 \u0441\u0435\u0440\u044C\u0433\u043E\u0439"
 --- !u!65 &1305856114
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -50375,7 +50384,9 @@ MonoBehaviour:
   helperPos: {fileID: 397202345}
   helperName: "\u0421\u0435\u0440\u044C\u0433\u0430 \u0440\u0430\u0431\u043E\u0447\u0435\u0439
     \u0442\u044F\u0433\u0438"
-  _buttons: []
+  _buttons:
+  - {fileID: 6628990}
+  - {fileID: 1799826413}
 --- !u!114 &1434537701
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54106,7 +54117,9 @@ MonoBehaviour:
   helperPos: {fileID: 228624384}
   helperName: "\u0421\u0435\u0440\u044C\u0433\u0430 \u043C\u0435\u0436\u043E\u0441\u0442\u0440\u044F\u043A\u043E\u0432\u043E\u0439
     \u0442\u044F\u0433\u0438 \u0441\u043B\u0435\u0432\u0430"
-  _buttons: []
+  _buttons:
+  - {fileID: 998833754}
+  - {fileID: 503242381}
 --- !u!1 &1596102735
 GameObject:
   m_ObjectHideFlags: 0
@@ -55494,7 +55507,8 @@ MonoBehaviour:
   Button: 1
   outlineObjects: []
   helperPos: {fileID: 581777977}
-  helperName: "\u041E\u0441\u043C\u043E\u0442\u0440 \u0411\u0412\u0421"
+  helperName: "\u0412\u0438\u0437\u0443\u0430\u043B\u044C\u043D\u044B\u0439 \u043E\u0441\u043C\u043E\u0442\u0440
+    \u0411\u0412\u0421"
 --- !u!114 &1633068290
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -56160,8 +56174,9 @@ MonoBehaviour:
   Button: 1
   outlineObjects: []
   helperPos: {fileID: 1949562460}
-  helperName: "\u041E\u0441\u043C\u043E\u0442\u0440 \u043A\u043B\u0435\u043C\u043C\u043D\u043E\u0439 
-    \u043A\u043E\u043B\u043E\u0434\u043A\u0438 \u0410"
+  helperName: "\u0412\u0438\u0437\u0443\u0430\u043B\u044C\u043D\u044B\u0439 \u043E\u0441\u043C\u043E\u0442\u0440
+    \u043A\u043B\u0435\u043C\u043C\u043D\u043E\u0439 \u043A\u043E\u043B\u043E\u0434\u043A\u0438
+    \u0410"
 --- !u!114 &1663223958
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60785,7 +60800,7 @@ GameObject:
   - component: {fileID: 1799826416}
   - component: {fileID: 1799826415}
   m_Layer: 0
-  m_Name: adjOstr
+  m_Name: AdjustOstrButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -60931,11 +60946,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ea211b6ba2e37d46934d24f50f7d03d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Button: 0
+  Button: 1
   outlineObjects: []
   helperPos: {fileID: 864905881}
-  helperName: "\u041F\u0440\u043E\u0432\u0435\u0440\u0438\u0442\u044C \u0441\u0435\u0440\u044C\u0433\u0443
-    \u0440\u0430\u0431\u043E\u0447\u0435\u0439 \u0442\u044F\u0433\u0438"
+  helperName: "\u0420\u0435\u0433\u0443\u043B\u0438\u0440\u043E\u0432\u043A\u0430
+    \u0441\u0435\u0440\u044C\u0433\u0438 \u0440\u0430\u0431\u043E\u0447\u0435\u0439
+    \u0442\u044F\u0433\u0438"
 --- !u!1 &1803074988
 GameObject:
   m_ObjectHideFlags: 0
@@ -63032,8 +63048,9 @@ MonoBehaviour:
   Button: 1
   outlineObjects: []
   helperPos: {fileID: 1388338863}
-  helperName: "\u041E\u0441\u043C\u043E\u0442\u0440 \u043A\u043B\u0435\u043C\u043C\u043D\u043E\u0439 
-    \u043A\u043E\u043B\u043E\u0434\u043A\u0438 C"
+  helperName: "\u0412\u0438\u0437\u0443\u0430\u043B\u044C\u043D\u044B\u0439 \u043E\u0441\u043C\u043E\u0442\u0440
+    \u043A\u043B\u0435\u043C\u043C\u043D\u043E\u0439 \u043A\u043E\u043B\u043E\u0434\u043A\u0438
+    \u0421"
 --- !u!114 &1857747194
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63637,7 +63654,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1869589618
 RectTransform:
   m_ObjectHideFlags: 0
@@ -68758,7 +68775,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2022123806
 RectTransform:
   m_ObjectHideFlags: 0
@@ -69206,8 +69223,9 @@ MonoBehaviour:
   Button: 1
   outlineObjects: []
   helperPos: {fileID: 1035235844}
-  helperName: "\u041E\u0441\u043C\u043E\u0442\u0440 \u043A\u043B\u0435\u043C\u043C\u043D\u043E\u0439 
-    \u043A\u043E\u043B\u043E\u0434\u043A\u0438 B"
+  helperName: "\u0412\u0438\u0437\u0443\u0430\u043B\u044C\u043D\u044B\u0439 \u043E\u0441\u043C\u043E\u0442\u0440
+    \u043A\u043B\u0435\u043C\u043C\u043D\u043E\u0439 \u043A\u043E\u043B\u043E\u0434\u043A\u0438
+    \u0412"
 --- !u!114 &2033766493
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -69327,7 +69345,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2034548278}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.09, z: 0}
+  m_LocalPosition: {x: 0, y: 0.056, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1162612125}
@@ -70314,7 +70332,7 @@ GameObject:
   - component: {fileID: 2081106412}
   - component: {fileID: 2081106411}
   m_Layer: 0
-  m_Name: WatchJelobLeft
+  m_Name: WatchJelobLeftButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -70335,8 +70353,9 @@ MonoBehaviour:
   Button: 1
   outlineObjects: []
   helperPos: {fileID: 152766760}
-  helperName: "\u041E\u0441\u043C\u043E\u0442\u0440\u0435\u0442\u044C \u0436\u0435\u043B\u043E\u0431
-    \u043E\u0441\u0442\u0440\u044F\u043A\u0430"
+  helperName: "\u0412\u0438\u0437\u0443\u0430\u043B\u044C\u043D\u044B\u0439 \u043E\u0441\u043C\u043E\u0442\u0440
+    \u0436\u0435\u043B\u043E\u0431\u0430 \u043E\u0441\u0442\u0440\u044F\u043A\u0430
+    \u0441\u043B\u0435\u0432\u0430"
 --- !u!65 &2081106412
 BoxCollider:
   m_ObjectHideFlags: 0
