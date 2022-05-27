@@ -18,6 +18,7 @@ public class WatchButton : BaseButtton
         base.Start();
         _buttonController = FindObjectOfType<ButtonsController>();
         _buttonController.Buttons.Add(this);
+        Debug.Log(_buttonController.Buttons.Count);
     }
     public override void OnClicked(InteractHand interactHand)
     {

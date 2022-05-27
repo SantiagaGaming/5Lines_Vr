@@ -13,6 +13,7 @@ public class BackButtonObject : BaseButtton
     {
         _buttonsController = FindObjectOfType<ButtonsController>();
         _buttonsController.BackButtons.Add(this);
+        Debug.Log(_buttonsController.BackButtons.Count);
     }
     public override void OnClicked(InteractHand interactHand)
     {

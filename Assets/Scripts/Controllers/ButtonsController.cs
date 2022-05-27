@@ -18,6 +18,7 @@ public class ButtonsController : MonoBehaviour
         foreach (var item in Buttons)
         {
             item.DisableButton();
+            Debug.Log("Disabled");
         }
     }
 }
