@@ -8,6 +8,12 @@ using UnityEngine.Events;
 public class BackButtonObject : BaseButtton
 {
     public UnityAction BackButtonClickEvent;
+    private ButtonsController _buttonsController;
+    private void Awake()
+    {
+        _buttonsController = FindObjectOfType<ButtonsController>();
+        _buttonsController.BackButtons.Add(this);
+    }
     public override void OnClicked(InteractHand interactHand)
     {
         BackButtonClickEvent?.Invoke();
