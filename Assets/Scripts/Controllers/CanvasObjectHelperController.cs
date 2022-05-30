@@ -21,7 +21,7 @@ public class CanvasObjectHelperController : MonoBehaviour
     }
     public void HidetextHelper()
     {
-        _timer = 2;
+        _timer = 0.3f;
         StopCoroutine("GetHelpName");
         _canvasObject.SetActive(false);
     }
