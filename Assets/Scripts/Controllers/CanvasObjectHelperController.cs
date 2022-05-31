@@ -28,8 +28,9 @@ public class CanvasObjectHelperController : MonoBehaviour
     private IEnumerator GetHelpName()
     {
         yield return new WaitForSeconds(_timer);
-        _canvasObject.SetActive(true);
         _textMesh.text = _name;
         transform.position = _helperPos.position;
+        _canvasObject.SetActive(true);
+
     }
 }
