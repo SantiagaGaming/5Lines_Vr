@@ -11,6 +11,7 @@ public class Door : BaseObject
     public UnityAction<Transform, string> TeleportToObjectEvent;
     public UnityAction AosTeleportEvent;
     [SerializeField] private Transform _newPlayerPosition;
+    [SerializeField] private string _locationName;
 
     public void StartTeleporting()
     {
@@ -20,6 +21,8 @@ public class Door : BaseObject
    override public void OnClicked(InteractHand interactHand)
     {
         StartTeleporting();
+        LocationController locationController = FindObjectOfType<LocationController>();
+        locationController.SetLocationText(_locationName);
     }
 
 

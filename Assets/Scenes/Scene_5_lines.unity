@@ -6294,6 +6294,10 @@ PrefabInstance:
       value: "\u041C\u0443\u0444\u0442\u0430"
       objectReference: {fileID: 0}
     - target: {fileID: 1004214696766686427, guid: 790751f78e4c92c4b9694d66bd000358, type: 3}
+      propertyPath: _locationName
+      value: "\u041C\u0443\u0444\u0442\u0430 \u0423\u041F\u041C-24"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1004214696766686427, guid: 790751f78e4c92c4b9694d66bd000358, type: 3}
       propertyPath: _zoomController
       value: 
       objectReference: {fileID: 1535690950}
@@ -9251,6 +9255,51 @@ RectTransform:
   m_AnchoredPosition: {x: 0.36349773, y: 0.22411734}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &226403584
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 226403585}
+  - component: {fileID: 226403586}
+  m_Layer: 0
+  m_Name: LocationController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &226403585
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 226403584}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 868297410}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &226403586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 226403584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 522fa2bdb6183f14a90ae3c13f03dccf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _deskText: {fileID: 1848865413}
+  _textMesh: {fileID: 547212702}
 --- !u!1 &227890017
 GameObject:
   m_ObjectHideFlags: 0
@@ -19373,6 +19422,7 @@ MonoBehaviour:
   _dietPosition: {fileID: 292955634}
   _amperPosition: {fileID: 503601424}
   _textMesh: {fileID: 1115798991}
+  _locationName: "\u041E\u0441\u0442\u0440\u044F\u043A \u0441\u043F\u0440\u0430\u0432\u0430"
   _objectsWithButtons:
   - {fileID: 1074096305}
   - {fileID: 405789616}
@@ -29834,6 +29884,7 @@ MonoBehaviour:
   - {fileID: 201702209}
   - {fileID: 51861003}
   - {fileID: 1385829752}
+  _locationController: {fileID: 226403586}
   CanSwitch: 1
 --- !u!1 &814235750
 GameObject:
@@ -32232,6 +32283,7 @@ Transform:
   - {fileID: 523425497}
   - {fileID: 1640872386}
   - {fileID: 311516759}
+  - {fileID: 226403585}
   m_Father: {fileID: 0}
   m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -39004,6 +39056,10 @@ PrefabInstance:
       value: "\u0414\u0432\u0435\u0440\u044C \u043D\u0430 \u0443\u043B\u0438\u0446\u0443"
       objectReference: {fileID: 0}
     - target: {fileID: 470894974119068875, guid: bd3d4e0872d0aab4081b136afc06d266, type: 3}
+      propertyPath: _locationName
+      value: "\u041F\u043E\u043B\u0435"
+      objectReference: {fileID: 0}
+    - target: {fileID: 470894974119068875, guid: bd3d4e0872d0aab4081b136afc06d266, type: 3}
       propertyPath: outlineObject
       value: 
       objectReference: {fileID: 334102261}
@@ -39052,6 +39108,10 @@ PrefabInstance:
       value: "\u0414\u0432\u0435\u0440\u044C \u0432 \u0414\u0421\u041F"
       objectReference: {fileID: 0}
     - target: {fileID: 4857670208714758839, guid: bd3d4e0872d0aab4081b136afc06d266, type: 3}
+      propertyPath: _locationName
+      value: "\u041F\u043E\u043C\u0435\u0449\u0435\u043D\u0438\u0435 \u0414\u0421\u041F"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4857670208714758839, guid: bd3d4e0872d0aab4081b136afc06d266, type: 3}
       propertyPath: outlineObject
       value: 
       objectReference: {fileID: 78257205}
@@ -39086,6 +39146,10 @@ PrefabInstance:
     - target: {fileID: 7024024910107357260, guid: bd3d4e0872d0aab4081b136afc06d266, type: 3}
       propertyPath: helperName
       value: "\u0414\u0432\u0435\u0440\u044C \u0432 \u0440\u0435\u043B\u0435"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7024024910107357260, guid: bd3d4e0872d0aab4081b136afc06d266, type: 3}
+      propertyPath: _locationName
+      value: "\u0420\u0435\u043B\u0435\u0439\u043D\u0430\u044F"
       objectReference: {fileID: 0}
     - target: {fileID: 7024024910107357260, guid: bd3d4e0872d0aab4081b136afc06d266, type: 3}
       propertyPath: outlineObject
@@ -59309,6 +59373,7 @@ MonoBehaviour:
   _dietPosition: {fileID: 2130420732}
   _amperPosition: {fileID: 1717330292}
   _textMesh: {fileID: 108394331}
+  _locationName: "\u0424\u0430\u0440\u0442\u0443\u043A \u043F\u0440\u0438\u0432\u043E\u0434\u0430"
   _objectsWithButtons:
   - {fileID: 202165790}
   - {fileID: 48131815}
@@ -60028,6 +60093,7 @@ MonoBehaviour:
   _dietPosition: {fileID: 1270691324}
   _amperPosition: {fileID: 1743474511}
   _textMesh: {fileID: 1115798991}
+  _locationName: "\u0420\u0430\u0431\u043E\u0447\u0430\u044F \u0442\u044F\u0433\u0430"
   _objectsWithButtons:
   - {fileID: 1434537697}
 --- !u!65 &1743474510
@@ -62055,6 +62121,7 @@ MonoBehaviour:
   helperPos: {fileID: 0}
   helperName: 
   _newPlayerPosition: {fileID: 633663114}
+  _locationName: 
 --- !u!1 &1814691415
 GameObject:
   m_ObjectHideFlags: 0
@@ -62873,6 +62940,7 @@ MonoBehaviour:
   _dietPosition: {fileID: 467307404}
   _amperPosition: {fileID: 1836868989}
   _textMesh: {fileID: 1115798991}
+  _locationName: "\u041E\u0441\u0442\u0440\u044F\u043A \u0441\u043B\u0435\u0432\u0430"
   _objectsWithButtons:
   - {fileID: 1592800898}
   - {fileID: 1162612124}
@@ -63566,8 +63634,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.2277, y: -0.1613}
-  m_SizeDelta: {x: 317.2502, y: 106.8236}
+  m_AnchoredPosition: {x: 0.0000076294, y: 0.0000019073}
+  m_SizeDelta: {x: 173.9754, y: 58.5805}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1848865413
 MonoBehaviour:
@@ -66255,6 +66323,10 @@ PrefabInstance:
     - target: {fileID: 1027743847, guid: 5b64a7404c205fc46862af1207eab636, type: 3}
       propertyPath: helperName
       value: "\u0414\u0432\u0435\u0440\u044C \u0432 \u043A\u043E\u0440\u0438\u0434\u043E\u0440"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1027743847, guid: 5b64a7404c205fc46862af1207eab636, type: 3}
+      propertyPath: _locationName
+      value: "\u041A\u043E\u0440\u0438\u0434\u043E\u0440"
       objectReference: {fileID: 0}
     - target: {fileID: 1027743847, guid: 5b64a7404c205fc46862af1207eab636, type: 3}
       propertyPath: outlineObject
@@ -73892,6 +73964,10 @@ PrefabInstance:
       value: "\u042D\u043B\u0435\u043A\u0442\u0440\u043E\u043F\u0440\u0438\u0432\u043E\u0434"
       objectReference: {fileID: 0}
     - target: {fileID: 2598447178248794336, guid: ac23b100fa9b0bc41ae1c122aebb68a2, type: 3}
+      propertyPath: _locationName
+      value: "\u042D\u043B\u0435\u043A\u0442\u0440\u043E\u043F\u0440\u0438\u0432\u043E\u0434"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2598447178248794336, guid: ac23b100fa9b0bc41ae1c122aebb68a2, type: 3}
       propertyPath: _zoomController
       value: 
       objectReference: {fileID: 1535690950}
@@ -75385,6 +75461,10 @@ PrefabInstance:
       value: "\u0414\u0432\u0435\u0440\u044C \u0432 \u043A\u043E\u0440\u0438\u0434\u043E\u0440"
       objectReference: {fileID: 0}
     - target: {fileID: 3445175265222919217, guid: 8d7f4f424970bc745abb0088ff43f943, type: 3}
+      propertyPath: _locationName
+      value: "\u041A\u043E\u0440\u0438\u0434\u043E\u0440"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3445175265222919217, guid: 8d7f4f424970bc745abb0088ff43f943, type: 3}
       propertyPath: outlineObject
       value: 
       objectReference: {fileID: 261345563}
@@ -75510,6 +75590,11 @@ PrefabInstance:
       objectReference: {fileID: 1388062849}
     - target: {fileID: 4661883815308578393, guid: 8d7f4f424970bc745abb0088ff43f943, type: 3}
       propertyPath: helperName
+      value: "\u041C\u043E\u043D\u0442\u0430\u0436\u043D\u0430\u044F \u0447\u0430\u0441\u0442\u044C
+        \u043F\u0443\u043B\u044C\u0442-\u0442\u0430\u0431\u043B\u043E"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4661883815308578393, guid: 8d7f4f424970bc745abb0088ff43f943, type: 3}
+      propertyPath: _locationName
       value: "\u041C\u043E\u043D\u0442\u0430\u0436\u043D\u0430\u044F \u0447\u0430\u0441\u0442\u044C
         \u043F\u0443\u043B\u044C\u0442-\u0442\u0430\u0431\u043B\u043E"
       objectReference: {fileID: 0}
@@ -76066,6 +76151,10 @@ PrefabInstance:
       value: "\u0414\u0432\u0435\u0440\u044C \u0432 \u043A\u043E\u0440\u0438\u0434\u043E\u0440"
       objectReference: {fileID: 0}
     - target: {fileID: 4078034035347330919, guid: 4b6bca1a8c2b2a64eac54ed6f2f9d530, type: 3}
+      propertyPath: _locationName
+      value: "\u041A\u043E\u0440\u0438\u0434\u043E\u0440"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4078034035347330919, guid: 4b6bca1a8c2b2a64eac54ed6f2f9d530, type: 3}
       propertyPath: outlineObject
       value: 
       objectReference: {fileID: 941899082}
@@ -76257,6 +76346,10 @@ PrefabInstance:
       propertyPath: helperName
       value: "\u0421\u0442\u0430\u0442\u0438\u0432 14 \u043B\u0438\u0446\u0435\u0432\u0430\u044F
         \u0441\u0442\u043E\u0440\u043E\u043D\u0430"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4816039654783985219, guid: 4b6bca1a8c2b2a64eac54ed6f2f9d530, type: 3}
+      propertyPath: _locationName
+      value: "\u0421\u0442\u0430\u0442\u0438\u0432 14 (\u043B\u0438\u0446\u0435\u0432\u0430\u044F)"
       objectReference: {fileID: 0}
     - target: {fileID: 4816039654783985219, guid: 4b6bca1a8c2b2a64eac54ed6f2f9d530, type: 3}
       propertyPath: _zoomController
@@ -76538,6 +76631,10 @@ PrefabInstance:
       propertyPath: helperName
       value: "\u0421\u0442\u0430\u0442\u0438\u0432 14 \u043C\u043E\u043D\u0442\u0430\u0436\u043D\u0430\u044F
         \u0441\u0442\u043E\u0440\u043E\u043D\u0430"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4816039654861602621, guid: 4b6bca1a8c2b2a64eac54ed6f2f9d530, type: 3}
+      propertyPath: _locationName
+      value: "\u0421\u0442\u0430\u0442\u0438\u0432 14 (\u043C\u043E\u043D\u0442\u0430\u0436)"
       objectReference: {fileID: 0}
     - target: {fileID: 4816039654861602621, guid: 4b6bca1a8c2b2a64eac54ed6f2f9d530, type: 3}
       propertyPath: _zoomController

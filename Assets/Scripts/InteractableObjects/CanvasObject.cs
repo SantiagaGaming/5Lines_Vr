@@ -11,7 +11,7 @@ public class CanvasObject :BaseObject, ICanvasObject
 {
     public UnityAction<ICanvasObject, TextMesh> EnableCanvasEvent;
 
-
+    public UnityAction<string, bool> GetLocationNameEvent;
     [SerializeField] protected GameObject _canvas;
     [SerializeField] protected GameObject _canIterractSign;
     [SerializeField] protected Diet _diet;
@@ -21,6 +21,7 @@ public class CanvasObject :BaseObject, ICanvasObject
     [SerializeField] protected Transform _dietPosition;
     [SerializeField] protected Transform _amperPosition;
     [SerializeField] protected TextMesh _textMesh;
+    [SerializeField] protected string _locationName;
 
 
     [SerializeField] private GameObject[] _objectsWithButtons;
@@ -45,6 +46,7 @@ public class CanvasObject :BaseObject, ICanvasObject
         _helpImage.SetActive(false);
         EnableObjectsColliders(false);
         DisaleActionButtons();
+        GetLocationNameEvent?.Invoke(_locationName,false);
         if (outlineObjects != null)
         {
             foreach (var obj in outlineObjects)
@@ -66,6 +68,7 @@ public class CanvasObject :BaseObject, ICanvasObject
                 {
                     obj.enabled = false;
                 }
+            GetLocationNameEvent?.Invoke(_locationName,true);
         }
     }
     protected void ShowCanvas()

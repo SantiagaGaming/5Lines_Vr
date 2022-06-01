@@ -11,6 +11,7 @@ public class CanvasController : MonoBehaviour
 
     [SerializeField] private CanvasObject[] _objectsWithActions;
     [SerializeField] private BackButtonObject[] _backButtonObjects;
+    [SerializeField] private LocationController _locationController;
 
     [HideInInspector] public bool CanSwitch = true;
 
@@ -22,6 +23,7 @@ public class CanvasController : MonoBehaviour
         foreach (var switchCameraObject in _objectsWithActions)
         {
             switchCameraObject.EnableCanvasEvent += OnEnableObjectCanvas;
+            switchCameraObject.GetLocationNameEvent += OnSetLocationName;
         }
         foreach (var back in _backButtonObjects)
         {
@@ -37,10 +39,7 @@ public class CanvasController : MonoBehaviour
     }
     private void OnDisableObjectCanvas()
     {
-        foreach (var canvas in _objectsWithActions)
-        {
-            canvas.DisableCanvas();
-        }
+        _currentCanvas.DisableCanvas();
         ShupController shup = FindObjectOfType<ShupController>();
         shup.ResetShupPosition();
         ColliderEnabler(true);
@@ -76,5 +75,12 @@ public class CanvasController : MonoBehaviour
     public void EnbaleMeasureActions(bool value)
     {
         _currentCanvas.EnableMeasure(value);
+    }
+    private void OnSetLocationName(string name, bool value)
+    {
+        if(value)
+            _locationController.SetLocationText(name);
+        else
+            _locationController.SetPreviousLocation(name);
     }
 }
