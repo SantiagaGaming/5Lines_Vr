@@ -10,6 +10,7 @@ public class TeleportController : MonoBehaviour
     public UnityAction<string> TeleportEvent;
     [SerializeField] private Door[] _doors;
     [SerializeField] private CameraFlash _cameraFlash;
+    [HideInInspector]public bool CanTeleport = true;
 
     private void Awake()
     {
@@ -20,8 +21,12 @@ public class TeleportController : MonoBehaviour
     }
     private void OnStartTeleporting(Transform newPlayerPosition, string name)
     {
-        Player.Instance.TeleportTo(newPlayerPosition);
-        _cameraFlash.CameraFlashStart();
-        TeleportEvent?.Invoke(name);
+        if(CanTeleport)
+        {
+            Player.Instance.TeleportTo(newPlayerPosition);
+            _cameraFlash.CameraFlashStart();
+            TeleportEvent?.Invoke(name);
+        }
+     
     }
 }
