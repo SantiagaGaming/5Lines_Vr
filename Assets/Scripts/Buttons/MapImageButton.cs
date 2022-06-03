@@ -21,7 +21,7 @@ public class MapImageButton : MonoBehaviour, IClickAble
         _curSprite++;
         if (_curSprite > _sprites.Length - 1)
             _curSprite = 0;              
-        GetComponent<Image>().sprite = _sprites[_curSprite];
+        GetComponent<SpriteRenderer>().sprite = _sprites[_curSprite];
     }
 
 }

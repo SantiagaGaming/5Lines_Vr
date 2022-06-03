@@ -9,7 +9,7 @@ using AosSdk.ThirdParty.QuickOutline.Scripts;
 
 public class CanvasObject :BaseObject, ICanvasObject
 {
-    public UnityAction<ICanvasObject, TextMesh> EnableCanvasEvent;
+    public UnityAction<ICanvasObject> EnableCanvasEvent;
 
     public UnityAction<string, bool> GetLocationNameEvent;
     [SerializeField] protected GameObject _canvas;
@@ -17,10 +17,9 @@ public class CanvasObject :BaseObject, ICanvasObject
     [SerializeField] protected Diet _diet;
     [SerializeField] protected Ampermetr _amper;
     [SerializeField] protected GameObject _map;
-    [SerializeField] protected GameObject _helpImage;
     [SerializeField] protected Transform _dietPosition;
     [SerializeField] protected Transform _amperPosition;
-    [SerializeField] protected TextMesh _textMesh;
+   // [SerializeField] protected TextMesh _textMesh;
     [SerializeField] protected string _locationName;
 
 
@@ -43,7 +42,6 @@ public class CanvasObject :BaseObject, ICanvasObject
         _diet.EnableDiet(false, _dietPosition);
         _amper.EnableAmper(false, _amperPosition);
         _map.SetActive(false);
-        _helpImage.SetActive(false);
         EnableObjectsColliders(false);
         DisaleActionButtons();
         GetLocationNameEvent?.Invoke(_locationName,false);
@@ -61,6 +59,7 @@ public class CanvasObject :BaseObject, ICanvasObject
         if (canvasController.CanSwitch)
         {
             ShowCanvas();
+            EnableCanvasEvent?.Invoke(this);
             _canIterractSign.SetActive(false);
             gameObject.GetComponent<Collider>().enabled = false;
             if (outlineObjects != null)
@@ -74,7 +73,7 @@ public class CanvasObject :BaseObject, ICanvasObject
     protected void ShowCanvas()
     {
         _canvas.SetActive(true);
-        EnableCanvasEvent?.Invoke(this, _textMesh);
+      //  EnableCanvasEvent?.Invoke(this, _textMesh);
         EnableObjectsColliders(true);
     }
 

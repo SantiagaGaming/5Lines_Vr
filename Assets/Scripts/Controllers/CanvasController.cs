@@ -20,10 +20,10 @@ public class CanvasController : MonoBehaviour
 
     private void Awake()
     {
-        foreach (var switchCameraObject in _objectsWithActions)
+        foreach (var canvasObject in _objectsWithActions)
         {
-            switchCameraObject.EnableCanvasEvent += OnEnableObjectCanvas;
-            switchCameraObject.GetLocationNameEvent += OnSetLocationName;
+            canvasObject.EnableCanvasEvent += OnEnableObjectCanvas;
+            canvasObject.GetLocationNameEvent += OnSetLocationName;
         }
         foreach (var back in _backButtonObjects)
         {
@@ -31,11 +31,10 @@ public class CanvasController : MonoBehaviour
         }
     }
 
-    private void OnEnableObjectCanvas(ICanvasObject canvasObject, TextMesh textMesh)
+    private void OnEnableObjectCanvas(ICanvasObject canvasObject)
     {
        _currentCanvas = canvasObject;
         ColliderEnabler(false);
-        _textToShowInCanvas = textMesh;
     }
     private void OnDisableObjectCanvas()
     {
