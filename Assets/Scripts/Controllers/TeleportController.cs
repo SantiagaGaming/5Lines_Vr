@@ -8,6 +8,8 @@ using UnityEngine.Events;
 public class TeleportController : MonoBehaviour
 {
     public UnityAction<string> TeleportEvent;
+    [SerializeField] private GameObject _descPlayer;
+    [SerializeField] private GameObject _vrPlayer;
     [SerializeField] private Door[] _doors;
     [SerializeField] private CameraFlash _cameraFlash;
     [HideInInspector]public bool CanTeleport = true;
@@ -24,6 +26,8 @@ public class TeleportController : MonoBehaviour
         if(CanTeleport)
         {
             Player.Instance.TeleportTo(newPlayerPosition);
+            _descPlayer.transform.rotation = newPlayerPosition.rotation;
+            _vrPlayer.transform.rotation = newPlayerPosition.rotation;
             _cameraFlash.CameraFlashStart();
             TeleportEvent?.Invoke(name);
         }

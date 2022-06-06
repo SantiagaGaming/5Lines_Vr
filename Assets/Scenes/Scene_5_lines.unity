@@ -37057,6 +37057,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f63345fb2ace5148befcfdb08a2478d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _descPlayer: {fileID: 1097993376}
+  _vrPlayer: {fileID: 481849675}
   _doors:
   - {fileID: 1027743847}
   - {fileID: 470894974119068875}
