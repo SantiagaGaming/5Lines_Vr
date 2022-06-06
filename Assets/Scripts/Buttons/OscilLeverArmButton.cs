@@ -7,7 +7,7 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
 
-public class OscilLeverArmButton : BaseButtton
+public class OscilLeverArmButton : BaseButton
 {
     [SerializeField] private bool _left;
     [SerializeField] private GameObject _leverArm;

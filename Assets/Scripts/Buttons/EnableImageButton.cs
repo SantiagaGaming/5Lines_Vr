@@ -5,7 +5,7 @@ using AosSdk.Core.Player;
 using AosSdk.Core.Player.Pointer;
 using UnityEngine;
 using UnityEngine.Events;
-public class EnableImageButton : BaseButtton
+public class EnableImageButton : BaseButton
 {
     [SerializeField] private GameObject _object;
 

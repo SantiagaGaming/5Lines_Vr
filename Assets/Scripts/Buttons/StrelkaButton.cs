@@ -5,7 +5,7 @@ using AosSdk.Core.Player;
 using AosSdk.Core.Player.Pointer;
 using UnityEngine;
 using UnityEngine.Events;
-public class StrelkaButton : BaseButtton
+public class StrelkaButton : BaseButton
 {
     [SerializeField] private bool _plus;
     [SerializeField] private StrelkaAOS _strelkaAOS;

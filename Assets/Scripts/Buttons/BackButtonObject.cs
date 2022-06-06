@@ -5,7 +5,7 @@ using AosSdk.Core.Player;
 using AosSdk.Core.Player.Pointer;
 using UnityEngine;
 using UnityEngine.Events;
-public class BackButtonObject : BaseButtton
+public class BackButtonObject : BaseButton
 {
     public UnityAction BackButtonClickEvent;
 

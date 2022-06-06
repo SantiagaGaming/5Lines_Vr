@@ -5,7 +5,7 @@ using AosSdk.Core.Player;
 using AosSdk.Core.Player.Pointer;
 using UnityEngine;
 using UnityEngine.Events;
-public class RadioButton : BaseButtton
+public class RadioButton : BaseButton
 {
     [SerializeField] private Diet _diet;
     [SerializeField] private CanvasObject _canvasObject;

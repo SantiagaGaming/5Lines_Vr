@@ -6,7 +6,7 @@ using AosSdk.Core.Player.Pointer;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class ZoomButton : BaseButtton
+public class ZoomButton : BaseButton
 {
     [SerializeField] private ZoomController _playerInventController;
     public override void OnClicked(InteractHand interactHand)

@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MenuButton : BaseButtton
+public class MenuButton : BaseButton
 {
     private bool _show = false;
     public override void OnClicked(InteractHand interactHand)

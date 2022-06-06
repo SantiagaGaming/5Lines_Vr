@@ -5,7 +5,7 @@ using AosSdk.Core.Player;
 using AosSdk.Core.Player.Pointer;
 using UnityEngine;
 using UnityEngine.Events;
-public class AmperButton : BaseButtton
+public class AmperButton : BaseButton
 {
     [SerializeField] private Ampermetr _ampermetr;
     [SerializeField] private GameObject _measureButtons;

@@ -5,7 +5,7 @@ using AosSdk.Core.Player;
 using AosSdk.Core.Player.Pointer;
 using UnityEngine;
 using UnityEngine.Events;
-public class BaseButtton : BaseObject
+public class BaseButton : BaseObject
 {
     public override void OnClicked(InteractHand interactHand)
     {

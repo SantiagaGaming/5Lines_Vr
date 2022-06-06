@@ -5,7 +5,7 @@ using AosSdk.Core.Player;
 using AosSdk.Core.Player.Pointer;
 using UnityEngine;
 using UnityEngine.Events;
-public class MeasureButton : BaseButtton
+public class MeasureButton : BaseButton
 {
     public UnityAction<Transform, string> MeasureButtonClickEvent;
 

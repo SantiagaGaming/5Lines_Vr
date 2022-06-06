@@ -5,7 +5,7 @@ using AosSdk.Core.Player;
 using AosSdk.Core.Player.Pointer;
 using UnityEngine;
 using UnityEngine.Events;
-public class WatchButton : BaseButtton
+public class WatchButton : BaseButton
 {
     /// <summary>
     /// TODO состояние объекта.

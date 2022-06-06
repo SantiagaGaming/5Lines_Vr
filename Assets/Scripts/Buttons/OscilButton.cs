@@ -7,7 +7,7 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
 
-public class OscilButton : BaseButtton
+public class OscilButton : BaseButton
 {
     public UnityAction<int> ButtonDownEvent;
     
