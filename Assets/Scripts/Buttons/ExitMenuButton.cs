@@ -12,7 +12,7 @@ public class ExitMenuButton : BaseButtton
     {
         _escButton.ChangeShowValue(false);
         _menuButton.ChangeShowValue(false);
-        _mainController.HideMainMenu();
+        _mainController.TeleportToPreviousLocation();
 
     }
 }

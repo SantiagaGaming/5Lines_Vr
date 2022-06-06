@@ -23855,7 +23855,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &709528922
 RectTransform:
   m_ObjectHideFlags: 0
@@ -39774,10 +39774,9 @@ MonoBehaviour:
   outlineObjects:
   - {fileID: 1310370790}
   helperPos: {fileID: 2087312415}
-  helperName: "\u041F\u0440\u043E\u0432\u0435\u0440\u043A\u0430 \u043A\u043E\u043D\u0442\u0430\u043A\u0442\u0430
-    \u043F\u0440\u0435\u0434\u043E\u0445\u0440\u0430\u043D\u0438\u0442\u0435\u043B\u044F
-    \u0440\u0430\u0431\u043E\u0447\u0435\u0439 \u0446\u0435\u043F\u0438 (\u0444\u0430\u0437\u0430
-    A)"
+  helperName: "\u041F\u0440\u0435\u0434\u043E\u0445\u0440\u0430\u043D\u0438\u0442\u0435\u043B\u044C
+    \u0440\u0430\u0431\u043E\u0447\u0435\u0439 \u0446\u0435\u043F\u0438 \u0424\u0430\u0437\u0430
+    \u0410"
   _buttons:
   - {fileID: 940849695}
   - {fileID: 2107867370}

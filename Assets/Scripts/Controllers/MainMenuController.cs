@@ -16,7 +16,7 @@ public class MainMenuController : MonoBehaviour
 
     private Vector3 _currentPlayerPosition = new Vector3();
 
-    public void ShowMainMenu()
+    public void TeleportToMainMenuLocation()
     {
         _currentPlayerPosition = new Vector3(_modeController.GetPlayerTransform().position.x, 0.1500001f, _modeController.GetPlayerTransform().position.z);
         Player.Instance.TeleportTo(_menuPosition);
@@ -24,9 +24,9 @@ public class MainMenuController : MonoBehaviour
         _vrPlayer.transform.rotation = _menuPosition.rotation;
         _cameraFlash.CameraFlashStart();
     }
-    public void HideMainMenu()
+    public void TeleportToPreviousLocation()
     {
         _cameraFlash.CameraFlashStart();
-        Player.Instance.TeleportTo(_currentPlayerPosition);
+         Player.Instance.TeleportTo(_currentPlayerPosition);
     }
 }

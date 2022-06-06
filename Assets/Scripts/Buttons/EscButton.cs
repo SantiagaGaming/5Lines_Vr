@@ -19,13 +19,13 @@ public class EscButton : MonoBehaviour
     {
         if(!_show)
         {
-            _menuController.ShowMainMenu();
+            _menuController.TeleportToMainMenuLocation();
             _show = true;
         }
         else
         {
             _show = false;
-            _menuController.HideMainMenu();
+            _menuController.TeleportToPreviousLocation();
         }
     }
     public void ChangeShowValue(bool value)
