@@ -13,6 +13,8 @@ public class MainMenuController : MonoBehaviour
     [Space]
     [SerializeField] private ModeController _modeController;
     [SerializeField] private Transform _menuPosition;
+    [SerializeField] private GameObject[] _menuButtons;
+    [SerializeField] private GameObject _mainMenu;
 
     private Vector3 _currentPlayerPosition = new Vector3();
 
@@ -28,5 +30,11 @@ public class MainMenuController : MonoBehaviour
     {
         _cameraFlash.CameraFlashStart();
          Player.Instance.TeleportTo(_currentPlayerPosition);
+        foreach (var item in _menuButtons)
+        {
+            item.SetActive(false);
+        }
+        _mainMenu.SetActive(true);
+        
     }
 }
