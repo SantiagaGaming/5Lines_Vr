@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class LocationController : MonoBehaviour
 {
-    [SerializeField] private Text _deskText;
+    [SerializeField] private TextMeshProUGUI _deskText;
     [SerializeField] private TextMeshProUGUI _textMesh;
     private string _previousLocation;
     private void Start()
