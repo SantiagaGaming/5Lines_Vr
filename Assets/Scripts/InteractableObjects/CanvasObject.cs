@@ -80,12 +80,12 @@ public class CanvasObject :BaseObject, ICanvasObject
     public override void OnHoverIn(InteractHand interactHand)
     {
         base.OnHoverIn(interactHand);
-        _canIterractSign.SetActive(true);
+        //_canIterractSign.SetActive(true);
     }
     public override void OnHoverOut(InteractHand interactHand)
     {
         base.OnHoverOut(interactHand);
-        _canIterractSign.SetActive(false);
+        //_canIterractSign.SetActive(false);
 
     }
     public Transform GetDietPosition()
