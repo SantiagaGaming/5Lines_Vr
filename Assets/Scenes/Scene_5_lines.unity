@@ -39814,7 +39814,7 @@ PrefabInstance:
       objectReference: {fileID: 1319440820}
     - target: {fileID: 7024024910107357260, guid: bd3d4e0872d0aab4081b136afc06d266, type: 3}
       propertyPath: helperName
-      value: "\u0414\u0432\u0435\u0440\u044C \u0432 \u0440\u0435\u043B\u0435"
+      value: "\u0414\u0432\u0435\u0440\u044C \u0432 \u0440\u0435\u043B\u0435\u0439\u043D\u0443\u044E"
       objectReference: {fileID: 0}
     - target: {fileID: 7024024910107357260, guid: bd3d4e0872d0aab4081b136afc06d266, type: 3}
       propertyPath: _locationName
