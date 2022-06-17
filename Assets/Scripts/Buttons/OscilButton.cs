@@ -27,7 +27,7 @@ public class OscilButton : BaseButton
         if(down)
         {
             GetComponent<Collider>().enabled = false;
-            GetComponent<Image>().enabled = false;
+            GetComponent<SpriteRenderer>().enabled = false;
             ButtonDownEvent?.Invoke(_index);
        
             while(_buttonBox.transform.localPosition.y>=0.059f)
@@ -45,7 +45,7 @@ public class OscilButton : BaseButton
                 yield return new WaitForSeconds(0.005f);
             }
             GetComponent<Collider>().enabled = true;
-            GetComponent<Image>().enabled = true;
+            GetComponent<SpriteRenderer>().enabled = true;
         }
 
     }
