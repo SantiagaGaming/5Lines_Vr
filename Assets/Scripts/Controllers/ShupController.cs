@@ -31,7 +31,7 @@ public class ShupController : AosObjectBase
                 _firstMeasure = true;
                 measureText = text;
                 SetMeasureTextEvent?.Invoke(measureText);
-                OnShupConnected?.Invoke(measureText + " Измерение красным щупом");
+                OnShupConnected?.Invoke(measureText + "Red");
             }
             else if (_redShup.transform.position == newPos.position)
             {
@@ -52,7 +52,7 @@ public class ShupController : AosObjectBase
                 _firstMeasure = false;
                 measureText += " " + text;
                 SetMeasureTextEvent?.Invoke(measureText);
-                OnShupConnected?.Invoke(measureText + " Измерение черным щупом");
+                OnShupConnected?.Invoke(measureText + "Black");
             }
 
             else if (_blackShup.transform.position == newPos.position)

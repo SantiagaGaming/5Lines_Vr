@@ -20,6 +20,7 @@ public class UMP24CanvasObject : CanvasObject
     }
     public override void OnClicked(InteractHand interactHand)
     {
+        base.OnClicked(interactHand);
         StartCoroutine(RoofMover(true));
     }
     private void OnCloseUMPRoof()

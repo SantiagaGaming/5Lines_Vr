@@ -7,11 +7,9 @@ using UnityEngine;
 using UnityEngine.Events;
 public class StrelkaButton : BaseButton
 {
-    [SerializeField] private bool _plus;
-    [SerializeField] private StrelkaAOS _strelkaAOS;
 
     public override void OnClicked(InteractHand interactHand)
     {
-        _strelkaAOS.TrySwitchStrelka(_plus);
+        base.OnClicked(interactHand);
     }
 }

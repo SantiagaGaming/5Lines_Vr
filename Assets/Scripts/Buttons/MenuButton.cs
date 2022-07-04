@@ -8,6 +8,7 @@ public class MenuButton : BaseButton
     private bool _show = false;
     public override void OnClicked(InteractHand interactHand)
     {
+        base.OnClicked(interactHand);
         MainMenuController menuController = FindObjectOfType<MainMenuController>();
         if(!_show)
         {

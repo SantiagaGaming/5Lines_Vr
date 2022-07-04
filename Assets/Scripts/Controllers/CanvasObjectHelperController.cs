@@ -7,6 +7,7 @@ public class CanvasObjectHelperController : MonoBehaviour
 {
     [SerializeField]private TextMeshProUGUI _textMesh;
     [SerializeField] private GameObject _canvasObject;
+    [SerializeField] private AosHelperText _aosHelperText;
 
     private string _name;
     private Transform _helperPos;
@@ -14,7 +15,9 @@ public class CanvasObjectHelperController : MonoBehaviour
 
     public void ShowTextHelper(string name, Transform newPos)
     {
-        _name = name;
+        if(!string.IsNullOrEmpty(_aosHelperText.GetHelperAosText()))
+            _name = _aosHelperText.GetHelperAosText();
+        else _name = name;
         _helperPos = newPos;
         StartCoroutine("GetHelpName");
    
@@ -30,6 +33,7 @@ public class CanvasObjectHelperController : MonoBehaviour
         yield return new WaitForSeconds(_timer);
         _textMesh.text = _name;
         transform.position = _helperPos.position;
+        yield return new WaitForSeconds(0.01f);
         _canvasObject.SetActive(true);
 
     }

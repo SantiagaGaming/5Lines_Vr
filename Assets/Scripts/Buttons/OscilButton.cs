@@ -16,6 +16,7 @@ public class OscilButton : BaseButton
 
     public override void OnClicked(InteractHand interactHand)
     {
+        base.OnClicked(interactHand);   
         StartCoroutine(MoveButton(true));
     }
     public void ResetButton()

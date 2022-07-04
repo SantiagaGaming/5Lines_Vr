@@ -11,6 +11,7 @@ public class EnableImageButton : BaseButton
 
     public override void OnClicked(InteractHand interactHand)
     {
+        base.OnClicked(interactHand);
         if (_object.activeSelf)
         {
             _object.SetActive(false);

@@ -14,6 +14,7 @@ public class AdjustButton : BaseButton
     /// 
     public override void OnClicked(InteractHand interactHand)
     {
+        base.OnClicked(interactHand);
         print("Проверено");
     }
 

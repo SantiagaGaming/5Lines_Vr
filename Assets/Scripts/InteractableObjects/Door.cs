@@ -20,12 +20,9 @@ public class Door : BaseObject
     }
    override public void OnClicked(InteractHand interactHand)
     {
+        base.OnClicked(interactHand);
         StartTeleporting();
         LocationController locationController = FindObjectOfType<LocationController>();
         locationController.SetLocationText(_locationName);
     }
-
-
-
-
 }

@@ -11,6 +11,7 @@ public class BackButtonObject : BaseButton
 
     public override void OnClicked(InteractHand interactHand)
     {
+        base.OnClicked(interactHand);
         ButtonsContainer.Instance.HideButtons();
         BackButtonClickEvent?.Invoke();
         CanvasController canvas = FindObjectOfType<CanvasController>();

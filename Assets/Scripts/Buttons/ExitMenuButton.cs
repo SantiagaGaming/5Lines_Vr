@@ -10,6 +10,7 @@ public class ExitMenuButton : BaseButton
     [SerializeField] private MainMenuController _mainController;
     public override void OnClicked(InteractHand interactHand)
     {
+        base.OnClicked(interactHand);
         _escButton.ChangeShowValue(false);
         _menuButton.ChangeShowValue(false);
         _mainController.TeleportToPreviousLocation();

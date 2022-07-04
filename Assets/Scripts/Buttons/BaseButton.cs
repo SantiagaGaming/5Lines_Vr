@@ -9,7 +9,7 @@ public class BaseButton : BaseObject
 {
     public override void OnClicked(InteractHand interactHand)
     {
-
+        base.OnClicked(interactHand);
     }
 
     public override void OnHoverIn(InteractHand interactHand)

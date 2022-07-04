@@ -16,6 +16,7 @@ public class RadioButton : BaseButton
     }
     public override void OnClicked(InteractHand interactHand)
     {
+        base.OnClicked(interactHand);
      if(!_radio) _radio = true;
         else _radio = false;
         _diet.EnableDiet(_radio, _canvasObject.GetDietPosition());

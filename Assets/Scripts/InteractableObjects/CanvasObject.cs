@@ -56,6 +56,7 @@ public class CanvasObject :BaseObject, ICanvasObject
     }
     public override void OnClicked(InteractHand interactHand)
     {
+        base.OnClicked(interactHand);
         if (canvasController.CanSwitch)
         {
             ShowCanvas();

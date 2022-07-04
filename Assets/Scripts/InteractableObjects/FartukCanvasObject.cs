@@ -11,6 +11,7 @@ public class FartukCanvasObject : CanvasObject
     [SerializeField] private GameObject _roof;
     public override void OnClicked(InteractHand interactHand)
     {
+        base.OnClicked(interactHand);
         StartCoroutine(RoofRotator(true));
         base.OnClicked(interactHand);
     }

@@ -11,6 +11,7 @@ public class FuseAmperButton : BaseButton
     [SerializeField] private GameObject _buttonBox;
     public override void OnClicked(InteractHand interactHand)
     {
+        base.OnClicked(interactHand);
         StartCoroutine(MoveButton(true));
     }
     public void ResetButton()

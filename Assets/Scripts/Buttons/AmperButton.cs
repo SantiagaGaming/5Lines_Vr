@@ -22,6 +22,7 @@ public class AmperButton : BaseButton
     }
     public override void OnClicked(InteractHand interactHand)
     {
+        base.OnClicked(interactHand);
         if(_canvasObject.GetMeasureValue())
         {
             if (!_amper)

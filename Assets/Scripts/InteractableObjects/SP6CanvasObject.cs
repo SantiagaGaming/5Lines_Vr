@@ -6,7 +6,7 @@ using AosSdk.Core.Player.Pointer;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class SP6ÑanvasObject : CanvasObject
+public class SP6CanvasObject : CanvasObject
 {
     [SerializeField] private Animator _anim;
     [SerializeField] private GameObject _roof;
@@ -22,6 +22,7 @@ public class SP6ÑanvasObject : CanvasObject
 
     public override void OnClicked(InteractHand interactHand)
     {
+        base.OnClicked(interactHand);
         StartCoroutine(PlaySp6Anim(true));
     }
     private void OnCloseSp6()

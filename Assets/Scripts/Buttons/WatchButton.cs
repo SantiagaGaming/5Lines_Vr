@@ -14,6 +14,7 @@ public class WatchButton : BaseButton
     /// 
     public override void OnClicked(InteractHand interactHand)
     {
+        base.OnClicked(interactHand);
         print("Осмотрено");
     }
 

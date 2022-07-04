@@ -11,6 +11,7 @@ public class RepairButton : BaseButton
 
     public override void OnClicked(InteractHand interactHand)
     {
+        base.OnClicked(interactHand);
         _object.RepairObject();
     }
 }
