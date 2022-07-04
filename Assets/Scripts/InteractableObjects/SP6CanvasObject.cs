@@ -22,7 +22,7 @@ public class SP6CanvasObject : CanvasObject
 
     public override void OnClicked(InteractHand interactHand)
     {
-        base.OnClicked(interactHand);
+
         StartCoroutine(PlaySp6Anim(true));
     }
     private void OnCloseSp6()
