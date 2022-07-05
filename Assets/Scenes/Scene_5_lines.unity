@@ -4871,7 +4871,7 @@ GameObject:
   - component: {fileID: 101058926}
   - component: {fileID: 101058925}
   m_Layer: 0
-  m_Name: WatchJelobButton
+  m_Name: WatchJelobLeftButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10270,7 +10270,7 @@ GameObject:
   - component: {fileID: 255655058}
   - component: {fileID: 255655057}
   m_Layer: 0
-  m_Name: MapButton
+  m_Name: MapOstLeftButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -71263,7 +71263,7 @@ GameObject:
   - component: {fileID: 1991563028}
   - component: {fileID: 1991563027}
   m_Layer: 0
-  m_Name: RadioButton
+  m_Name: RadioOstLeftButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
