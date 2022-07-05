@@ -37831,7 +37831,7 @@ GameObject:
   - component: {fileID: 1049453062}
   - component: {fileID: 1049453061}
   m_Layer: 0
-  m_Name: RadioButton
+  m_Name: RadioFartukButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -57961,7 +57961,7 @@ GameObject:
   - component: {fileID: 1632617710}
   - component: {fileID: 1632617709}
   m_Layer: 0
-  m_Name: MapButton
+  m_Name: MapFartukButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -62046,7 +62046,7 @@ GameObject:
   - component: {fileID: 1762972239}
   - component: {fileID: 1762972241}
   m_Layer: 0
-  m_Name: BackFartucButton
+  m_Name: BackFartukButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -77800,6 +77800,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 286683568124785280, guid: ac23b100fa9b0bc41ae1c122aebb68a2, type: 3}
+      propertyPath: m_Name
+      value: Block_as_pk
+      objectReference: {fileID: 0}
     - target: {fileID: 328729853898677528, guid: ac23b100fa9b0bc41ae1c122aebb68a2, type: 3}
       propertyPath: _button
       value: 
@@ -77949,6 +77953,10 @@ PrefabInstance:
     - target: {fileID: 948764433402111925, guid: ac23b100fa9b0bc41ae1c122aebb68a2, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1121064184248035503, guid: ac23b100fa9b0bc41ae1c122aebb68a2, type: 3}
+      propertyPath: m_Name
+      value: Block_as_pw
       objectReference: {fileID: 0}
     - target: {fileID: 1180088305321832152, guid: ac23b100fa9b0bc41ae1c122aebb68a2, type: 3}
       propertyPath: m_RootOrder
@@ -78201,6 +78209,14 @@ PrefabInstance:
     - target: {fileID: 4907443679664941330, guid: ac23b100fa9b0bc41ae1c122aebb68a2, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5262176904849069307, guid: ac23b100fa9b0bc41ae1c122aebb68a2, type: 3}
+      propertyPath: m_Name
+      value: Block_as_mw
+      objectReference: {fileID: 0}
+    - target: {fileID: 5278382101347712314, guid: ac23b100fa9b0bc41ae1c122aebb68a2, type: 3}
+      propertyPath: m_Name
+      value: Block_as_mk
       objectReference: {fileID: 0}
     - target: {fileID: 5471539218932244718, guid: ac23b100fa9b0bc41ae1c122aebb68a2, type: 3}
       propertyPath: m_IsActive
