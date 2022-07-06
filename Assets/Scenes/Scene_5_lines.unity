@@ -573,7 +573,7 @@ GameObject:
   - component: {fileID: 13582907}
   - component: {fileID: 13582906}
   m_Layer: 0
-  m_Name: AmperButton
+  m_Name: AmperReleBackButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16329,7 +16329,7 @@ GameObject:
   - component: {fileID: 424882985}
   - component: {fileID: 424882984}
   m_Layer: 0
-  m_Name: AmperButton
+  m_Name: AmperDSPButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23736,7 +23736,7 @@ GameObject:
   - component: {fileID: 640706200}
   - component: {fileID: 640706199}
   m_Layer: 0
-  m_Name: RadioButton
+  m_Name: RadioReleFrontButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27356,7 +27356,7 @@ GameObject:
   - component: {fileID: 716302905}
   - component: {fileID: 716302904}
   m_Layer: 0
-  m_Name: RadioButton
+  m_Name: RadioReleBackButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -36237,7 +36237,7 @@ GameObject:
   - component: {fileID: 1017365805}
   - component: {fileID: 1017365804}
   m_Layer: 0
-  m_Name: MapButton
+  m_Name: MapReleBackButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -53472,7 +53472,7 @@ GameObject:
   - component: {fileID: 1513631423}
   - component: {fileID: 1513631422}
   m_Layer: 0
-  m_Name: MapButton
+  m_Name: MapReleFrontButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -54520,7 +54520,7 @@ GameObject:
   - component: {fileID: 1542230397}
   - component: {fileID: 1542230396}
   m_Layer: 0
-  m_Name: MapButton
+  m_Name: MapDSPButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -68151,7 +68151,7 @@ GameObject:
   - component: {fileID: 1929088109}
   - component: {fileID: 1929088108}
   m_Layer: 0
-  m_Name: RadioButton
+  m_Name: RadioDSPButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
