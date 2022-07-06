@@ -2216,6 +2216,7 @@ GameObject:
   - component: {fileID: 6094350623844154699}
   - component: {fileID: 6094350623844154698}
   - component: {fileID: 6094350623844154693}
+  - component: {fileID: 844304105}
   m_Layer: 2
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2361,6 +2362,20 @@ MonoBehaviour:
     m_SingletonActionBindings: []
     m_Flags: 0
   m_HasMigratedActions: 1
+--- !u!136 &844304105
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6094350623844154695}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.3
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6094350624055366710
 GameObject:
   m_ObjectHideFlags: 0

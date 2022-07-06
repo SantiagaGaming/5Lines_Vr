@@ -23,7 +23,7 @@ MonoBehaviour:
   mouseLookSpeed: 0.1
   mouseLookXLimit: 80
   crossHairSizeMultiplier: 1
-  vrInteractDistance: 2
+  vrInteractDistance: 1
   desktopInteractDistance: 2
   desktopGrabMinZoomDistance: 0.5
   desktopGrabMaxZoomDistance: 2

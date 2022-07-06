@@ -9972,7 +9972,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectStaticGuid: b783ea75-ebe8-4ef4-9be2-e2c708e613bc
   _ugrabPos: {fileID: 1120586144}
-  _name: "\u041A\u043B\u044E\u0447 9X16"
+  _name: "\u041A\u043B\u044E\u0447"
   _helperPos: {fileID: 1950629102}
   <GrabType>k__BackingField: 1
   <GrabAnchor>k__BackingField: {fileID: 253950351}
@@ -76108,7 +76108,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-    m_Reference: {fileID: 8938103089484010257, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+    m_Reference: {fileID: 5296133731236956578, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   _menuController: {fileID: 1228086298}
 --- !u!1 &2129236378
 GameObject:
