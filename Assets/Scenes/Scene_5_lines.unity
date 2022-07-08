@@ -10270,7 +10270,7 @@ GameObject:
   - component: {fileID: 255655058}
   - component: {fileID: 255655057}
   m_Layer: 0
-  m_Name: MapOstLeftButton
+  m_Name: MapOstrLeftButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15177,7 +15177,7 @@ GameObject:
   - component: {fileID: 402547892}
   - component: {fileID: 402547891}
   m_Layer: 0
-  m_Name: BackOstLeftButton
+  m_Name: BackOstrLeftButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24961,7 +24961,7 @@ GameObject:
   - component: {fileID: 663271011}
   - component: {fileID: 663271010}
   m_Layer: 0
-  m_Name: RadioButton
+  m_Name: RadioOstrRightButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -35234,7 +35234,7 @@ GameObject:
   - component: {fileID: 991038386}
   - component: {fileID: 991038385}
   m_Layer: 0
-  m_Name: MapButton
+  m_Name: MapOstrRightButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -71263,7 +71263,7 @@ GameObject:
   - component: {fileID: 1991563028}
   - component: {fileID: 1991563027}
   m_Layer: 0
-  m_Name: RadioOstLeftButton
+  m_Name: RadioOstrLeftButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
