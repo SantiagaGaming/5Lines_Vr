@@ -50,7 +50,7 @@ namespace AosSdk.Core.Utils
 
         private static void ClientMessageSent()
         {
-            Debug.Log($"AosSdk: Sent message to client.");
+            Debug.Log("AosSdk: Sent message to client.");
         }
 
         private void ClientMessageReceived(string message)
@@ -208,7 +208,7 @@ namespace AosSdk.Core.Utils
                 decoded[j] = (byte)(bytes[i] ^ keys.ElementAt(j % 4));
             }
 
-            return Encoding.ASCII.GetString(decoded, 0, decoded.Length);
+            return Encoding.UTF8.GetString(decoded, 0, decoded.Length);
         }
 
         private static byte[] EncodeMessage(string message)
@@ -268,7 +268,11 @@ namespace AosSdk.Core.Utils
 
         private static byte[] GetHandshakeData(string data)
         {
-            if (!new Regex("^GET").IsMatch(data)) return Array.Empty<byte>();
+            if (!new Regex("^GET").IsMatch(data))
+            {
+                return Array.Empty<byte>();
+            }
+
             var eol = Environment.NewLine;
 
             var response = Encoding.UTF8.GetBytes("HTTP/1.1 101 Switching Protocols" + eol + "Connection: Upgrade" +

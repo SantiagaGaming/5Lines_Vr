@@ -1183,7 +1183,7 @@
                 {
                     "name": "Esc",
                     "type": "Button",
-                    "id": "44cd1f5f-396b-4f7e-8241-baa2a10eda32",
+                    "id": "946ea2ce-377a-4dbd-9528-576e29d16903",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -1358,7 +1358,7 @@
                 },
                 {
                     "name": "",
-                    "id": "cc2abea2-d597-498f-a4de-e4bcfdbe299d",
+                    "id": "552e01a2-247f-439d-a8be-ee6f388842d0",
                     "path": "<Keyboard>/escape",
                     "interactions": "",
                     "processors": "",
