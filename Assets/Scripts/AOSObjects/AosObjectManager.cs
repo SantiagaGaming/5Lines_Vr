@@ -7,12 +7,6 @@ using UnityEngine.Events;
 [AosObject(name: "AosManager")]
 public class AosObjectManager : AosObjectBase
 {
-    [AosEvent(name: "OnHoverInObject")]
-    public event AosEventHandlerWithAttribute OnHoverInObject;
-
-    [AosEvent(name: "OnHoverOutObject")]
-    public event AosEventHandlerWithAttribute OnHoverOutObject;
-
     [AosEvent(name: "OnClickObject")]
     public event AosEventHandlerWithAttribute OnClickObject;
     public static AosObjectManager Instance;
@@ -22,14 +16,8 @@ public class AosObjectManager : AosObjectBase
             Instance = this;
     }
     private AosObjectManager(){}
-    public void InvokeOnHoverIn(string name)
-    {
-        OnHoverInObject?.Invoke(name);
-    }
-    public void InvokeOnHoverOut(string name)
-    {
-        OnHoverOutObject?.Invoke(name);
-    }
+
+
     public void InvokeOnClick(string name)
     {
         OnClickObject?.Invoke(name);

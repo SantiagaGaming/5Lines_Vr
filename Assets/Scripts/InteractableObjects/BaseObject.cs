@@ -44,10 +44,6 @@ public class BaseObject : MonoBehaviour, IClickAble, IHoverAble
                 obj.enabled = true;
                 obj.OutlineWidth = 3;
             }
-
-        AosObjectManager.Instance.InvokeOnHoverIn(gameObject.name);
-   
-
     }
     public virtual void OnHoverOut(InteractHand interactHand)
     {  if (helperPos != null)
@@ -59,7 +55,6 @@ public class BaseObject : MonoBehaviour, IClickAble, IHoverAble
                 obj.OutlineWidth = 0;
             }
 
-        AosObjectManager.Instance.InvokeOnHoverOut(gameObject.name);
     }
     public void DisableObject()
     {
