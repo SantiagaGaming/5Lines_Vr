@@ -33,6 +33,7 @@ public class BaseObject : MonoBehaviour, IClickAble, IHoverAble
     {
 
         AosObjectManager.Instance.InvokeOnClick(gameObject.name);
+
     }
     public virtual void OnHoverIn(InteractHand interactHand)
     {
