@@ -39,6 +39,7 @@ public class CanvasController : MonoBehaviour
     private void OnDisableObjectCanvas()
     {
         _currentCanvas.DisableCanvas();
+        MovingButtonsController.Instance.HideAllButtons();
         ShupController shup = FindObjectOfType<ShupController>();
         shup.ResetShupPosition();
         ColliderEnabler(true);

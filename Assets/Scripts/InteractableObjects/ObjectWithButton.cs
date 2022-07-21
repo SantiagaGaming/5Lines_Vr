@@ -6,6 +6,8 @@ using UnityEngine;
 public class ObjectWithButton : BaseObject
 {
     [SerializeField] private GameObject[] _buttons;
+    [SerializeField] private Transform _buttonsPos;
+    [SerializeField] private bool _vertical;
 
     public override void OnClicked(InteractHand interactHand)
     {
@@ -18,8 +20,14 @@ public class ObjectWithButton : BaseObject
         //        button.SetActive(true);
         //    }
         //}  
-    
-            MovingButtonsController.Instance.SetMovingButtonsPosition(transform.position + new Vector3(0f, 0.15f, 0));
+        if (_buttonsPos == null && !_vertical)
+            MovingButtonsController.Instance.SetMovingButtonsPosition(transform.position + new Vector3(0f, 0.12f, 0));
+        else if(_buttonsPos == null && _vertical)
+            MovingButtonsController.Instance.SetMovingButtonsPosition(transform.position + new Vector3(0.09f, 0.05f, 0));
+        else
+            MovingButtonsController.Instance.SetMovingButtonsPosition(_buttonsPos.position);
+        MovingButtonsController.Instance.ObjectName = gameObject.name;
+        MovingButtonsController.Instance.ShowAllButtons();
 
     }
 

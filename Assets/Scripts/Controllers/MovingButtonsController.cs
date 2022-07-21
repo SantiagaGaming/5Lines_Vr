@@ -5,6 +5,7 @@ using UnityEngine;
 public class MovingButtonsController : MonoBehaviour
 {
     public static MovingButtonsController Instance;
+    [HideInInspector] public string ObjectName { get; set; }
     private MovingButtonsController() { }
     private void Awake()
     {
@@ -38,4 +39,11 @@ public class MovingButtonsController : MonoBehaviour
         _repairButton.SetActive(false);
         _adjustButton.SetActive(false);
     }
+    public void ShowAllButtons()
+    {
+        _watchButton.SetActive(true);
+        _repairButton.SetActive(true);
+        _adjustButton.SetActive(true);
+    }
+
 }

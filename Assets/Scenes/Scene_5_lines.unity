@@ -541,6 +541,8 @@ MonoBehaviour:
   helperName: "\u0414\u0443\u0436\u043A\u0430 \u041B5"
   _buttons:
   - {fileID: 1301106143}
+  _buttonsPos: {fileID: 1108320584}
+  _vertical: 0
 --- !u!114 &9488795
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2044,6 +2046,36 @@ MonoBehaviour:
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
+--- !u!1 &41077092
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 41077093}
+  m_Layer: 0
+  m_Name: ButtonsPos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &41077093
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 41077092}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.032, y: 0.318, z: 0.082}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1101072327}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &45181408
 GameObject:
   m_ObjectHideFlags: 0
@@ -2287,6 +2319,8 @@ MonoBehaviour:
   _buttons:
   - {fileID: 1033620674}
   - {fileID: 1710667130}
+  _buttonsPos: {fileID: 250892267}
+  _vertical: 0
 --- !u!114 &48131819
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2776,6 +2810,36 @@ MonoBehaviour:
   _viev: {fileID: 1364011417}
   _vrView: {fileID: 1588467482}
   _timer: {fileID: 8464007}
+--- !u!1 &63322575
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 63322576}
+  m_Layer: 0
+  m_Name: ButtonsPos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &63322576
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 63322575}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.124, z: 0.0493}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1339882393}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &65298775
 GameObject:
   m_ObjectHideFlags: 0
@@ -3615,6 +3679,8 @@ MonoBehaviour:
   _buttons:
   - {fileID: 360103650}
   - {fileID: 482159482}
+  _buttonsPos: {fileID: 0}
+  _vertical: 1
 --- !u!65 &76190136
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5271,6 +5337,8 @@ MonoBehaviour:
   _buttons:
   - {fileID: 282654562}
   - {fileID: 311460334}
+  _buttonsPos: {fileID: 0}
+  _vertical: 1
 --- !u!65 &106913560
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6130,6 +6198,7 @@ Transform:
   m_LocalScale: {x: 0.31568, y: 0.1, z: 0.6}
   m_Children:
   - {fileID: 1265241741}
+  - {fileID: 722407575}
   m_Father: {fileID: 994540007177695224}
   m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6152,6 +6221,8 @@ MonoBehaviour:
   helperName: "\u0416\u0435\u043B\u043E\u0431 \u043E\u0441\u0442\u0440\u044F\u043A\u0430"
   _buttons:
   - {fileID: 101058923}
+  _buttonsPos: {fileID: 722407575}
+  _vertical: 0
 --- !u!114 &135047869
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8263,6 +8334,8 @@ MonoBehaviour:
   _buttons:
   - {fileID: 1415053400}
   - {fileID: 1898310711}
+  _buttonsPos: {fileID: 2069187219}
+  _vertical: 0
 --- !u!1 &206933150
 GameObject:
   m_ObjectHideFlags: 0
@@ -9489,6 +9562,36 @@ Transform:
   - {fileID: 521649476}
   m_Father: {fileID: 385832949}
   m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &250892266
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 250892267}
+  m_Layer: 0
+  m_Name: ButtonsPos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &250892267
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 250892266}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.318, z: 0.063}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 48131816}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &251358606
 GameObject:
@@ -11631,6 +11734,8 @@ MonoBehaviour:
   helperPos: {fileID: 0}
   helperName: 
   _buttons: []
+  _buttonsPos: {fileID: 0}
+  _vertical: 0
 --- !u!65 &306024975
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12449,6 +12554,8 @@ MonoBehaviour:
   _buttons:
   - {fileID: 892935571}
   - {fileID: 113368394}
+  _buttonsPos: {fileID: 0}
+  _vertical: 1
 --- !u!65 &325771665
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15422,6 +15529,8 @@ MonoBehaviour:
   _buttons:
   - {fileID: 1749349211}
   - {fileID: 450174603}
+  _buttonsPos: {fileID: 0}
+  _vertical: 0
 --- !u!114 &405789621
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16477,6 +16586,8 @@ MonoBehaviour:
     \u0421"
   _buttons:
   - {fileID: 776899670}
+  _buttonsPos: {fileID: 0}
+  _vertical: 0
 --- !u!64 &424926350
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -18755,6 +18866,8 @@ MonoBehaviour:
   helperName: "\u0414\u0443\u0436\u043A\u0430 \u041B2"
   _buttons:
   - {fileID: 30759666}
+  _buttonsPos: {fileID: 1108320584}
+  _vertical: 0
 --- !u!65 &495733066
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19647,6 +19760,36 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 0.015401011}
   m_Center: {x: 0, y: -0.0000029809623, z: -0.001133315}
+--- !u!1 &519057463
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 519057464}
+  m_Layer: 0
+  m_Name: ButtonsPos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &519057464
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519057463}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.172, z: -0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1434537698}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &521649475
 GameObject:
   m_ObjectHideFlags: 0
@@ -23840,6 +23983,8 @@ MonoBehaviour:
   _buttons:
   - {fileID: 350744939}
   - {fileID: 51900909}
+  _buttonsPos: {fileID: 0}
+  _vertical: 1
 --- !u!114 &639623691
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24708,6 +24853,8 @@ MonoBehaviour:
   _buttons:
   - {fileID: 1611046930}
   - {fileID: 1125091945}
+  _buttonsPos: {fileID: 0}
+  _vertical: 1
 --- !u!65 &653979503
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25497,6 +25644,7 @@ GameObject:
   - component: {fileID: 669173888}
   - component: {fileID: 669173887}
   - component: {fileID: 669173886}
+  - component: {fileID: 669173890}
   m_Layer: 0
   m_Name: AdjustButton
   m_TagString: Untagged
@@ -25589,12 +25737,29 @@ Transform:
   m_GameObject: {fileID: 669173885}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.7, y: 0.7, z: 0.7}
   m_Children:
   - {fileID: 1885475323}
   m_Father: {fileID: 2068088566}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!114 &669173890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 669173885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ce78e106159c054a9fc24625497b880, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Button: 0
+  outlineObjects: []
+  helperPos: {fileID: 1885475323}
+  helperName: 
+  _actionText: "\u0420\u0435\u0433\u0443\u043B\u0438\u0440\u043E\u0432\u043A\u0430"
 --- !u!1 &677482442
 GameObject:
   m_ObjectHideFlags: 0
@@ -27793,6 +27958,36 @@ Transform:
   m_Father: {fileID: 641450046}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &722407574
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 722407575}
+  m_Layer: 0
+  m_Name: ButtonsPos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &722407575
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 722407574}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.201, y: 0.65, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 135047867}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &724604850
 GameObject:
   m_ObjectHideFlags: 0
@@ -28684,6 +28879,8 @@ MonoBehaviour:
   _buttons:
   - {fileID: 1507244068}
   - {fileID: 1003275038}
+  _buttonsPos: {fileID: 0}
+  _vertical: 0
 --- !u!1 &759874031
 GameObject:
   m_ObjectHideFlags: 0
@@ -28856,6 +29053,8 @@ MonoBehaviour:
   helperName: "\u0414\u0443\u0436\u043A\u0430 \u041B3"
   _buttons:
   - {fileID: 1625414519}
+  _buttonsPos: {fileID: 1108320584}
+  _vertical: 0
 --- !u!114 &770170899
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29667,6 +29866,8 @@ MonoBehaviour:
   _buttons:
   - {fileID: 1948043123}
   - {fileID: 2001637837}
+  _buttonsPos: {fileID: 0}
+  _vertical: 1
 --- !u!65 &793995479
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -31691,6 +31892,8 @@ MonoBehaviour:
   _buttons:
   - {fileID: 1863183200}
   - {fileID: 2129236378}
+  _buttonsPos: {fileID: 0}
+  _vertical: 1
 --- !u!65 &856744204
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -36117,6 +36320,8 @@ MonoBehaviour:
   _buttons:
   - {fileID: 146477939}
   - {fileID: 854741379}
+  _buttonsPos: {fileID: 0}
+  _vertical: 1
 --- !u!65 &1005398074
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -37294,6 +37499,8 @@ MonoBehaviour:
   _buttons:
   - {fileID: 804528700}
   - {fileID: 1822989213}
+  _buttonsPos: {fileID: 0}
+  _vertical: 0
 --- !u!65 &1029142948
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -39493,6 +39700,8 @@ MonoBehaviour:
   _buttons:
   - {fileID: 1633209234}
   - {fileID: 1387375791}
+  _buttonsPos: {fileID: 0}
+  _vertical: 0
 --- !u!1 &1074718661
 GameObject:
   m_ObjectHideFlags: 0
@@ -41062,6 +41271,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 4038589868360724913, guid: ac23b100fa9b0bc41ae1c122aebb68a2, type: 3}
   m_PrefabInstance: {fileID: 994540007177695217}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &1101072327 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6747329627784975480, guid: ac23b100fa9b0bc41ae1c122aebb68a2, type: 3}
+  m_PrefabInstance: {fileID: 994540007177695217}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1101072328
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41084,6 +41298,8 @@ MonoBehaviour:
   _buttons:
   - {fileID: 904770886}
   - {fileID: 1745068337}
+  _buttonsPos: {fileID: 41077093}
+  _vertical: 0
 --- !u!114 &1101072330
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41139,6 +41355,8 @@ MonoBehaviour:
   helperName: "\u0414\u0443\u0436\u043A\u0430 \u041B4"
   _buttons:
   - {fileID: 1921510817}
+  _buttonsPos: {fileID: 1108320584}
+  _vertical: 0
 --- !u!65 &1102849926
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -41321,6 +41539,36 @@ MonoBehaviour:
   precomputeOutline: 0
   bakeKeys: []
   bakeValues: []
+--- !u!1 &1108320583
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1108320584}
+  m_Layer: 0
+  m_Name: ButtonsPos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1108320584
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1108320583}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.1577, y: 0.0081, z: -0.00030517578}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1301365000}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1113196891
 GameObject:
   m_ObjectHideFlags: 0
@@ -41495,6 +41743,36 @@ MonoBehaviour:
   precomputeOutline: 0
   bakeKeys: []
   bakeValues: []
+--- !u!1 &1116968358
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1116968359}
+  m_Layer: 0
+  m_Name: ButtonsPos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1116968359
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1116968358}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.297, y: 1.19, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1269113418}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1120586143
 GameObject:
   m_ObjectHideFlags: 0
@@ -41972,6 +42250,8 @@ MonoBehaviour:
   _buttons:
   - {fileID: 907786162}
   - {fileID: 1253655805}
+  _buttonsPos: {fileID: 0}
+  _vertical: 1
 --- !u!65 &1127942849
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -42944,6 +43224,8 @@ MonoBehaviour:
   _buttons:
   - {fileID: 409999504}
   - {fileID: 256294177}
+  _buttonsPos: {fileID: 0}
+  _vertical: 1
 --- !u!65 &1146884786
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -43403,6 +43685,8 @@ MonoBehaviour:
   _buttons:
   - {fileID: 344799274}
   - {fileID: 1822344081}
+  _buttonsPos: {fileID: 0}
+  _vertical: 0
 --- !u!114 &1162612129
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46480,6 +46764,8 @@ MonoBehaviour:
   _buttons:
   - {fileID: 252255909}
   - {fileID: 1813685702}
+  _buttonsPos: {fileID: 0}
+  _vertical: 1
 --- !u!114 &1268725093
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46531,6 +46817,7 @@ Transform:
   m_LocalScale: {x: 0.31568, y: 0.1, z: 0.5}
   m_Children:
   - {fileID: 347517669}
+  - {fileID: 1116968359}
   m_Father: {fileID: 994540007177695224}
   m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -46553,6 +46840,8 @@ MonoBehaviour:
   helperName: "\u0416\u0435\u043B\u043E\u0431 \u043E\u0441\u0442\u0440\u044F\u043A\u0430"
   _buttons:
   - {fileID: 1090278445}
+  _buttonsPos: {fileID: 1116968359}
+  _vertical: 0
 --- !u!114 &1269113420
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47266,6 +47555,8 @@ MonoBehaviour:
   helperName: "\u0414\u0443\u0436\u043A\u0430 \u041B1"
   _buttons:
   - {fileID: 868847751}
+  _buttonsPos: {fileID: 1108320584}
+  _vertical: 0
 --- !u!114 &1301365005
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47559,6 +47850,8 @@ MonoBehaviour:
   _buttons:
   - {fileID: 940849695}
   - {fileID: 2107867370}
+  _buttonsPos: {fileID: 0}
+  _vertical: 1
 --- !u!65 &1310370788
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -48039,6 +48332,8 @@ MonoBehaviour:
   helperName: "\u0411\u0412\u0421"
   _buttons:
   - {fileID: 479482353}
+  _buttonsPos: {fileID: 0}
+  _vertical: 0
 --- !u!114 &1327224932
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50033,6 +50328,8 @@ MonoBehaviour:
     \u0410"
   _buttons:
   - {fileID: 902483897}
+  _buttonsPos: {fileID: 0}
+  _vertical: 0
 --- !u!64 &1393927621
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -51028,6 +51325,8 @@ MonoBehaviour:
     \u0412"
   _buttons:
   - {fileID: 2089701073}
+  _buttonsPos: {fileID: 0}
+  _vertical: 0
 --- !u!114 &1428119648
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51470,6 +51769,8 @@ MonoBehaviour:
   _buttons:
   - {fileID: 521649475}
   - {fileID: 1507977925}
+  _buttonsPos: {fileID: 519057464}
+  _vertical: 0
 --- !u!114 &1434537701
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55577,6 +55878,8 @@ MonoBehaviour:
   helperName: "\u0411\u043B\u043E\u043A \u0411\u041A-76"
   _buttons:
   - {fileID: 360363529}
+  _buttonsPos: {fileID: 0}
+  _vertical: 1
 --- !u!65 &1571813813
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -56255,6 +56558,8 @@ MonoBehaviour:
   _buttons:
   - {fileID: 1347701299}
   - {fileID: 1822968082}
+  _buttonsPos: {fileID: 0}
+  _vertical: 0
 --- !u!1 &1595286195
 GameObject:
   m_ObjectHideFlags: 0
@@ -59789,6 +60094,8 @@ MonoBehaviour:
   helperName: "\u0411\u043B\u043E\u043A \u0411\u0424\u041A"
   _buttons:
   - {fileID: 792618148}
+  _buttonsPos: {fileID: 0}
+  _vertical: 1
 --- !u!114 &1692874205
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60358,6 +60665,8 @@ MonoBehaviour:
   _buttons:
   - {fileID: 598635081}
   - {fileID: 2037860787}
+  _buttonsPos: {fileID: 0}
+  _vertical: 1
 --- !u!114 &1711744385
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -69909,6 +70218,8 @@ MonoBehaviour:
   _buttons:
   - {fileID: 93912368}
   - {fileID: 1902275136}
+  _buttonsPos: {fileID: 0}
+  _vertical: 1
 --- !u!65 &1942035982
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -70537,6 +70848,7 @@ GameObject:
   - component: {fileID: 1962111506}
   - component: {fileID: 1962111505}
   - component: {fileID: 1962111504}
+  - component: {fileID: 1962111508}
   m_Layer: 0
   m_Name: WatchButton
   m_TagString: Untagged
@@ -70628,13 +70940,30 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1962111503}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.63, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 2.058, z: 0}
+  m_LocalScale: {x: 0.7, y: 0.7, z: 0.7}
   m_Children:
   - {fileID: 2100776866}
   m_Father: {fileID: 2068088566}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!114 &1962111508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1962111503}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ce78e106159c054a9fc24625497b880, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Button: 0
+  outlineObjects: []
+  helperPos: {fileID: 2100776866}
+  helperName: 
+  _actionText: "\u041E\u0441\u043C\u043E\u0442\u0440\u0435\u0442\u044C"
 --- !u!1 &1965239090
 GameObject:
   m_ObjectHideFlags: 0
@@ -74760,6 +75089,36 @@ MonoBehaviour:
   outlineObjects: []
   helperPos: {fileID: 0}
   helperName: 
+--- !u!1 &2069187218
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2069187219}
+  m_Layer: 0
+  m_Name: ButtonsPos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2069187219
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2069187218}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.184, z: 0.082}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 202165791}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2069191567
 GameObject:
   m_ObjectHideFlags: 0
@@ -74938,6 +75297,7 @@ GameObject:
   - component: {fileID: 2080465732}
   - component: {fileID: 2080465731}
   - component: {fileID: 2080465730}
+  - component: {fileID: 2080465734}
   m_Layer: 0
   m_Name: RepairButton
   m_TagString: Untagged
@@ -75029,13 +75389,30 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2080465729}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -2.59, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: -2.11, z: 0}
+  m_LocalScale: {x: 0.7, y: 0.7, z: 0.7}
   m_Children:
   - {fileID: 1100041554}
   m_Father: {fileID: 2068088566}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!114 &2080465734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2080465729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ce78e106159c054a9fc24625497b880, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Button: 0
+  outlineObjects: []
+  helperPos: {fileID: 1100041554}
+  helperName: 
+  _actionText: "\u0417\u0430\u043C\u0435\u043D\u0430"
 --- !u!1 &2082334778
 GameObject:
   m_ObjectHideFlags: 0
@@ -75728,6 +76105,8 @@ MonoBehaviour:
   _buttons:
   - {fileID: 751723314}
   - {fileID: 650353826}
+  _buttonsPos: {fileID: 0}
+  _vertical: 1
 --- !u!65 &2095901342
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -77259,6 +77638,8 @@ MonoBehaviour:
   _buttons:
   - {fileID: 1696111749}
   - {fileID: 422569748}
+  _buttonsPos: {fileID: 0}
+  _vertical: 1
 --- !u!114 &2129776629
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -78570,6 +78951,8 @@ MonoBehaviour:
   helperPos: {fileID: 0}
   helperName: 
   _buttons: []
+  _buttonsPos: {fileID: 0}
+  _vertical: 0
 --- !u!65 &919132148470131667
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -78681,6 +79064,10 @@ PrefabInstance:
       propertyPath: _backButton
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 2136816544, guid: ac23b100fa9b0bc41ae1c122aebb68a2, type: 3}
+      propertyPath: _buttonsPos
+      value: 
+      objectReference: {fileID: 63322576}
     - target: {fileID: 2136816544, guid: ac23b100fa9b0bc41ae1c122aebb68a2, type: 3}
       propertyPath: outlineObject
       value: 
@@ -81749,6 +82136,10 @@ PrefabInstance:
     - target: {fileID: 4816039655362920123, guid: 4b6bca1a8c2b2a64eac54ed6f2f9d530, type: 3}
       propertyPath: m_Center.z
       value: 0.29020372
+      objectReference: {fileID: 0}
+    - target: {fileID: 4816039655546182262, guid: 4b6bca1a8c2b2a64eac54ed6f2f9d530, type: 3}
+      propertyPath: _yPoz
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4816039655546182262, guid: 4b6bca1a8c2b2a64eac54ed6f2f9d530, type: 3}
       propertyPath: _moveObjButton
