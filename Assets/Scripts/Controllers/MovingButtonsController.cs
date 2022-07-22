@@ -5,6 +5,7 @@ using UnityEngine;
 public class MovingButtonsController : MonoBehaviour
 {
     public static MovingButtonsController Instance;
+    [HideInInspector] public string ObjectHelperName { get; set; }
     [HideInInspector] public string ObjectName { get; set; }
     private MovingButtonsController() { }
     private void Awake()

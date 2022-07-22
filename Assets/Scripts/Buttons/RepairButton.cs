@@ -1,18 +1,14 @@
-using System.Collections;
-using AosSdk.Core.Interaction.Interfaces;
-using AosSdk.Core.Utils;
-using AosSdk.Core.Player;
 using AosSdk.Core.Player.Pointer;
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
-public class RepairButton : BaseButton
-{
-    [SerializeField] private MovebleObject _object;
 
+public class RepairButton : MovingButton
+{
+    [SerializeField] private AosButtonsHandler _buttonsHandler;
     public override void OnClicked(InteractHand interactHand)
     {
-        base.OnClicked(interactHand);
-        _object.RepairObject();
+        _buttonsHandler.RepairClicked(MovingButtonsController.Instance.ObjectName);
     }
 }
-
